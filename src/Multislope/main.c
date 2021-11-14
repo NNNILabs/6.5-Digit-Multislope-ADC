@@ -21,7 +21,11 @@ const u_int8_t PWMA = 20; // need to be in the same PWM slice
 const u_int8_t PWMB = 21;
 const u_int8_t COMP = 19;
 
-
+void updatePWMVals(){
+    nsec_period = 1000000000/multiSlopeFreq; // compute the period in nanoseconds
+    wrap_num = nsec_period/8; // (Optimize, by getting the actual frequency and using that for math) since the CPU frequency is 125MHz - one iteration of the PWM counter is 8 ns
+    duty_val = duty_cycle * wrap_num / 100; // simple percentage proportion
+}
 
 void on_pwm_wrap() {
     if(gpio_get_out_level(COMP)){
@@ -29,17 +33,15 @@ void on_pwm_wrap() {
     }else{
         duty_cycle = 20;
     }
+    updatePWMVals();
     pwm_set_gpio_level(PWMA, duty_val);
+    pwm_set_gpio_level(PWMB, duty_val);
 }
-
-
 
 int main() {
     stdio_init_all();
+    updatePWMVals();
 
-    nsec_period = 1000000000/multiSlopeFreq; // compute the period in nanoseconds
-    wrap_num = nsec_period/8; // (Optimize, by getting the actual frequency and using that for math) since the CPU frequency is 125MHz - one iteration of the PWM counter is 8 ns
-    duty_val = duty_cycle * wrap_num / 100; // simple percentage proportion
 
     gpio_set_function(PWMA, GPIO_FUNC_PWM); // set to PWM mode
     gpio_set_function(PWMB, GPIO_FUNC_PWM);
