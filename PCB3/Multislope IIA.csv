@@ -1,0 +1,44 @@
+Comment,Designator,Footprint,LCSC Part #
+"2.2uF Unpolarized capacitor, small symbol","C1,C2,C3,C4,C5,C6,C7,C8,C10,C11,C12,C13,C14,C18",C_0603_1608Metric,C23630
+"1nF Unpolarized capacitor, small symbol",C9,C_0603_1608Metric,C342910
+10uF Unpolarized capacitor,"C15,C16,C17",C_0603_1608Metric,C96446
+"100pF Unpolarized capacitor, small symbol",C19,C_0603_1608Metric,C14858
+"4148 Diode, small symbol",D1,D_SOD-323,C2128
+"C185888 Ferrite bead, small symbol","FB1,FB2,FB3,FB4,FB5,FB6,FB7,FB8,FB9,FB10,FB11,FB12,FB13,FB14,FB15",L_0603_1608Metric,C185888
+MountingHole Mounting Hole without connection,"H1,H2,H3,H4",MountingHole_3mm_Pad_Via,
+LM399H ,IC1,TO-46-4,
+"INPUT Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",J1,PinHeader_1x04_P2.54mm_Vertical,
+"VIN Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",J2,PinHeader_1x04_P2.54mm_Vertical,
+"GPIO Generic connector, double row, 02x12, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",J3,PinHeader_2x12_P2.54mm_Vertical,
+"INT Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J5,PinHeader_1x02_P1.27mm_Vertical,
+"COMP Solder Jumper, 3-pole, open",JP1,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
+"SW1 Solder Jumper, 3-pole, open",JP2,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
+"SW2 Solder Jumper, 3-pole, open",JP3,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
+"GNDSEL Solder Jumper, 3-pole, open",JP4,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,
+"5551 NPN transistor, base/emitter/collector",Q1,SOT-23,C2145
+10K Resistor,"R1,R2,R8",R_0603_1608Metric,C25804
+3KP Resistor,R3,R_0603_1608Metric,C118148
+9K0P Resistor,R4,R_0603_1608Metric,C23125
+20KP Resistor,R5,R_0603_1608Metric,C53197
+10KP Resistor,"R6,R7",R_0603_1608Metric,C190610
+1K Resistor,"R9,R10,R14",R_0603_1608Metric,C21190
+10R Resistor,"R11,R15,R16,R17,R21,R22",R_0603_1608Metric,C22859
+2K0 Resistor,R12,R_0603_1608Metric,C22975
+6K2 Resistor,R13,R_0603_1608Metric,C4260
+12K Resistor,R18,R_0603_1608Metric,C22790
+3K3 Resistor,R19,R_0603_1608Metric,C22978
+4K7 Resistor,R20,R_0603_1608Metric,C23162
+"LT5400-1 4 resistor network, parallel topology",RN1,MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm,
++3.3V test point,TP1,TestPoint_Pad_D1.0mm,
++10V test point,TP2,TestPoint_Pad_D1.0mm,
+-10V test point,TP3,TestPoint_Pad_D1.0mm,
++6.95V test point,TP4,TestPoint_Pad_D1.0mm,
+GNDA test point,TP5,TestPoint_Pad_D1.0mm,
+OPA2197 Dual operational amplifier,"U1,U6",SOIC-8_3.9x4.9mm_P1.27mm,C139363
+"LV4053 CMOS triple 2-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16",U2,SOIC-16_3.9x9.9mm_P1.27mm,C90714
+DG408 ,U3,SOIC-16_3.9x9.9mm_P1.27mm,C496486
+Pico ,U4,RPi_Pico_SMD_TH,
+"74HC74 Dual D Flip-flop, Set & Reset",U5,SOIC-14_3.9x8.7mm_P1.27mm,C6762
+"OPA197 Next Generation OP07 Ultralow Offset Voltage Operational Amplifier, DIP-8/TO-99-8",U7,SOIC-8_3.9x4.9mm_P1.27mm,C79274
+"LM311 Voltage Comparator, DIP-8/SOIC-8",U8,SOIC-8_3.9x4.9mm_P1.27mm,C12597
+"TL431 Shunt Regulator, SOT-23",U9,SOT-23,C21235

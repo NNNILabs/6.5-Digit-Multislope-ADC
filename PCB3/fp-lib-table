@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name elongates)(type KiCad)(uri ${KIPRJMOD}/elongates.pretty)(options "")(descr ""))
+)
