@@ -69,14 +69,18 @@ int main() {
     gpio_init(MUX_A1);
     gpio_init(MUX_A2);
     gpio_init(COMP);
+    gpio_init(MCLK);
 
     gpio_set_dir(MDAT, GPIO_OUT);
+    gpio_set_dir(MCLK, GPIO_OUT);
     gpio_set_dir(MUX_A0, GPIO_OUT);
     gpio_set_dir(MUX_A1, GPIO_OUT);
     gpio_set_dir(MUX_A2, GPIO_OUT);
     gpio_set_dir(COMP, GPIO_IN);
     
     gpio_put(MDAT, true);
+    sleep_us(10);
+    gpio_put(MCLK, true);
     gpio_put(MUX_A0, true);
     gpio_put(MUX_A1, true);
     gpio_put(MUX_A2, true);
