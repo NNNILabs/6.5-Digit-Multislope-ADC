@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Multislope_ms_pio_h
+
+# Build rule for target.
+Multislope_ms_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Multislope_ms_pio_h
+.PHONY : Multislope_ms_pio_h
+
+# fast build rule for target.
+Multislope_ms_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope_ms_pio_h.dir/build.make CMakeFiles/Multislope_ms_pio_h.dir/build
+.PHONY : Multislope_ms_pio_h/fast
+
+#=============================================================================
 # Target rules for targets named ELF2UF2Build
 
 # Build rule for target.
@@ -143,17 +156,30 @@ ELF2UF2Build/fast:
 .PHONY : ELF2UF2Build/fast
 
 #=============================================================================
-# Target rules for targets named Mulstislope
+# Target rules for targets named Multislope
 
 # Build rule for target.
-Mulstislope: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Mulstislope
-.PHONY : Mulstislope
+Multislope: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Multislope
+.PHONY : Multislope
 
 # fast build rule for target.
-Mulstislope/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/build
-.PHONY : Mulstislope/fast
+Multislope/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/build
+.PHONY : Multislope/fast
+
+#=============================================================================
+# Target rules for targets named PioasmBuild
+
+# Build rule for target.
+PioasmBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PioasmBuild
+.PHONY : PioasmBuild
+
+# fast build rule for target.
+PioasmBuild/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PioasmBuild.dir/build.make CMakeFiles/PioasmBuild.dir/build
+.PHONY : PioasmBuild/fast
 
 #=============================================================================
 # Target rules for targets named bs2_default_padded_checksummed_asm
@@ -200,7 +226,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -209,7 +235,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/d
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -218,7 +244,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/d
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
@@ -227,7 +253,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/dim
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -236,7 +262,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/dima/
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -245,7 +271,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/dima/
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -254,7 +280,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/dim
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -263,7 +289,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/dima/
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -272,7 +298,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/dima/
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -281,7 +307,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -290,7 +316,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/di
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -299,7 +325,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/di
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -308,7 +334,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/dim
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -317,7 +343,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/dima/
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -326,7 +352,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/dima/
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -335,7 +361,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/d
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -344,7 +370,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/dim
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -353,7 +379,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/dim
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -362,7 +388,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/dim
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -371,7 +397,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/dima/
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -380,7 +406,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/dima/
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
@@ -389,7 +415,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.obj: home/dim
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
@@ -398,7 +424,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.i: home/dima/
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
@@ -407,7 +433,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.s: home/dima/
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -416,7 +442,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: ho
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -425,7 +451,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -434,7 +460,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -443,7 +469,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: ho
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -452,7 +478,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -461,7 +487,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
@@ -470,7 +496,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/dima/rp
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -479,7 +505,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/dima/rpic
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -488,7 +514,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/dima/rpic
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -497,7 +523,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/dima/rpico/p
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -506,7 +532,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: home/dima/rpico/pic
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -515,7 +541,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: home/dima/rpico/pic
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
@@ -524,7 +550,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/dima
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -533,7 +559,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/dima/r
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -542,7 +568,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/dima/r
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
@@ -551,7 +577,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -560,7 +586,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -569,7 +595,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
@@ -578,7 +604,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -587,7 +613,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -596,7 +622,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.obj: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
@@ -605,7 +631,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.obj: home/dima/rpico/pico/pic
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.i: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -614,7 +640,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.i: home/dima/rpico/pico/pico-
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.s: home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -623,7 +649,7 @@ home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.s: home/dima/rpico/pico/pico-
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -632,7 +658,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/di
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -641,7 +667,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/dima
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -650,7 +676,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/dima
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -659,7 +685,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/dima/rpic
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -668,7 +694,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/dima/rpico/
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -677,7 +703,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/dima/rpico/
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -686,7 +712,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/dima/rpico/pi
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.i: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -695,7 +721,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.i: home/dima/rpico/pico
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.s: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -704,7 +730,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.s: home/dima/rpico/pico
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.obj: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -713,7 +739,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.obj: home/dima/rpico/pico
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.i: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -722,7 +748,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.i: home/dima/rpico/pico/p
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.s: home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -731,7 +757,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.s: home/dima/rpico/pico/p
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.obj: home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -740,7 +766,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.obj: home/dima/rpico/pic
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.i: home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -749,7 +775,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.i: home/dima/rpico/pico/
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.i
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.s: home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -758,7 +784,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.s: home/dima/rpico/pico/
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.s
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -767,7 +793,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/dima
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -776,7 +802,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/dima/r
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -785,7 +811,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/dima/r
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.obj: home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -794,7 +820,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.obj: home/dima/rpico
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.i: home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -803,7 +829,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.i: home/dima/rpico/p
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.s: home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -812,7 +838,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.s: home/dima/rpico/p
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.obj: home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -821,7 +847,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.obj: home/dima/rpico/pi
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.i: home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -830,7 +856,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.i: home/dima/rpico/pico
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.s: home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -839,7 +865,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.s: home/dima/rpico/pico
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.obj: home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -848,7 +874,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.obj: home/dima/rpico/pi
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.i: home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -857,7 +883,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.i: home/dima/rpico/pico
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.s: home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -866,7 +892,7 @@ home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.s: home/dima/rpico/pico
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -875,7 +901,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/dima
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -884,7 +910,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/dima/r
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -893,7 +919,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/dima/r
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -902,7 +928,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/di
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -911,7 +937,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/dima
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -920,7 +946,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/dima
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -929,7 +955,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
@@ -938,7 +964,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/dima
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -947,7 +973,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/dima/r
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -956,7 +982,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/dima/r
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -965,7 +991,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/dima/r
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -974,7 +1000,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/dima/rpi
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -983,7 +1009,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/dima/rpi
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -992,7 +1018,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/dima/rpi
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -1001,7 +1027,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/dima/rpico
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -1010,7 +1036,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/dima/rpico
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -1019,8 +1045,35 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj:
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+
+home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+
+.PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
+
+# target to build an object file
+home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+
+home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+.PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+
+.PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
@@ -1028,7 +1081,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/dima/rpi
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -1037,7 +1090,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/dima/rpico
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -1046,7 +1099,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/dima/rpico
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -1055,7 +1108,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/dima/r
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -1064,7 +1117,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/dima/rpi
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -1073,7 +1126,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/dima/rpi
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -1082,7 +1135,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/dima
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1091,7 +1144,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/dima/r
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1100,7 +1153,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/dima/r
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -1109,7 +1162,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/dima/r
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1118,7 +1171,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/dima/rpi
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1127,7 +1180,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/dima/rpi
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -1136,7 +1189,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/dima/r
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1145,7 +1198,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/dima/rpi
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1154,7 +1207,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/dima/rpi
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -1163,7 +1216,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: hom
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1172,7 +1225,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1181,7 +1234,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -1190,7 +1243,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/dima/r
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1199,7 +1252,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/dima/rpi
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1208,7 +1261,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/dima/rpi
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -1217,7 +1270,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: hom
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1226,7 +1279,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/dima
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1235,7 +1288,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/dima/r
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1244,7 +1297,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/dima/r
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -1253,7 +1306,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/dima
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -1262,7 +1315,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -1271,7 +1324,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: ho
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -1280,7 +1333,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -1289,7 +1342,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -1298,7 +1351,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/d
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1307,7 +1360,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/dim
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1316,7 +1369,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/dim
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1325,7 +1378,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj:
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
@@ -1334,7 +1387,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumerat
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1343,7 +1396,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumerat
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1352,7 +1405,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumerat
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1361,7 +1414,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/di
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -1370,7 +1423,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -1379,7 +1432,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/d
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -1388,7 +1441,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/d
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1397,7 +1450,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/dim
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1406,7 +1459,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/dima/
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1415,7 +1468,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/dima/
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -1424,7 +1477,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: h
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1433,7 +1486,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1442,7 +1495,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/d
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -1451,7 +1504,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/dim
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -1460,7 +1513,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/dim
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1469,7 +1522,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: hom
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1478,7 +1531,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/di
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -1487,7 +1540,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/dima
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -1496,7 +1549,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/dima
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1505,7 +1558,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/dima/r
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1514,7 +1567,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/dima/rpi
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1523,7 +1576,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/dima/rpi
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1532,7 +1585,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/dima
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1541,7 +1594,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/dima/r
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1550,7 +1603,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/dima/r
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1559,7 +1612,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj:
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1568,7 +1621,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: h
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1577,7 +1630,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: h
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1586,7 +1639,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/d
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1595,7 +1648,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: 
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1604,7 +1657,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: ho
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1613,7 +1666,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: ho
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1622,7 +1675,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/dima/rpi
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1631,7 +1684,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/dima/rpico
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1640,7 +1693,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/dima/rpico
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
@@ -1649,7 +1702,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj:
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
@@ -1658,7 +1711,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: h
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -1667,7 +1720,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: h
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
@@ -1676,7 +1729,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
@@ -1685,7 +1738,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/di
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -1694,7 +1747,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/di
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
@@ -1703,7 +1756,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptor
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
@@ -1712,7 +1765,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptor
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -1721,7 +1774,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptor
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1730,7 +1783,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/dima/r
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1739,7 +1792,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/dima/rpi
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1748,7 +1801,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/dima/rpi
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
@@ -1757,7 +1810,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/
 
 # target to build an object file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -1766,7 +1819,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/di
 
 # target to preprocess a source file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -1775,7 +1828,7 @@ home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/di
 
 # target to generate assembly for a file
 home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 main.obj: main.c.obj
@@ -1784,7 +1837,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -1793,7 +1846,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -1802,7 +1855,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mulstislope.dir/build.make CMakeFiles/Mulstislope.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -1814,9 +1867,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ELF2UF2Build"
+	@echo "... Multislope_ms_pio_h"
+	@echo "... PioasmBuild"
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
-	@echo "... Mulstislope"
+	@echo "... Multislope"
 	@echo "... bs2_default"
 	@echo "... home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
@@ -1910,6 +1965,9 @@ help:
 	@echo "... home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
+	@echo "... home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"

@@ -1,0 +1,46 @@
+.program ms
+
+
+.wrap_target
+    set pins, 2 [18]    ; Turn the PWM pin on while the other one is off, wait for 18 cycles (total exec time 19 CLKS)
+    jmp pin, inhigh     ; Compare if COMP pin is HIGH, if yes keep Pulse ON, (total exec time 1 CLKS)
+    set pins 1          ; else turn OFF (total exec time 1 CLKS) // 1 CLK cycle uncertanty if the branch if taken or no (can be fixed with anothe jmp)
+    jmp setoff
+inhigh:
+    nop [1]
+setoff:
+    nop [29]            ; NO OP for 59 cycles (total exec time 59 CLKS)
+    nop [27]
+    set pins 1          ; turn OFF PWM pin and turn ON the opposite one (total exec time 1 CLKS)
+    nop [19]            ; NO OP the rest of the time (total exec time 1 CLKS)
+                        ; wrap (total exec time 99-100 CLKS; 50nS jitter; 1%) (can be fixed with anothe jmp)
+.wrap                   
+
+% c-sdk {
+
+// Helper function (for use in C program) to initialize this PIO program
+void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float div) {
+
+    // Sets up state machine and wrap target. This function is automatically
+    pio_sm_config c = ms_program_get_default_config(offset);
+
+    // Allow PIO to control GPIO pin (as output)
+    pio_gpio_init(pio, pin);
+    pio_gpio_init(pio, pin+1);
+
+    // set the pin for jump if pin high instruction
+    sm_config_set_jmp_pin(&c, input); 
+    // Connect pin to SET pin (control with 'set' instruction)
+    sm_config_set_set_pins(&c, pin, 2);
+
+    // Set the pin direction to output (in PIO)
+    pio_sm_set_consecutive_pindirs(pio, sm, pin, 2, true);
+    
+    // Set the clock divider for the state machine
+    sm_config_set_clkdiv(&c, div);
+
+    // Load configuration and jump to start of the program
+    pio_sm_init(pio, sm, offset, &c);
+}
+
+%}

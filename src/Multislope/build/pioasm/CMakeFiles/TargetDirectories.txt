@@ -1,0 +1,3 @@
+/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/pioasm/CMakeFiles/rebuild_cache.dir
+/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/pioasm/CMakeFiles/edit_cache.dir
+/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/pioasm/CMakeFiles/pioasm.dir

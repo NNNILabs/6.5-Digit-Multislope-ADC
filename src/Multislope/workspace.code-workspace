@@ -6,7 +6,8 @@
 	],
 	"settings": {
 		"files.associations": {
-			"irq.h": "c"
+			"irq.h": "c",
+			"ms.pio.h": "c"
 		}
 	}
 }

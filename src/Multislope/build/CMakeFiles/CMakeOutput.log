@@ -1,5 +1,5 @@
 The target system is: PICO -  - cortex-m0plus
-The host system is: Linux - 5.11.0-38-generic - x86_64
+The host system is: Linux - 5.11.0-40-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /bin/arm-none-eabi-gcc-9.2.1 
 Build flags: 
