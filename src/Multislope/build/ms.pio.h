@@ -13,7 +13,7 @@
 // -- //
 
 #define ms_wrap_target 2
-#define ms_wrap 18
+#define ms_wrap 21
 
 #define ms_SkippedCycles 9
 
@@ -21,30 +21,33 @@ static const uint16_t ms_program_instructions[] = {
     0xe049, //  0: set    y, 9                       
     0xa02b, //  1: mov    x, !null                   
             //     .wrap_target
-    0xf002, //  2: set    pins, 2                [16]
+    0xf102, //  2: set    pins, 2                [17]
     0x00c7, //  3: jmp    pin, 7                     
     0xe001, //  4: set    pins, 1                    
     0x0048, //  5: jmp    x--, 8                     
-    0x0009, //  6: jmp    9                          
+    0x0013, //  6: jmp    19                         
     0xa142, //  7: nop                           [1] 
-    0x008e, //  8: jmp    y--, 14                    
-    0x4020, //  9: in     x, 32                      
-    0xa02b, // 10: mov    x, !null                   
-    0x80a0, // 11: pull   block                      
-    0x6040, // 12: out    y, 32                      
-    0x000f, // 13: jmp    15                         
-    0xa342, // 14: nop                           [3] 
-    0xbf42, // 15: nop                           [31]
-    0xb642, // 16: nop                           [22]
-    0xe001, // 17: set    pins, 1                    
-    0xb242, // 18: nop                           [18]
+    0xba42, //  8: nop                           [26]
+    0xbf42, //  9: nop                           [31]
+    0xe001, // 10: set    pins, 1                    
+    0x0091, // 11: jmp    y--, 17                    
+    0x4020, // 12: in     x, 32                      
+    0xa02b, // 13: mov    x, !null                   
+    0x80a0, // 14: pull   block                      
+    0x6040, // 15: out    y, 32                      
+    0x0012, // 16: jmp    18                         
+    0xa442, // 17: nop                           [4] 
+    0x0015, // 18: jmp    21                         
+    0xe001, // 19: set    pins, 1                    
+    0x000c, // 20: jmp    12                         
+    0xac42, // 21: nop                           [12]
             //     .wrap
 };
 
 #if !PICO_NO_HARDWARE
 static const struct pio_program ms_program = {
     .instructions = ms_program_instructions,
-    .length = 19,
+    .length = 22,
     .origin = -1,
 };
 

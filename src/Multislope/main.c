@@ -86,7 +86,4 @@ int main() {
         uint32_t counts = get_counts(pio, sm, reqCounts);
         printf("Requested counts: %d; returned counts: %d\n", reqCounts, counts);
     }
-    //sm_config_set_jmp_pin();
-    // sm_config_set_in_shift(&c, false, true, 32);
-    //sm_config_set_out_shift(&c, false, true, 32);
 }

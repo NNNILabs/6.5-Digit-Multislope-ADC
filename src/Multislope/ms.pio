@@ -13,31 +13,37 @@
     set Y,  SkippedCycles
     mov X, !NULL
 .wrap_target
-    set pins, 2 [16]    ; { Turn the PWM pin on while the other one is off, wait for 18 cycles (total exec time 17 CLKS)
+    set pins, 2 [17]    ; { Turn the PWM pin on while the other one is off, wait for 16 cycles (total exec time 17 CLKS)
     jmp pin, inhigh     ; Compare if COMP pin is HIGH, if yes keep Pulse ON, (total exec time 1 CLKS)
     set pins 1          ; else turn OFF (total exec time 1 CLKS)
     jmp X-- setoff      ; (total exec time 1 CLKS)
                         ; } 1. Normal circumstances - (18 - 20 CLKS)
-    jmp op              ; if the X register is zero go push it out immidiately (total exec time 1 CLKS) in this case the measurement is stopped because we overflowed the counter
+    jmp fpb             ; if the X register is zero go push it out immidiately (total exec time 1 CLKS) in this case the measurement is stopped because we overflowed the counter
 inhigh:
     nop [1]             ; stall 2 instruction if we didn't set pins and do a jump (total exec time 2 CLKS)
-                        ; (COMP 1.) <---- at this point the 1. variation is compensted (20 CLKs has passed)
+                        ; (COMP 1.) <---- at this point the 1. variation is compensted (20 CLKs have passed)
 setoff:
+    nop [26]            ; NO OP for 59 cycles (total exec time 59 CLKS)
+    nop [31]
+    set pins 1          ; turn OFF PWM pin and turn ON the opposite one (total exec time 1 CLKS)
+                        ; (80 CLKs have passed)
     jmp Y--, lp         ; { (total exec time 1 CLKS) 
-op:
+forcepush:
     in X, 32            ; (total exec time 1 CLKS)
     mov X, !NULL        ; (total exec time 1 CLKS)
-    pull ;noblock
+    pull                ; (total exec time 1 CLKS)
     out Y, 32           ; (total exec time 1 CLKS)
-    jmp dl              ; } 2. Normal circumstances (1-5) (total exec time 1 CLKS)
+    jmp dl              ; (total exec time 1 CLKS)
+                        ; } 2. Normal circumstances (1-6)
 lp:
-    nop [3]             ; stall for 4 insctructions if the branch was not taken (COMP 2.) <---- at this point the 2. variation is compensted (25 CLKs has passed)
+    nop [4]             ; stall for 5 insctructions if the branch was not taken (COMP 2.) <---- at this point the 2. variation is compensted (86 CLKs has passed)
 dl:
-    nop [31]            ; NO OP for 55 cycles (total exec time 55 CLKS)
-    nop [22]
-    set pins 1          ; turn OFF PWM pin and turn ON the opposite one (total exec time 1 CLKS)
-    nop [18]            ; NO OP the rest of the time (total exec time 19 CLKS)
-                        ; wrap (total exec time 100 CLKS)
+    jmp wrp             ; skip the edge case (total exec time 1 CLKS) 
+fpb:
+    set pins 1          ; for cases when X has reached zero we reset the pin states and go to push the data, 
+    jmp forcepush       ; because at this point we can't really do anything else, the fact that out timing breaks doesn't matter
+wrp:
+    nop [12]            ; (100 CLKS has passed) NO OP the rest of the time (total exec time 13 CLKS)
 .wrap                   
 
 % c-sdk {

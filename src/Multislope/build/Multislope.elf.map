@@ -1302,9 +1302,9 @@ Discarded input sections
                 0x0000000000000000       0x40 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .rodata.__func__.5257
                 0x0000000000000000       0x13 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .text          0x0000000000000000        0x0 /tmp/cc3egF94.o
- .data          0x0000000000000000        0x0 /tmp/cc3egF94.o
- .bss           0x0000000000000000        0x0 /tmp/cc3egF94.o
+ .text          0x0000000000000000        0x0 /tmp/ccYmpthH.o
+ .data          0x0000000000000000        0x0 /tmp/ccYmpthH.o
+ .bss           0x0000000000000000        0x0 /tmp/ccYmpthH.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(lib_a-atexit.o)
@@ -1538,7 +1538,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/cc3egF94.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccYmpthH.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2393,164 +2393,162 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x00000000100075fc        0x6 CMakeFiles/Multislope.dir/main.c.obj
  *fill*         0x0000000010007602        0x2 
  .rodata.ms_program_instructions
-                0x0000000010007604       0x26 CMakeFiles/Multislope.dir/main.c.obj
- *fill*         0x000000001000762a        0x2 
+                0x0000000010007604       0x2c CMakeFiles/Multislope.dir/main.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x000000001000762c       0x1b CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x0000000010007647        0x1 
+                0x0000000010007630       0x1b CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x000000001000764b        0x1 
  .rodata.repeating_timer_callback.str1.4
-                0x0000000010007648       0x4f CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010007697        0x1 
+                0x000000001000764c       0x4f CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000769b        0x1 
  .rodata.alarm_pool_dump_key.str1.4
-                0x0000000010007698       0x33 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100076cb        0x1 
+                0x000000001000769c       0x33 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100076cf        0x1 
  .rodata.ph_add_child_node.str1.4
-                0x00000000100076cc       0x9a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010007766        0x2 
+                0x00000000100076d0       0x9a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000776a        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x0000000010007768       0x28 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000776c       0x28 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
                                          0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x0000000010007790       0xea CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000787a        0x2 
+                0x0000000010007794       0xea CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000787e        0x2 
  .rodata.alarm_pool_get_default.str1.4
-                0x000000001000787c       0x21 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000789d        0x3 
+                0x0000000010007880       0x21 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100078a1        0x3 
  .rodata.alarm_pool_cancel_alarm.str1.4
-                0x00000000100078a0       0x27 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100078c7        0x1 
+                0x00000000100078a4       0x27 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100078cb        0x1 
  .rodata.sleep_until.str1.4
-                0x00000000100078c8       0x4d CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x0000000010007915        0x3 
+                0x00000000100078cc       0x4d CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010007919        0x3 
  .rodata.__func__.5701
-                0x0000000010007918       0x15 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000792d        0x3 
+                0x000000001000791c       0x15 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010007931        0x3 
  .rodata.__func__.6002
-                0x0000000010007930        0xc CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010007934        0xc CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.6009
-                0x000000001000793c       0x12 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000794e        0x2 
+                0x0000000010007940       0x12 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010007952        0x2 
  .rodata.__func__.6025
-                0x0000000010007950        0xf CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000795f        0x1 
+                0x0000000010007954        0xf CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010007963        0x1 
  .rodata.__func__.6047
-                0x0000000010007960        0xd CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000796d        0x3 
+                0x0000000010007964        0xd CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010007971        0x3 
  .rodata.__func__.6248
-                0x0000000010007970        0xa CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000797a        0x2 
+                0x0000000010007974        0xa CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x000000001000797e        0x2 
  .rodata.__func__.6253
-                0x000000001000797c       0x12 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x000000001000798e        0x2 
+                0x0000000010007980       0x12 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x0000000010007992        0x2 
  .rodata.__func__.6268
-                0x0000000010007990       0x17 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100079a7        0x1 
+                0x0000000010007994       0x17 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100079ab        0x1 
  .rodata.__func__.6279
-                0x00000000100079a8       0x15 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100079bd        0x3 
+                0x00000000100079ac       0x15 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100079c1        0x3 
  .rodata.__func__.6296
-                0x00000000100079c0       0x1a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x00000000100079da        0x2 
+                0x00000000100079c4       0x1a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x00000000100079de        0x2 
  .rodata.__func__.6335
-                0x00000000100079dc       0x18 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100079e0       0x18 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x00000000100079f4       0x22 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010007a16        0x2 
+                0x00000000100079f8       0x22 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010007a1a        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x0000000010007a18       0x69 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010007a81        0x3 
+                0x0000000010007a1c       0x69 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010007a85        0x3 
  .rodata.__func__.4548
-                0x0000000010007a84       0x1a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010007a9e        0x2 
+                0x0000000010007a88       0x1a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010007aa2        0x2 
  .rodata.str1.4
-                0x0000000010007aa0       0xb5 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010007aa4       0xb5 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
                                         0x11d (size before relaxing)
- *fill*         0x0000000010007b55        0x3 
+ *fill*         0x0000000010007b59        0x3 
  .rodata.__func__.4193
-                0x0000000010007b58       0x15 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x0000000010007b6d        0x3 
+                0x0000000010007b5c       0x15 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x0000000010007b71        0x3 
  .rodata.__func__.4610
-                0x0000000010007b70       0x15 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x0000000010007b85        0x3 
+                0x0000000010007b74       0x15 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x0000000010007b89        0x3 
  .rodata.__func__.4635
-                0x0000000010007b88       0x18 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010007b8c       0x18 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.__func__.4645
-                0x0000000010007ba0        0xb CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010007ba4        0xb CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x0000000010007bab       0x9a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x0000000010007bab        0x1 
+                0x0000000010007baf       0x9a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010007baf        0x1 
  .rodata.ph_remove_any_head.str1.4
-                0x0000000010007bac       0x90 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010007bb0       0x90 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.ph_remove_and_free_node.str1.4
-                0x0000000010007c3c       0x26 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x0000000010007c62        0x2 
+                0x0000000010007c40       0x26 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010007c66        0x2 
  .rodata.__func__.5708
-                0x0000000010007c64        0xc CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010007c68        0xc CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__func__.5715
-                0x0000000010007c70       0x12 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x0000000010007c82        0x2 
+                0x0000000010007c74       0x12 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010007c86        0x2 
  .rodata.__func__.5801
-                0x0000000010007c84       0x13 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x0000000010007c97        0x1 
+                0x0000000010007c88       0x13 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x0000000010007c9b        0x1 
  .rodata.__func__.5819
-                0x0000000010007c98       0x18 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010007c9c       0x18 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__assert_func.str1.4
-                0x0000000010007cb0       0x3f CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010007cb4       0x3f CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                          0x43 (size before relaxing)
- *fill*         0x0000000010007cef        0x1 
+ *fill*         0x0000000010007cf3        0x1 
  .rodata.panic.str1.4
-                0x0000000010007cf0       0x12 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010007d02        0x2 
+                0x0000000010007cf4       0x12 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010007d06        0x2 
  .rodata.clock_configure.str1.4
-                0x0000000010007d04       0x5b CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- *fill*         0x0000000010007d5f        0x1 
+                0x0000000010007d08       0x5b CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ *fill*         0x0000000010007d63        0x1 
  .rodata.__func__.4667
-                0x0000000010007d60       0x10 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010007d64       0x10 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.make_branch.str1.4
-                0x0000000010007d70       0x51 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007dc1        0x3 
+                0x0000000010007d74       0x51 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010007dc5        0x3 
  .rodata.irq_set_exclusive_handler.str1.4
-                0x0000000010007dc4       0x36 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007dfa        0x2 
+                0x0000000010007dc8       0x36 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010007dfe        0x2 
  .rodata.irq_add_shared_handler.str1.4
-                0x0000000010007dfc       0xd9 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007ed5        0x3 
+                0x0000000010007e00       0xd9 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010007ed9        0x3 
  .rodata.irq_remove_handler.str1.4
-                0x0000000010007ed8       0x2a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007f02        0x2 
+                0x0000000010007edc       0x2a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010007f06        0x2 
  .rodata.irq_add_tail_to_free_list.str1.4
-                0x0000000010007f04       0x32 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010007f08       0x32 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
                                          0x3a (size before relaxing)
- *fill*         0x0000000010007f36        0x2 
+ *fill*         0x0000000010007f3a        0x2 
  .rodata.__func__.4703
-                0x0000000010007f38       0x1a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007f52        0x2 
+                0x0000000010007f3c       0x1a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010007f56        0x2 
  .rodata.__func__.4717
-                0x0000000010007f54        0xc CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010007f58        0xc CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4725
-                0x0000000010007f60       0x17 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007f77        0x1 
+                0x0000000010007f64       0x17 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010007f7b        0x1 
  .rodata.__func__.4729
-                0x0000000010007f78        0xf CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007f87        0x1 
+                0x0000000010007f7c        0xf CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010007f8b        0x1 
  .rodata.__func__.4768
-                0x0000000010007f88       0x13 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007f9b        0x1 
+                0x0000000010007f8c       0x13 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010007f9f        0x1 
  .rodata.__func__.4787
-                0x0000000010007f9c       0x1a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010007fb6        0x2 
+                0x0000000010007fa0       0x1a CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010007fba        0x2 
  .rodata.pll_init.str1.4
-                0x0000000010007fb8       0xdf CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x0000000010008097        0x1 
+                0x0000000010007fbc       0xdf CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x000000001000809b        0x1 
  .rodata.__func__.4402
-                0x0000000010008098        0x9 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x00000000100080a1        0x3 
+                0x000000001000809c        0x9 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x00000000100080a5        0x3 
  .rodata._ftoa.str1.4
-                0x00000000100080a4       0x15 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x00000000100080b9        0x3 
+                0x00000000100080a8       0x15 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x00000000100080bd        0x3 
  .rodata._vsnprintf
-                0x00000000100080bc      0x1e0 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x000000001000829c        0x4 
+                0x00000000100080c0      0x1e0 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.5422
                 0x00000000100082a0       0x50 CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.__aeabi_double_init.str1.4
@@ -3101,7 +3099,7 @@ LOAD CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico
 LOAD CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 LOAD CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 LOAD CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-LOAD /tmp/cc3egF94.o
+LOAD /tmp/ccYmpthH.o
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3218,7 +3216,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000007a8       0x2c CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
-                0x00000000000007d4       0x22 /tmp/cc3egF94.o
+                0x00000000000007d4       0x22 /tmp/ccYmpthH.o
  .ARM.attributes
                 0x00000000000007f6       0x1e /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
