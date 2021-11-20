@@ -12,27 +12,39 @@
 // ms //
 // -- //
 
-#define ms_wrap_target 0
-#define ms_wrap 8
+#define ms_wrap_target 2
+#define ms_wrap 18
+
+#define ms_SkippedCycles 9
 
 static const uint16_t ms_program_instructions[] = {
+    0xe049, //  0: set    y, 9                       
+    0xa02b, //  1: mov    x, !null                   
             //     .wrap_target
-    0xf202, //  0: set    pins, 2                [18]
-    0x00c4, //  1: jmp    pin, 4                     
-    0xe001, //  2: set    pins, 1                    
-    0x0005, //  3: jmp    5                          
-    0xa142, //  4: nop                           [1] 
-    0xbd42, //  5: nop                           [29]
-    0xbb42, //  6: nop                           [27]
-    0xe001, //  7: set    pins, 1                    
-    0xb342, //  8: nop                           [19]
+    0xf002, //  2: set    pins, 2                [16]
+    0x00c7, //  3: jmp    pin, 7                     
+    0xe001, //  4: set    pins, 1                    
+    0x0048, //  5: jmp    x--, 8                     
+    0x0009, //  6: jmp    9                          
+    0xa142, //  7: nop                           [1] 
+    0x008e, //  8: jmp    y--, 14                    
+    0x4020, //  9: in     x, 32                      
+    0xa02b, // 10: mov    x, !null                   
+    0x80a0, // 11: pull   block                      
+    0x6040, // 12: out    y, 32                      
+    0x000f, // 13: jmp    15                         
+    0xa342, // 14: nop                           [3] 
+    0xbf42, // 15: nop                           [31]
+    0xb642, // 16: nop                           [22]
+    0xe001, // 17: set    pins, 1                    
+    0xb242, // 18: nop                           [18]
             //     .wrap
 };
 
 #if !PICO_NO_HARDWARE
 static const struct pio_program ms_program = {
     .instructions = ms_program_instructions,
-    .length = 9,
+    .length = 19,
     .origin = -1,
 };
 
@@ -55,6 +67,9 @@ void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float 
     sm_config_set_set_pins(&c, pin, 2);
     // Set the pin direction to output (in PIO)
     pio_sm_set_consecutive_pindirs(pio, sm, pin, 2, true);
+    // Set auto push and pull from OSR and ISR
+    sm_config_set_in_shift(&c, false, true, 32);
+    //sm_config_set_out_shift(&c, false, false, 32);
     // Set the clock divider for the state machine
     sm_config_set_clkdiv(&c, div);
     // Load configuration and jump to start of the program

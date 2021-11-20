@@ -1,19 +1,43 @@
 .program ms
 
+.define public SkippedCycles 10 -1 ; to get comparator out of saturation (-1 due to the architecture)
 
+; don't forget to enable auto push/pull
+; //set x to 0xFFFF
+; set Y to 10
+; decrement Y until it is zero
+; decrement X if pin is high
+; when Y zero output the X register (and set it to 0xFFFF), read Y register
+;
+    
+    set Y,  SkippedCycles
+    mov X, !NULL
 .wrap_target
-    set pins, 2 [18]    ; Turn the PWM pin on while the other one is off, wait for 18 cycles (total exec time 19 CLKS)
+    set pins, 2 [16]    ; { Turn the PWM pin on while the other one is off, wait for 18 cycles (total exec time 17 CLKS)
     jmp pin, inhigh     ; Compare if COMP pin is HIGH, if yes keep Pulse ON, (total exec time 1 CLKS)
-    set pins 1          ; else turn OFF (total exec time 1 CLKS) // 1 CLK cycle uncertanty if the branch if taken or no (can be fixed with anothe jmp)
-    jmp setoff
+    set pins 1          ; else turn OFF (total exec time 1 CLKS)
+    jmp X-- setoff      ; (total exec time 1 CLKS)
+                        ; } 1. Normal circumstances - (18 - 20 CLKS)
+    jmp op              ; if the X register is zero go push it out immidiately (total exec time 1 CLKS) in this case the measurement is stopped because we overflowed the counter
 inhigh:
-    nop [1]
+    nop [1]             ; stall 2 instruction if we didn't set pins and do a jump (total exec time 2 CLKS)
+                        ; (COMP 1.) <---- at this point the 1. variation is compensted (20 CLKs has passed)
 setoff:
-    nop [29]            ; NO OP for 59 cycles (total exec time 59 CLKS)
-    nop [27]
+    jmp Y--, lp         ; { (total exec time 1 CLKS) 
+op:
+    in X, 32            ; (total exec time 1 CLKS)
+    mov X, !NULL        ; (total exec time 1 CLKS)
+    pull ;noblock
+    out Y, 32           ; (total exec time 1 CLKS)
+    jmp dl              ; } 2. Normal circumstances (1-5) (total exec time 1 CLKS)
+lp:
+    nop [3]             ; stall for 4 insctructions if the branch was not taken (COMP 2.) <---- at this point the 2. variation is compensted (25 CLKs has passed)
+dl:
+    nop [31]            ; NO OP for 55 cycles (total exec time 55 CLKS)
+    nop [22]
     set pins 1          ; turn OFF PWM pin and turn ON the opposite one (total exec time 1 CLKS)
-    nop [19]            ; NO OP the rest of the time (total exec time 1 CLKS)
-                        ; wrap (total exec time 99-100 CLKS; 50nS jitter; 1%) (can be fixed with anothe jmp)
+    nop [18]            ; NO OP the rest of the time (total exec time 19 CLKS)
+                        ; wrap (total exec time 100 CLKS)
 .wrap                   
 
 % c-sdk {
@@ -36,6 +60,10 @@ void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float 
     // Set the pin direction to output (in PIO)
     pio_sm_set_consecutive_pindirs(pio, sm, pin, 2, true);
     
+    // Set auto push and pull from OSR and ISR
+    sm_config_set_in_shift(&c, false, true, 32);
+    //sm_config_set_out_shift(&c, false, false, 32);
+
     // Set the clock divider for the state machine
     sm_config_set_clkdiv(&c, div);
 
