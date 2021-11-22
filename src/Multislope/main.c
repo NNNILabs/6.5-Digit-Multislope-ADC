@@ -81,7 +81,7 @@ int main() {
     
     while (true) {
         sleep_ms(1000);
-        uint32_t reqCounts = 10;
+        uint32_t reqCounts = 0xFFFF;
         ms_program_init(pio, sm, offset, PWMA, COMP, div);
         uint32_t counts = get_counts(pio, sm, reqCounts);
         printf("Requested counts: %d; returned counts: %d\n", reqCounts, counts);

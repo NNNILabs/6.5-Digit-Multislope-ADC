@@ -9,7 +9,21 @@
 ; decrement X if pin is high
 ; when Y zero output the X register (and set it to 0xFFFF), read Y register
 ;
-    
+;     set Y,  SkippedCycles
+;     mov X, !NULL
+;     jmp skpirq
+; stirq:
+;     irq set 0
+;     jmp exirq
+; skpirq:
+; .wrap_target
+;     set pins, 2 [14]    ; { Turn the PWM pin on while the other one is off, wait for 16 cycles (total exec time 17 CLKS)
+;     jmp !y, stirq       ; 1-3 CLKs
+;     nop [1]
+; exirq:
+
+
+
     set Y,  SkippedCycles
     mov X, !NULL
 .wrap_target
