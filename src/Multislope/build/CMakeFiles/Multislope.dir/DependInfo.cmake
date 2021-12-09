@@ -115,6 +115,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/include"
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+  "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
@@ -142,6 +143,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c" "/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
   "/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c" "/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
   "/home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c" "/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+  "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c" "/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c" "/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c" "/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
@@ -271,6 +273,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/include"
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+  "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
@@ -372,6 +375,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/include"
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
   "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+  "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
 # Targets to which this target links.

@@ -49,7 +49,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 32,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
@@ -495,6 +495,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/include"
 				}
 			],
 			"language" : "C",
@@ -555,7 +559,8 @@
 				64,
 				65,
 				66,
-				67
+				67,
+				68
 			]
 		},
 		{
@@ -933,6 +938,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/include"
 				}
 			],
 			"language" : "ASM",
@@ -1345,6 +1354,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/include"
 				}
 			],
 			"language" : "CXX",
@@ -2263,7 +2276,8 @@
 				64,
 				65,
 				66,
-				67
+				67,
+				68
 			]
 		},
 		{
@@ -2692,6 +2706,12 @@
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c",
 			"sourceGroupIndex" : 0
 		}
 	],

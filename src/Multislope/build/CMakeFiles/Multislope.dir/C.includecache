@@ -15,6 +15,12 @@ hardware/pio.h
 /home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/hardware/pio.h
 hardware/clocks.h
 /home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/hardware/clocks.h
+hardware/irq.h
+/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/hardware/irq.h
+hardware/adc.h
+/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/hardware/adc.h
+hardware/gpio.h
+/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/hardware/gpio.h
 ms.pio.h
 /home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/ms.pio.h
 
@@ -82,6 +88,8 @@ hardware/timer.h
 
 /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 
+/home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h
+
 /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
 hardware/platform_defs.h
 /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/hardware/platform_defs.h
@@ -89,6 +97,10 @@ hardware/platform_defs.h
 /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 
 /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+
+/home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
+
+/home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
 
 /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h
 
@@ -99,6 +111,12 @@ hardware/platform_defs.h
 /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
 /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
+
+/home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h
+hardware/address_mapped.h
+/home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/regs/adc.h
+/home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/adc.h
 
 /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 hardware/address_mapped.h
@@ -156,6 +174,14 @@ hardware/regs/uart.h
 
 /home/dima/rpico/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 
+/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h
+pico.h
+/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/pico.h
+hardware/structs/adc.h
+/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/hardware/structs/adc.h
+hardware/gpio.h
+/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/include/hardware/hardware/gpio.h
+
 /home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
 pico.h
 /home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/pico.h
@@ -175,6 +201,16 @@ hardware/structs/sio.h
 /home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/hardware/structs/sio.h
 hardware/structs/padsbank0.h
 /home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/hardware/structs/padsbank0.h
+
+/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
+pico.h
+/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/pico.h
+hardware/address_mapped.h
+/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/hardware/address_mapped.h
+hardware/regs/intctrl.h
+/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/hardware/regs/intctrl.h
+hardware/regs/m0plus.h
+/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/hardware/regs/m0plus.h
 
 /home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h
 pico.h

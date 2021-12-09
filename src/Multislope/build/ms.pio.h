@@ -12,42 +12,48 @@
 // ms //
 // -- //
 
-#define ms_wrap_target 2
-#define ms_wrap 21
+#define ms_wrap_target 5
+#define ms_wrap 27
 
 #define ms_SkippedCycles 9
 
 static const uint16_t ms_program_instructions[] = {
     0xe049, //  0: set    y, 9                       
     0xa02b, //  1: mov    x, !null                   
+    0x0005, //  2: jmp    5                          
+    0xc000, //  3: irq    nowait 0                   
+    0x0008, //  4: jmp    8                          
             //     .wrap_target
-    0xf102, //  2: set    pins, 2                [17]
-    0x00c7, //  3: jmp    pin, 7                     
-    0xe001, //  4: set    pins, 1                    
-    0x0048, //  5: jmp    x--, 8                     
-    0x0013, //  6: jmp    19                         
-    0xa142, //  7: nop                           [1] 
-    0xba42, //  8: nop                           [26]
-    0xbf42, //  9: nop                           [31]
-    0xe001, // 10: set    pins, 1                    
-    0x0091, // 11: jmp    y--, 17                    
-    0x4020, // 12: in     x, 32                      
-    0xa02b, // 13: mov    x, !null                   
-    0x80a0, // 14: pull   block                      
-    0x6040, // 15: out    y, 32                      
-    0x0012, // 16: jmp    18                         
-    0xa442, // 17: nop                           [4] 
-    0x0015, // 18: jmp    21                         
-    0xe001, // 19: set    pins, 1                    
-    0x000c, // 20: jmp    12                         
-    0xac42, // 21: nop                           [12]
+    0xe002, //  5: set    pins, 2                    
+    0x0063, //  6: jmp    !y, 3                      
+    0xaf42, //  7: nop                           [15]
+    0x00cc, //  8: jmp    pin, 12                    
+    0xe001, //  9: set    pins, 1                    
+    0x004d, // 10: jmp    x--, 13                    
+    0x0019, // 11: jmp    25                         
+    0xa142, // 12: nop                           [1] 
+    0xba42, // 13: nop                           [26]
+    0xbf42, // 14: nop                           [31]
+    0xe001, // 15: set    pins, 1                    
+    0x0097, // 16: jmp    y--, 23                    
+    0xc001, // 17: irq    nowait 1                   
+    0x4020, // 18: in     x, 32                      
+    0xa02b, // 19: mov    x, !null                   
+    0x80a0, // 20: pull   block                      
+    0x6040, // 21: out    y, 32                      
+    0x0018, // 22: jmp    24                         
+    0xa542, // 23: nop                           [5] 
+    0x001b, // 24: jmp    27                         
+    0xe001, // 25: set    pins, 1                    
+    0x0011, // 26: jmp    17                         
+    0xac42, // 27: nop                           [12]
             //     .wrap
 };
 
 #if !PICO_NO_HARDWARE
 static const struct pio_program ms_program = {
     .instructions = ms_program_instructions,
-    .length = 22,
+    .length = 28,
     .origin = -1,
 };
 

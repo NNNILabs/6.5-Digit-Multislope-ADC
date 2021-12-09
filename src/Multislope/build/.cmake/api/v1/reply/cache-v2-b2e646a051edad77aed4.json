@@ -1491,7 +1491,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs /home/dima/rpico/pico/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",

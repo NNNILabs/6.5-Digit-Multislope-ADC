@@ -1530,7 +1530,7 @@ pico-sdk/tools/clean:
 CMakeFiles/Multislope_ms_pio_h.dir/all: CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope_ms_pio_h.dir/build.make CMakeFiles/Multislope_ms_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope_ms_pio_h.dir/build.make CMakeFiles/Multislope_ms_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=78 "Built target Multislope_ms_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=79 "Built target Multislope_ms_pio_h"
 .PHONY : CMakeFiles/Multislope_ms_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1586,12 +1586,12 @@ CMakeFiles/Multislope.dir/all: CMakeFiles/ELF2UF2Build.dir/all
 CMakeFiles/Multislope.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multislope.dir/build.make CMakeFiles/Multislope.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77 "Built target Multislope"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target Multislope"
 .PHONY : CMakeFiles/Multislope.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Multislope.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles 90
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles 91
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Multislope.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles 0
 .PHONY : CMakeFiles/Multislope.dir/rule
@@ -1613,7 +1613,7 @@ CMakeFiles/Multislope.dir/clean:
 CMakeFiles/PioasmBuild.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PioasmBuild.dir/build.make CMakeFiles/PioasmBuild.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PioasmBuild.dir/build.make CMakeFiles/PioasmBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=79,80,81,82,83,84,85,86 "Built target PioasmBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=80,81,82,83,84,85,86,87 "Built target PioasmBuild"
 .PHONY : CMakeFiles/PioasmBuild.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1640,7 +1640,7 @@ CMakeFiles/PioasmBuild.dir/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=90,91 "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=91,92 "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1667,7 +1667,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_as
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=89 "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=90 "Built target bs2_default_bin"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1694,7 +1694,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=87,88 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=88,89 "Built target bs2_default"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 
 # Build rule for subdir invocation for target.

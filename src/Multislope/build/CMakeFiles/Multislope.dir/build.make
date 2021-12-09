@@ -872,6 +872,19 @@ CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
 	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
+CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: CMakeFiles/Multislope.dir/flags.make
+CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	/bin/arm-none-eabi-gcc-9.2.1 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+
 # Object files for target Multislope
 Multislope_OBJECTS = \
 "CMakeFiles/Multislope.dir/main.c.obj" \
@@ -941,7 +954,8 @@ Multislope_OBJECTS = \
 "CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
 "CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
-"CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+"CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
+"CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
 # External object files for target Multislope
 Multislope_EXTERNAL_OBJECTS =
@@ -1014,10 +1028,11 @@ Multislope.elf: CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_
 Multislope.elf: CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 Multislope.elf: CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 Multislope.elf: CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+Multislope.elf: CMakeFiles/Multislope.dir/home/dima/rpico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 Multislope.elf: CMakeFiles/Multislope.dir/build.make
 Multislope.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 Multislope.elf: CMakeFiles/Multislope.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Linking CXX executable Multislope.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dima/rpico/pico/6.5-Digit-Multislope-ADC/src/Multislope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable Multislope.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Multislope.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex Multislope.elf Multislope.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary Multislope.elf Multislope.bin

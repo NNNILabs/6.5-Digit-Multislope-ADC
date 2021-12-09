@@ -26,6 +26,8 @@ target_link_libraries(${PROJECT_NAME}
     hardware_pwm
     hardware_irq
     hardware_pio
+    hardware_adc
+    hardware_gpio
 )
 
 # Create C header file with the name <pio program>.pio.h
