@@ -4,59 +4,52 @@
 
 ; don't forget to enable auto push/pull
 
-
-
-
-    ; //set x to 0xFFFF
-    ; set Y to 10
-    ; decrement Y until it is zero
-    ; decrement X if pin is high
-    ; when Y zero output the X register (and set it to 0xFFFF), read Y register
-
-    set Y,  SkippedCycles
-    mov X, !NULL
-    jmp skpirq          ; skip IRQ setting when starting the state machine
-stirq:
-    irq 0           ; raise IRQ flag on the 
-    jmp exirq           ; exit the IRQ branch
-skpirq:
+; PIO PWM Multislope pseudocode by NNNI, turned in to real code by dimin
+; Give him some credit, at least he tried to read the PIO documentation
+    mov X, !NULL                    ; set X to 0xFFFFFFFF
+    pull                            ; pull the Y FIFO
+    out Y, 32                       ; read the number desired counts
+    jmp start
+rundown:
+    set pins 0
+    in X, 32
+    pull                            ; stall
+start:
+irq wait 0 ; remove this if debug clock is off            
 .wrap_target
-    set pins, 2     ; TODO fix this delay after setting pin{ Turn the PWM pin on while the other one is off, wait for 16 cycles (total exec time 17 CLKS)
-    jmp !y, stirq       ; if y is zero means we reached the end of the skipped cycles or the end of counts jump to set an interrupt for resedue measurement
-    nop [15]
-exirq:
-    jmp pin, inhigh     ; Compare if COMP pin is HIGH, if yes keep Pulse ON, (total exec time 1 CLKS)
-    set pins 1          ; else turn OFF (total exec time 1 CLKS)
-    jmp X-- setoff      ; (total exec time 1 CLKS)
-                        ; } 1. Normal circumstances - (18 - 20 CLKS)
-    jmp fpb             ; if the X register is zero go push it out immidiately (total exec time 1 CLKS) in this case the measurement is stopped because we overflowed the counter
-inhigh:
-    nop [1]             ; stall 2 instruction if we didn't set pins and do a jump (total exec time 2 CLKS)
-                        ; (COMP 1.) <---- at this point the 1. variation is compensted (20 CLKs have passed)
-setoff:
-    nop [26]            ; NO OP for 59 cycles (total exec time 59 CLKS)
-    nop [31]
-    set pins 1          ; turn OFF PWM pin and turn ON the opposite one (total exec time 1 CLKS)
-                        ; (80 CLKs have passed)
-    jmp Y--, lp         ; { (total exec time 1 CLKS) 
-forcepush:
-    irq 1           ; set (total exec time 1 CLKS)
-    in X, 32            ; (total exec time 1 CLKS)
-    mov X, !NULL        ; (total exec time 1 CLKS)
-    pull                ; (total exec time 1 CLKS)
-    out Y, 32           ; (total exec time 1 CLKS)
-    jmp dl              ; (total exec time 1 CLKS)
-                        ; } 2. Normal circumstances (1-7)
-lp:
-    nop [5]             ; stall for 6 insctructions if the branch was not taken (COMP 2.) <---- at this point the 2. variation is compensted (86 CLKs has passed)
-dl:
-    jmp wrp             ; skip the edge case (total exec time 1 CLKS) 
-fpb:
-    set pins 1          ; for cases when X has reached zero we reset the pin states and go to push the data, 
-    jmp forcepush       ; because at this point we can't really do anything else, the fact that out timing breaks doesn't matter
-wrp:
-    nop [12]            ; (100 CLKS has passed) NO OP the rest of the time (total exec time 13 CLKS)
-.wrap                   
+	set pins 2                      ; set PWMA high, and PWMB low                    [01 clock cycles]
+	jmp pin PWMhigh                 ; read comparator input, jump to pwm high state  [01 clock cycles]
+	jmp X-- PWMlow                  ; else jump to PWM low state                     [01 clock cycles] (if pin is low we decrement X)
+PWMhigh:
+	set pins 2  [19]                ; keep PWMA high             [02 clock cycles] + [20 clock cycles]
+	set pins 1                      ; set PWMA low, at the same time PWMB high       [01 clock cycles]
+    jmp end                         ; go to the end of cycle                         [01 clock cycles] (22)
+PWMlow:
+    set pins 2  [6]                 ; keep PWMA high                [03 clock cycles] + [7 clock cycles]
+	set pins 1  [13]                ; set PWMA low                  [10 clock cycles] + [12 clock cycles](22)
+end:
+	jmp Y-- skip    [3]             ; when we reached counts go to rundown           [01 clock cycles]
+    jmp rundown
+skip:
+nop                                 ; total                                          [32 clock cycles]
+.wrap 
+
+;rundown
+; start:
+; 	set PWMA 1                [16] ; turn on PWMA for 16 clock cycles (5us)         [16 clock cycles]
+; 	set PWMA 0        side 1       ; turn off PWMA, turn on PWMB at the same time   [01 clock cycles]
+; 	jmp count                      ; unconditional jump to count                    [01 clock cycles]
+; count:
+; 	jump COMP start                ; if comparator is high, keep counting           [01 clock cycles]
+; 	set PMA 0         side 0       ; turn off both pins after rundown is complete   [01 clock cycles]
+	
+; oh shit I forgot counting again, but eh
+; also totally forgot the role of the input pin, but you know what to do now lmao
+
+
+
+
+            
 
 % c-sdk {
 
@@ -65,10 +58,6 @@ void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float 
 
     // Sets up state machine and wrap target. This function is automatically
     pio_sm_config c = ms_program_get_default_config(offset);
-
-    // Allow PIO to control GPIO pin (as output)
-    pio_gpio_init(pio, pin);
-    pio_gpio_init(pio, pin+1);
 
     // set the pin for jump if pin high instruction
     sm_config_set_jmp_pin(&c, input); 
@@ -84,6 +73,10 @@ void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float 
 
     // Set the clock divider for the state machine
     sm_config_set_clkdiv(&c, div);
+
+    // Allow PIO to control GPIO pin (as output)
+    pio_gpio_init(pio, pin);
+    pio_gpio_init(pio, pin+1);
 
     // Load configuration and jump to start of the program
     pio_sm_init(pio, sm, offset, &c);

@@ -12,48 +12,38 @@
 // ms //
 // -- //
 
-#define ms_wrap_target 5
-#define ms_wrap 27
+#define ms_wrap_target 7
+#define ms_wrap 17
 
 #define ms_SkippedCycles 9
 
 static const uint16_t ms_program_instructions[] = {
-    0xe049, //  0: set    y, 9                       
-    0xa02b, //  1: mov    x, !null                   
-    0x0005, //  2: jmp    5                          
-    0xc000, //  3: irq    nowait 0                   
-    0x0008, //  4: jmp    8                          
+    0xa02b, //  0: mov    x, !null                   
+    0x80a0, //  1: pull   block                      
+    0x6040, //  2: out    y, 32                      
+    0x0007, //  3: jmp    7                          
+    0xe000, //  4: set    pins, 0                    
+    0x4020, //  5: in     x, 32                      
+    0x80a0, //  6: pull   block                      
             //     .wrap_target
-    0xee02, //  5: set    pins, 2                [14]
-    0x0063, //  6: jmp    !y, 3                      
-    0xa142, //  7: nop                           [1] 
-    0x00cc, //  8: jmp    pin, 12                    
-    0xe001, //  9: set    pins, 1                    
-    0x004d, // 10: jmp    x--, 13                    
-    0x0019, // 11: jmp    25                         
-    0xa142, // 12: nop                           [1] 
-    0xba42, // 13: nop                           [26]
-    0xbf42, // 14: nop                           [31]
-    0xe001, // 15: set    pins, 1                    
-    0x0097, // 16: jmp    y--, 23                    
-    0xc001, // 17: irq    nowait 1                   
-    0x4020, // 18: in     x, 32                      
-    0xa02b, // 19: mov    x, !null                   
-    0x80a0, // 20: pull   block                      
-    0x6040, // 21: out    y, 32                      
-    0x0018, // 22: jmp    24                         
-    0xa542, // 23: nop                           [5] 
-    0x001b, // 24: jmp    27                         
-    0xe001, // 25: set    pins, 1                    
-    0x0011, // 26: jmp    17                         
-    0xac42, // 27: nop                           [12]
+    0xe002, //  7: set    pins, 2                    
+    0x00ca, //  8: jmp    pin, 10                    
+    0x004d, //  9: jmp    x--, 13                    
+    0xf302, // 10: set    pins, 2                [19]
+    0xe001, // 11: set    pins, 1                    
+    0x000f, // 12: jmp    15                         
+    0xe602, // 13: set    pins, 2                [6] 
+    0xef01, // 14: set    pins, 1                [15]
+    0x0391, // 15: jmp    y--, 17                [3] 
+    0x0004, // 16: jmp    4                          
+    0xa042, // 17: nop                               
             //     .wrap
 };
 
 #if !PICO_NO_HARDWARE
 static const struct pio_program ms_program = {
     .instructions = ms_program_instructions,
-    .length = 28,
+    .length = 18,
     .origin = -1,
 };
 
@@ -67,9 +57,6 @@ static inline pio_sm_config ms_program_get_default_config(uint offset) {
 void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float div) {
     // Sets up state machine and wrap target. This function is automatically
     pio_sm_config c = ms_program_get_default_config(offset);
-    // Allow PIO to control GPIO pin (as output)
-    pio_gpio_init(pio, pin);
-    pio_gpio_init(pio, pin+1);
     // set the pin for jump if pin high instruction
     sm_config_set_jmp_pin(&c, input); 
     // Connect pin to SET pin (control with 'set' instruction)
@@ -81,6 +68,9 @@ void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float 
     //sm_config_set_out_shift(&c, false, false, 32);
     // Set the clock divider for the state machine
     sm_config_set_clkdiv(&c, div);
+    // Allow PIO to control GPIO pin (as output)
+    pio_gpio_init(pio, pin);
+    pio_gpio_init(pio, pin+1);
     // Load configuration and jump to start of the program
     pio_sm_init(pio, sm, offset, &c);
 }

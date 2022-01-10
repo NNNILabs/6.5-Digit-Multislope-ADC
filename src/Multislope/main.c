@@ -6,6 +6,7 @@
 #include "hardware/adc.h"
 #include "hardware/gpio.h"
 #include "ms.pio.h"
+#include "debugclock.pio.h"
 
 const uint8_t MDAT = 17; // SPI MISO Pin
 const uint8_t MCLK = 18; // SPI Clock Pin
@@ -20,15 +21,19 @@ const uint8_t PWMA = 20;//24; // need to be in the same PWM slice
 const uint8_t PWMB = 21;//25;
 const uint8_t COMP = 19;
 
+const uint LED_PIN = 25;
+
 const uint8_t RESGP = 28;
 const uint8_t RESADC = 2;
+
+const uint8_t DBCLK = 15;
 
 uint32_t get_counts(PIO pio, uint sm , uint32_t countNum){
     countNum = countNum - 1;
     uint32_t counts = 0;
     pio_sm_put_blocking(pio, sm, countNum);
     pio_sm_set_enabled(pio, sm, true);
-    pio_sm_get_blocking(pio, sm); // ignore first read, to get comparator out of saturation
+    //pio_sm_get_blocking(pio, sm); // ignore first read, to get comparator out of saturation
     counts = pio_sm_get_blocking(pio, sm);
     sleep_ms(10); // remove later
     pio_sm_set_enabled(pio, sm, false);
@@ -93,10 +98,12 @@ void pio_irh() {
 }
 
 int main() {
-    static const float pio_freq = 20000000; // 20Mhz - 100 slices in a 100KHz square wave
-
-
+    set_sys_clock_khz(128000, true);            // Set system clock to 128 Mhz to make the PIO clock frequency be evenly divisible by it
     stdio_init_all();
+    static const float pio_freq = 200000 * 32;  // 200khz * 32 cycles per count
+
+
+    
 
     adc_init();
     adc_gpio_init(RESGP);
@@ -107,12 +114,14 @@ int main() {
     gpio_init(MUX_A1);
     gpio_init(MUX_A2);
     gpio_init(MCLK);
+    gpio_init(LED_PIN);
 
     gpio_set_dir(MDAT, GPIO_OUT);
     gpio_set_dir(MCLK, GPIO_OUT);
     gpio_set_dir(MUX_A0, GPIO_OUT);
     gpio_set_dir(MUX_A1, GPIO_OUT);
     gpio_set_dir(MUX_A2, GPIO_OUT);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
     
     gpio_put(MDAT, true);
     sleep_us(10);
@@ -126,20 +135,21 @@ int main() {
     PIO pio = pio0;
 
     // Get first free state machine in PIO 0
-    uint sm = pio_claim_unused_sm(pio, true);
-
+    uint multislopeSM = pio_claim_unused_sm(pio, true);
+    uint debugclockSM = pio_claim_unused_sm(pio, true);
     // Add PIO program to PIO instruction memory. SDK will find location and
     // return with the memory offset of the program.
-    uint offset = pio_add_program(pio, &ms_program);
-
+    uint multislopeOffset = pio_add_program(pio, &ms_program);
+    uint debugclockOffset = pio_add_program(pio, &dbclk_program);
     // Calculate the PIO clock divider
     float div = (float)clock_get_hz(clk_sys) / pio_freq;
 
     // Initialize the program using the helper function in our .pio file
-    ms_program_init(pio, sm, offset, PWMA, COMP, div);
-
+    ms_program_init(pio, multislopeSM, multislopeOffset, PWMA, COMP, div);
+    dbclk_program_init(pio, debugclockSM, debugclockOffset, DBCLK, ((float)clock_get_hz(clk_sys) / (pio_freq * 4)));
     // Start running our PIO program in the state machine
-    pio_sm_set_enabled(pio, sm, false);
+    pio_sm_set_enabled(pio, debugclockSM, true);
+    pio_sm_set_enabled(pio, multislopeSM, false);
     // Do nothing
 
     // irq_set_exclusive_handler(PIO0_IRQ_0, RES0_handler);
@@ -154,14 +164,18 @@ int main() {
     pio0_hw->inte0 = PIO_IRQ0_INTE_SM0_BITS | PIO_IRQ0_INTE_SM1_BITS;
 
 
+
     while (true) {
-        sleep_ms(1000);
+        gpio_put(LED_PIN, true);
+        sleep_ms(500);
+        gpio_put(LED_PIN, false);
+        sleep_ms(500);
         uint32_t reqCounts = 10;
         // TO DO rest t1-t2 struct here and ADCResults
         // memset(ADCResults0, 0, sizeof(ADCResults0));
         // memset(ADCResults1, 0, sizeof(ADCResults1));    
-        ms_program_init(pio, sm, offset, PWMA, COMP, div);
-        uint32_t counts = get_counts(pio, sm, reqCounts);
+        ms_program_init(pio, multislopeSM, multislopeOffset, PWMA, COMP, div);
+        uint32_t counts = get_counts(pio, multislopeSM, reqCounts);
         printf("Requested counts: %d; returned counts: %d\n", reqCounts, counts);
         printf("IRQ1 time 1: %lld; ADC: %X\n", to_us_since_boot(t1), ADCRes_1);
         printf("IRQ1 time 2: %lld; ADC: %X\n", to_us_since_boot(t2), ADCRes_2);

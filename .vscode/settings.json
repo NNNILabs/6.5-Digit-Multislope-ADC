@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/src/Multislope",
+    "files.associations": {
+        "ms.pio.h": "c"
+    }
+}

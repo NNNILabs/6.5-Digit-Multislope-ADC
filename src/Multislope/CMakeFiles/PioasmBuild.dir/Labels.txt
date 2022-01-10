@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/src/Multislope/CMakeFiles/PioasmBuild
+/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/src/Multislope/CMakeFiles/PioasmBuild.rule
+/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/src/Multislope/CMakeFiles/PioasmBuild-complete.rule
+/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/src/Multislope/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/src/Multislope/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/src/Multislope/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/src/Multislope/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/src/Multislope/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/src/Multislope/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/src/Multislope/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

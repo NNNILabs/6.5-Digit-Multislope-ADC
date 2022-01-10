@@ -1,0 +1,92 @@
+.program ms
+
+.define public SkippedCycles 10 -1 ; to get comparator out of saturation (-1 due to the architecture)
+
+; don't forget to enable auto push/pull
+
+
+
+
+    ; //set x to 0xFFFF
+    ; set Y to 10
+    ; decrement Y until it is zero
+    ; decrement X if pin is high
+    ; when Y zero output the X register (and set it to 0xFFFF), read Y register
+
+    set Y,  SkippedCycles
+    mov X, !NULL
+    jmp skpirq          ; skip IRQ setting when starting the state machine
+stirq:
+    irq 0           ; raise IRQ flag on the 
+    jmp exirq           ; exit the IRQ branch
+skpirq:
+.wrap_target
+    set pins, 2     ; TODO fix this delay after setting pin{ Turn the PWM pin on while the other one is off, wait for 16 cycles (total exec time 17 CLKS)
+    jmp !y, stirq       ; if y is zero means we reached the end of the skipped cycles or the end of counts jump to set an interrupt for resedue measurement
+    nop [15]
+exirq:
+    jmp pin, inhigh     ; Compare if COMP pin is HIGH, if yes keep Pulse ON, (total exec time 1 CLKS)
+    set pins 1          ; else turn OFF (total exec time 1 CLKS)
+    jmp X-- setoff      ; (total exec time 1 CLKS)
+                        ; } 1. Normal circumstances - (18 - 20 CLKS)
+    jmp fpb             ; if the X register is zero go push it out immidiately (total exec time 1 CLKS) in this case the measurement is stopped because we overflowed the counter
+inhigh:
+    nop [1]             ; stall 2 instruction if we didn't set pins and do a jump (total exec time 2 CLKS)
+                        ; (COMP 1.) <---- at this point the 1. variation is compensted (20 CLKs have passed)
+setoff:
+    nop [26]            ; NO OP for 59 cycles (total exec time 59 CLKS)
+    nop [31]
+    set pins 1          ; turn OFF PWM pin and turn ON the opposite one (total exec time 1 CLKS)
+                        ; (80 CLKs have passed)
+    jmp Y--, lp         ; { (total exec time 1 CLKS) 
+forcepush:
+    irq 1           ; set (total exec time 1 CLKS)
+    in X, 32            ; (total exec time 1 CLKS)
+    mov X, !NULL        ; (total exec time 1 CLKS)
+    pull                ; (total exec time 1 CLKS)
+    out Y, 32           ; (total exec time 1 CLKS)
+    jmp dl              ; (total exec time 1 CLKS)
+                        ; } 2. Normal circumstances (1-7)
+lp:
+    nop [5]             ; stall for 6 insctructions if the branch was not taken (COMP 2.) <---- at this point the 2. variation is compensted (86 CLKs has passed)
+dl:
+    jmp wrp             ; skip the edge case (total exec time 1 CLKS) 
+fpb:
+    set pins 1          ; for cases when X has reached zero we reset the pin states and go to push the data, 
+    jmp forcepush       ; because at this point we can't really do anything else, the fact that out timing breaks doesn't matter
+wrp:
+    nop [12]            ; (100 CLKS has passed) NO OP the rest of the time (total exec time 13 CLKS)
+.wrap                   
+
+% c-sdk {
+
+// Helper function (for use in C program) to initialize this PIO program
+void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float div) {
+
+    // Sets up state machine and wrap target. This function is automatically
+    pio_sm_config c = ms_program_get_default_config(offset);
+
+    // Allow PIO to control GPIO pin (as output)
+    pio_gpio_init(pio, pin);
+    pio_gpio_init(pio, pin+1);
+
+    // set the pin for jump if pin high instruction
+    sm_config_set_jmp_pin(&c, input); 
+    // Connect pin to SET pin (control with 'set' instruction)
+    sm_config_set_set_pins(&c, pin, 2);
+
+    // Set the pin direction to output (in PIO)
+    pio_sm_set_consecutive_pindirs(pio, sm, pin, 2, true);
+    
+    // Set auto push and pull from OSR and ISR
+    sm_config_set_in_shift(&c, false, true, 32);
+    //sm_config_set_out_shift(&c, false, false, 32);
+
+    // Set the clock divider for the state machine
+    sm_config_set_clkdiv(&c, div);
+
+    // Load configuration and jump to start of the program
+    pio_sm_init(pio, sm, offset, &c);
+}
+
+%}
