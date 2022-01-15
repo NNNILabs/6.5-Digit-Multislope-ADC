@@ -4,8 +4,6 @@
 
 ; don't forget to enable auto push/pull
 
-; PIO PWM Multislope pseudocode by NNNI, turned in to real code by dimin
-; Give him some credit, at least he tried to read the PIO documentation
     mov X, !NULL                    ; set X to 0xFFFFFFFF
     pull                            ; pull the Y FIFO
     out Y, 32                       ; read the number desired counts
@@ -17,39 +15,21 @@ rundown:
 start:
 irq wait 0 ; remove this if debug clock is off            
 .wrap_target
+begining:
 	set pins 2                      ; set PWMA high, and PWMB low                    [01 clock cycles]
 	jmp pin PWMhigh                 ; read comparator input, jump to pwm high state  [01 clock cycles]
+    set pins 1                      ; turn off PWMA if the pin is low                [01 clock cycles]
 	jmp X-- PWMlow                  ; else jump to PWM low state                     [01 clock cycles] (if pin is low we decrement X)
 PWMhigh:
-	set pins 2  [19]                ; keep PWMA high             [02 clock cycles] + [20 clock cycles]
+	set pins 2  [27]                ; keep PWMA high             [02 clock cycles] + [28 clock cycles] = 30
 	set pins 1                      ; set PWMA low, at the same time PWMB high       [01 clock cycles]
-    jmp end                         ; go to the end of cycle                         [01 clock cycles] (22)
+    jmp Y-- begining                ; go to the beginning if y is not zero yet       [01 clock cycles] = total 32
+    jmp rundown                     ; go to rundown when y is zero                   we don't care at this point anymore
 PWMlow:
-    set pins 2  [6]                 ; keep PWMA high                [03 clock cycles] + [7 clock cycles]
-	set pins 1  [13]                ; set PWMA low                  [10 clock cycles] + [12 clock cycles](22)
-end:
-	jmp Y-- skip    [3]             ; when we reached counts go to rundown           [01 clock cycles]
-    jmp rundown
-skip:
-nop                                 ; total                                          [32 clock cycles]
-.wrap 
-
-;rundown
-; start:
-; 	set PWMA 1                [16] ; turn on PWMA for 16 clock cycles (5us)         [16 clock cycles]
-; 	set PWMA 0        side 1       ; turn off PWMA, turn on PWMB at the same time   [01 clock cycles]
-; 	jmp count                      ; unconditional jump to count                    [01 clock cycles]
-; count:
-; 	jump COMP start                ; if comparator is high, keep counting           [01 clock cycles]
-; 	set PMA 0         side 0       ; turn off both pins after rundown is complete   [01 clock cycles]
-	
-; oh shit I forgot counting again, but eh
-; also totally forgot the role of the input pin, but you know what to do now lmao
-
-
-
-
-            
+	set pins 1  [26]                ; set PWMA low                [4 clock cycles] + [27 clock cycles] = 31
+	jmp Y-- begining                ; go to the beginning if y is not zero yet       [01 clock cycles] = total 32
+    jmp rundown                        
+.wrap                               
 
 % c-sdk {
 

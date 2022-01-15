@@ -28,16 +28,16 @@ static const uint16_t ms_program_instructions[] = {
     0xc020, //  7: irq    wait 0                     
             //     .wrap_target
     0xe002, //  8: set    pins, 2                    
-    0x00cb, //  9: jmp    pin, 11                    
-    0x004e, // 10: jmp    x--, 14                    
-    0xf302, // 11: set    pins, 2                [19]
-    0xe001, // 12: set    pins, 1                    
-    0x0010, // 13: jmp    16                         
-    0xe602, // 14: set    pins, 2                [6] 
-    0xed01, // 15: set    pins, 1                [13]
-    0x0392, // 16: jmp    y--, 18                [3] 
-    0x0004, // 17: jmp    4                          
-    0xa042, // 18: nop                               
+    0x00cc, //  9: jmp    pin, 12                    
+    0xe001, // 10: set    pins, 1                    
+    0x0050, // 11: jmp    x--, 16                    
+    0xfb02, // 12: set    pins, 2                [27]
+    0xe001, // 13: set    pins, 1                    
+    0x0088, // 14: jmp    y--, 8                     
+    0x0004, // 15: jmp    4                          
+    0xfa01, // 16: set    pins, 1                [26]
+    0x0088, // 17: jmp    y--, 8                     
+    0x0004, // 18: jmp    4                          
             //     .wrap
 };
 
