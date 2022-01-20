@@ -13,3 +13,9 @@ This ADC has all the basic parts needed to operate it as a standalone +/-10V dig
 #### Statistics
 
 -to be added-
+
+#### Errata
+
+- D Latch outputs are reversed if you want to use the ADC in free-running mode, luckily this can be changed easily by crossing over wires on the jumpers
+- For the present PWM PIO code, the D latch has to be removed and the MEAS and SW-S3 pins have to be bridged together
+
