@@ -2770,10 +2770,10 @@ CMakeFiles/Multislope.dir/main.c.obj: /home/dmytro/Documents/projects/6.5-Digit-
   /home/dmytro/Documents/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
   /home/dmytro/Documents/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
   ms.pio.h \
-  debugclock.pio.h
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h
 
-
-debugclock.pio.h:
 
 ms.pio.h:
 

@@ -12,66 +12,68 @@
 // ms //
 // -- //
 
-#define ms_wrap_target 8
-#define ms_wrap 18
-
-#define ms_SkippedCycles 9
+#define ms_wrap_target 7
+#define ms_wrap 19
 
 static const uint16_t ms_program_instructions[] = {
-    0xa02b, //  0: mov    x, !null                   
-    0x80a0, //  1: pull   block                      
-    0x6040, //  2: out    y, 32                      
-    0x0007, //  3: jmp    7                          
-    0xe000, //  4: set    pins, 0                    
-    0x4020, //  5: in     x, 32                      
-    0x80a0, //  6: pull   block                      
-    0xc020, //  7: irq    wait 0                     
+    0xa02b, //  0: mov    x, !null        side 0     
+    0x80a0, //  1: pull   block           side 0     
+    0x6040, //  2: out    y, 32           side 0     
+    0x0007, //  3: jmp    7               side 0     
+    0xe000, //  4: set    pins, 0         side 0     
+    0x4020, //  5: in     x, 32           side 0     
+    0x0000, //  6: jmp    0               side 0     
             //     .wrap_target
-    0xe002, //  8: set    pins, 2                    
-    0x00cc, //  9: jmp    pin, 12                    
-    0xe001, // 10: set    pins, 1                    
-    0x0050, // 11: jmp    x--, 16                    
-    0xfb02, // 12: set    pins, 2                [27]
-    0xe001, // 13: set    pins, 1                    
-    0x0088, // 14: jmp    y--, 8                     
-    0x0004, // 15: jmp    4                          
-    0xfa01, // 16: set    pins, 1                [26]
-    0x0088, // 17: jmp    y--, 8                     
-    0x0004, // 18: jmp    4                          
+    0xf002, //  7: set    pins, 2         side 1     
+    0x10cb, //  8: jmp    pin, 11         side 1     
+    0xf001, //  9: set    pins, 1         side 1     
+    0x1050, // 10: jmp    x--, 16         side 1     
+    0xff02, // 11: set    pins, 2         side 1 [15]
+    0xbb42, // 12: nop                    side 1 [11]
+    0xf001, // 13: set    pins, 1         side 1     
+    0x1087, // 14: jmp    y--, 7          side 1     
+    0x0004, // 15: jmp    4               side 0     
+    0xff01, // 16: set    pins, 1         side 1 [15]
+    0xba42, // 17: nop                    side 1 [10]
+    0x1087, // 18: jmp    y--, 7          side 1     
+    0x0004, // 19: jmp    4               side 0     
             //     .wrap
 };
 
 #if !PICO_NO_HARDWARE
 static const struct pio_program ms_program = {
     .instructions = ms_program_instructions,
-    .length = 19,
+    .length = 20,
     .origin = -1,
 };
 
 static inline pio_sm_config ms_program_get_default_config(uint offset) {
     pio_sm_config c = pio_get_default_sm_config();
     sm_config_set_wrap(&c, offset + ms_wrap_target, offset + ms_wrap);
+    sm_config_set_sideset(&c, 1, false, false);
     return c;
 }
 
 // Helper function (for use in C program) to initialize this PIO program
-void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float div) {
+void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float div, uint pin_MEAS) {
     // Sets up state machine and wrap target. This function is automatically
     pio_sm_config c = ms_program_get_default_config(offset);
+    sm_config_set_sideset_pins(&c, pin_MEAS); //side set
+    // Allow PIO to control GPIO pin (as output)
+    pio_gpio_init(pio, pin);
+    pio_gpio_init(pio, pin+1);
+    pio_gpio_init(pio, pin_MEAS);      
     // set the pin for jump if pin high instruction
     sm_config_set_jmp_pin(&c, input); 
     // Connect pin to SET pin (control with 'set' instruction)
     sm_config_set_set_pins(&c, pin, 2);
     // Set the pin direction to output (in PIO)
-    pio_sm_set_consecutive_pindirs(pio, sm, pin, 2, true);
-    // Set auto push and pull from OSR and ISR
+    pio_sm_set_consecutive_pindirs(pio, sm, pin, 2, true);      // 2 pins for PWM high and low
+    pio_sm_set_consecutive_pindirs(pio, sm, pin_MEAS, 1, true); // 1 pin for MEAS pin
+    // Set auto push to ISR
     sm_config_set_in_shift(&c, false, true, 32);
-    //sm_config_set_out_shift(&c, false, false, 32);
     // Set the clock divider for the state machine
     sm_config_set_clkdiv(&c, div);
-    // Allow PIO to control GPIO pin (as output)
-    pio_gpio_init(pio, pin);
-    pio_gpio_init(pio, pin+1);
     // Load configuration and jump to start of the program
     pio_sm_init(pio, sm, offset, &c);
 }
