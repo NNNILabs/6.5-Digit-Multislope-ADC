@@ -12,38 +12,45 @@
 // ms //
 // -- //
 
-#define ms_wrap_target 7
-#define ms_wrap 19
+#define ms_wrap_target 14
+#define ms_wrap 26
 
 static const uint16_t ms_program_instructions[] = {
     0xa02b, //  0: mov    x, !null        side 0     
     0x80a0, //  1: pull   block           side 0     
     0x6040, //  2: out    y, 32           side 0     
-    0x0007, //  3: jmp    7               side 0     
+    0x000e, //  3: jmp    14              side 0     
     0xe000, //  4: set    pins, 0         side 0     
     0x4020, //  5: in     x, 32           side 0     
-    0x0000, //  6: jmp    0               side 0     
+    0xa04b, //  6: mov    y, !null        side 0     
+    0xa02b, //  7: mov    x, !null        side 0     
+    0xe002, //  8: set    pins, 2         side 0     
+    0x0049, //  9: jmp    x--, 9          side 0     
+    0x00c9, // 10: jmp    pin, 9          side 0     
+    0xe001, // 11: set    pins, 1         side 0     
+    0x4020, // 12: in     x, 32           side 0     
+    0x0000, // 13: jmp    0               side 0     
             //     .wrap_target
-    0xf002, //  7: set    pins, 2         side 1     
-    0x10cb, //  8: jmp    pin, 11         side 1     
-    0xf001, //  9: set    pins, 1         side 1     
-    0x1050, // 10: jmp    x--, 16         side 1     
-    0xff02, // 11: set    pins, 2         side 1 [15]
-    0xbb42, // 12: nop                    side 1 [11]
-    0xf001, // 13: set    pins, 1         side 1     
-    0x1087, // 14: jmp    y--, 7          side 1     
-    0x0004, // 15: jmp    4               side 0     
-    0xff01, // 16: set    pins, 1         side 1 [15]
-    0xba42, // 17: nop                    side 1 [10]
-    0x1087, // 18: jmp    y--, 7          side 1     
-    0x0004, // 19: jmp    4               side 0     
+    0xf002, // 14: set    pins, 2         side 1     
+    0x10d2, // 15: jmp    pin, 18         side 1     
+    0xf001, // 16: set    pins, 1         side 1     
+    0x1057, // 17: jmp    x--, 23         side 1     
+    0xff02, // 18: set    pins, 2         side 1 [15]
+    0xbb42, // 19: nop                    side 1 [11]
+    0xf001, // 20: set    pins, 1         side 1     
+    0x108e, // 21: jmp    y--, 14         side 1     
+    0x0004, // 22: jmp    4               side 0     
+    0xff01, // 23: set    pins, 1         side 1 [15]
+    0xba42, // 24: nop                    side 1 [10]
+    0x108e, // 25: jmp    y--, 14         side 1     
+    0x0004, // 26: jmp    4               side 0     
             //     .wrap
 };
 
 #if !PICO_NO_HARDWARE
 static const struct pio_program ms_program = {
     .instructions = ms_program_instructions,
-    .length = 20,
+    .length = 27,
     .origin = -1,
 };
 

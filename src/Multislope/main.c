@@ -38,26 +38,28 @@ struct getCoutnsPayload
     PIO pio;
     uint sm;
     uint32_t reqCounts;
-    uint64_t countSum;      // SET THIS TO 64 bit later
+    int64_t countSum;
     uint32_t NPLC;
 };
 
-uint32_t get_counts(PIO pio, uint sm , uint32_t countNum){
-    countNum = countNum - 1;
+int64_t get_counts(PIO pio, uint sm , uint32_t countNum){
     uint32_t counts = 0;
+    uint32_t preRundownCounts = 0;
     pio_sm_put_blocking(pio, sm, countNum);
     pio_sm_set_enabled(pio, sm, true);
     gpio_put(LED_PIN, true);
-    counts = pio_sm_get_blocking(pio, sm);
+    counts = ~pio_sm_get_blocking(pio, sm);
+    preRundownCounts = ~pio_sm_get_blocking(pio, sm);
+    printf("preRundownCounts: %u", preRundownCounts);
     gpio_put(LED_PIN, false);
     pio_sm_set_enabled(pio, sm, false);
-    return ~counts;
+    return ((2*(int64_t)counts) - (int64_t)countNum);
 }
 
 bool measurement_timer_callback(struct repeating_timer *t) {
     void* payloadPtr = t->user_data;
     struct getCoutnsPayload *payload = (struct getCoutnsPayload *)payloadPtr;
-    uint32_t counts = get_counts(payload->pio, payload->sm, payload->reqCounts);
+    int64_t counts = get_counts(payload->pio, payload->sm, payload->reqCounts);
     payload->countSum = payload->countSum + counts;
     if(payload->NPLC > 0)
         payload->NPLC = (payload->NPLC)-1;
@@ -68,7 +70,7 @@ bool measurement_timer_callback(struct repeating_timer *t) {
     return true;
 }
 
-uint64_t get_counts_NPLC(PIO pio, uint sm , uint32_t NPLC){
+int64_t get_counts_NPLC(PIO pio, uint sm , uint32_t NPLC){
     //printf("NPLC counts requested: %d\n", NPLC);
     struct getCoutnsPayload payload;
     payload.pio = pio;
@@ -87,7 +89,8 @@ uint64_t get_counts_NPLC(PIO pio, uint sm , uint32_t NPLC){
         tight_loop_contents();
     }
     bool cancelled = cancel_repeating_timer(&timer);
-    printf("%" PRIu64 "\n", payload.countSum);
+    printf("%" PRId64 "\n", payload.countSum);
+    //printf("%d\n", payload.countSum);
     // for(; NPLC > 0; NPLC--){
     //     printf("NPLC: %d\n", NPLC);
     // }
@@ -148,13 +151,13 @@ int main() {
         // sleep_ms(500);
         // gpio_put(LED_PIN, false);
         // sleep_ms(500);
-        uint32_t reqCounts = 5;
+        uint32_t reqCounts = 1;
 
         //configure PIO and start NPLC measurement
         //ms_program_init(pio, multislopeSM, multislopeOffset, PWMA, COMP, div, MEAS);
         
         get_counts_NPLC(pio, multislopeSM, reqCounts);
-
+        sleep_ms(1000);
 
 
         //ms_program_init(pio, multislopeSM, multislopeOffset, PWMA, COMP, div, MEAS);

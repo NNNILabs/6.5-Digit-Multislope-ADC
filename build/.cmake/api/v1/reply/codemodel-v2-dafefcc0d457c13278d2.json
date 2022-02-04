@@ -1001,14 +1001,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Debug-e51f27ff2d565974f376.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-634f9e622bd15179c565.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Multislope::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Multislope-Debug-1e5c7838bc8faba6e882.json",
+					"jsonFile" : "target-Multislope-Debug-799040ccd35f03712043.json",
 					"name" : "Multislope",
 					"projectIndex" : 0
 				},
@@ -1029,7 +1029,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "PioasmBuild::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PioasmBuild-Debug-9845e245867392a29e8d.json",
+					"jsonFile" : "target-PioasmBuild-Debug-2e89e524b447b9555bf8.json",
 					"name" : "PioasmBuild",
 					"projectIndex" : 0
 				},

@@ -12,7 +12,7 @@
 		],
 		"files" : 
 		[
-			"/usr/share/cmake-3.21/Modules/ExternalProject.cmake",
+			"/usr/share/cmake-3.22/Modules/ExternalProject.cmake",
 			"/home/dmytro/Documents/pico/pico-sdk/tools/FindPioasm.cmake",
 			"/home/dmytro/Documents/pico/pico-sdk/tools/CMakeLists.txt",
 			"CMakeLists.txt"
@@ -53,7 +53,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3514,
+				"line" : 3530,
 				"parent" : 5
 			}
 		]
