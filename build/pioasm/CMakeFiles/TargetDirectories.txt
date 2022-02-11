@@ -1,3 +1,0 @@
-/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/build/pioasm/CMakeFiles/pioasm.dir
-/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/build/pioasm/CMakeFiles/edit_cache.dir
-/home/dmytro/Documents/projects/6.5-Digit-Multislope-ADC/build/pioasm/CMakeFiles/rebuild_cache.dir
