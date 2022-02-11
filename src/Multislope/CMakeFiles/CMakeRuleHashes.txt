@@ -1,9 +1,11 @@
 # Hashes of file build rules.
 04fc9d57caa2d9ab8ac4a23b9c73007c CMakeFiles/ELF2UF2Build
 20ceef7220d6db5eb3ce190e6b458553 CMakeFiles/ELF2UF2Build-complete
+04fc9d57caa2d9ab8ac4a23b9c73007c CMakeFiles/Multislope_debugclock_pio_h
 04fc9d57caa2d9ab8ac4a23b9c73007c CMakeFiles/Multislope_ms_pio_h
 04fc9d57caa2d9ab8ac4a23b9c73007c CMakeFiles/PioasmBuild
 a7f69d94d634174aff9827b8b62c1f7f CMakeFiles/PioasmBuild-complete
+5149d60aa4ad956772ed0bb79613c2ea debugclock.pio.h
 4e7ee8f25fbaa4f474f88b5eadc73c69 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 fc1efad699ae617535f198b8d6061063 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 505907b59db900c23d4970f529601fb2 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
