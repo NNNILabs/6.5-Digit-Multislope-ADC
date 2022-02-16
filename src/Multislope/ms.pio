@@ -17,8 +17,8 @@ rundown:
     mov X, !NULL        side 0                ; set x as pre rundown counter
     set pins 2          side 0                ; turn on negative reference
 repeat:
+    jmp pin RdStart     side 0
     jmp X-- repeat      side 0
-    jmp pin repeat      side 0
 RdStart:
     set pins 1          side 0
     in X, 32            side 0
