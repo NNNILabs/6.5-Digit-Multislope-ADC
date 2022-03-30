@@ -21,7 +21,7 @@ int main()
     gpio_init(ledPin);
     gpio_set_dir(ledPin, GPIO_OUT);
 
-    float div = 10;//(float)clock_get_hz(clk_sys) / pioFrequency;
+    float div = 10; //100MHz main and 10MHz PIO for testing, div = 20 for real thing
     /*
     Multislope timings
     Processor clock     : 96Mhz
@@ -40,7 +40,7 @@ int main()
 
     while (true)
     {
-        pio_sm_put(pio, sm, 1);
+        pio_sm_put(pio, sm, 5000);
         gpio_put(ledPin, 1);
         sleep_ms(1000);
         pio_sm_put(pio, sm, 0);

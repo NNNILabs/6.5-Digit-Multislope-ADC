@@ -1325,8 +1325,8 @@ pico-sdk/tools/clean:
 # Target rules for target CMakeFiles/multislope.dir
 
 # All Build rule for target.
-CMakeFiles/multislope.dir/all: CMakeFiles/ELF2UF2Build.dir/all
 CMakeFiles/multislope.dir/all: CMakeFiles/multislope_ms_pio_h.dir/all
+CMakeFiles/multislope.dir/all: CMakeFiles/ELF2UF2Build.dir/all
 CMakeFiles/multislope.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\multislope.dir\build.make CMakeFiles/multislope.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\multislope.dir\build.make CMakeFiles/multislope.dir/build

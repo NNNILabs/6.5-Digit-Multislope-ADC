@@ -14,10 +14,10 @@
 			"target_link_libraries",
 			"pico_define_boot_stage2",
 			"add_dependencies",
+			"pico_generate_pio_header",
 			"find_package",
 			"pico_add_uf2_output",
 			"pico_add_extra_outputs",
-			"pico_generate_pio_header",
 			"target_compile_definitions",
 			"target_include_directories"
 		],
@@ -25,8 +25,8 @@
 		[
 			"CMakeLists.txt",
 			"C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/boot_stage2/CMakeLists.txt",
-			"C:/VSARM/sdk/pico/pico-sdk/tools/FindELF2UF2.cmake",
 			"C:/VSARM/sdk/pico/pico-sdk/tools/CMakeLists.txt",
+			"C:/VSARM/sdk/pico/pico-sdk/tools/FindELF2UF2.cmake",
 			"C:/VSARM/sdk/pico/pico-sdk/src/rp2_common.cmake"
 		],
 		"nodes" : 
@@ -62,43 +62,43 @@
 				"parent" : 4
 			},
 			{
-				"command" : 6,
-				"file" : 0,
-				"line" : 20,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 4,
-				"line" : 45,
-				"parent" : 6
-			},
-			{
 				"command" : 4,
-				"file" : 3,
-				"line" : 40,
-				"parent" : 7
-			},
-			{
-				"file" : 2,
-				"parent" : 8
-			},
-			{
-				"command" : 3,
-				"file" : 2,
-				"line" : 41,
-				"parent" : 9
-			},
-			{
-				"command" : 7,
 				"file" : 0,
 				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
-				"file" : 3,
+				"file" : 2,
 				"line" : 28,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 45,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 40,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 41,
 				"parent" : 11
 			},
 			{
@@ -111,13 +111,13 @@
 				"command" : 8,
 				"file" : 4,
 				"line" : 28,
-				"parent" : 6
+				"parent" : 8
 			},
 			{
 				"command" : 9,
-				"file" : 3,
+				"file" : 2,
 				"line" : 33,
-				"parent" : 11
+				"parent" : 6
 			}
 		]
 	},
@@ -1203,12 +1203,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 10,
-			"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df"
+			"backtrace" : 7,
+			"id" : "multislope_ms_pio_h::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 12,
-			"id" : "multislope_ms_pio_h::@6890427a1f51a3e7e1df"
+			"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 13,

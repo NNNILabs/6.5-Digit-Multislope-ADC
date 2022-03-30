@@ -24,13 +24,13 @@ static const uint16_t ms_program_instructions[] = {
     0xa047, //  4: mov    y, osr                     
     0x006e, //  5: jmp    !y, 14                     
     0xa842, //  6: nop                           [8] 
-    0x0000, //  7: jmp    0                          
+    0x0080, //  7: jmp    y--, 0                     
     0x80a0, //  8: pull   block                      
     0xa047, //  9: mov    y, osr                     
     0x006e, // 10: jmp    !y, 14                     
     0xa842, // 11: nop                           [8] 
     0xe001, // 12: set    pins, 1                    
-    0x0000, // 13: jmp    0                          
+    0x0080, // 13: jmp    y--, 0                     
     0xe001, // 14: set    pins, 1                    
     0x00d2, // 15: jmp    pin, 18                    
     0x006e, // 16: jmp    !y, 14                     

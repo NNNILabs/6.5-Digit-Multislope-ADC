@@ -9,14 +9,14 @@
         mov Y,    OSR
         jmp !Y,   dithering
         nop                  [8]  ;11 without modifications
-        jmp       beginning 
+        jmp Y--,  beginning 
     PWMhigh:
         pull
         mov Y,    OSR
         jmp !Y,   dithering
         nop                  [8]  ;11 without modifications
         set pins, 1
-        jmp       beginning
+        jmp Y--,  beginning
     dithering:
         set pins, 1
         jmp pin,  dlow
