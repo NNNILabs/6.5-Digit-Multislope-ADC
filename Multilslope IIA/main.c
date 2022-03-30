@@ -13,6 +13,8 @@ int main()
     static const uint COMP = 19;
     static const uint MEAS = 17;
 
+    uint32_t pushVar = 0;
+
     PIO pio = pio0;
 
     uint sm = pio_claim_unused_sm(pio, true);
@@ -40,10 +42,12 @@ int main()
 
     while (true)
     {
-        pio_sm_put(pio, sm, 5000);
+        pushVar = 5000;
+        pio_sm_put(pio, sm, pushVar);
         gpio_put(ledPin, 1);
         sleep_ms(1000);
-        pio_sm_put(pio, sm, 0);
+        pushVar = 0;
+        pio_sm_put(pio, sm, pushVar);
         gpio_put(ledPin, 0);
         sleep_ms(1000);
     }
