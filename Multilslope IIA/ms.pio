@@ -5,12 +5,12 @@
         set pins, 2
         jmp pin,  PWMhigh
         set pins, 1
-        mov Y,    OSR
+        out Y,    32
         jmp !Y,   dithering
         nop                  [9]  ;11 without modifications
         jmp Y--,  beginning 
     PWMhigh:
-        mov Y,    OSR
+        out Y,    32
         jmp !Y,   dithering
         nop                  [9]  ;11 without modifications
         set pins, 1
@@ -18,12 +18,12 @@
     dithering:
         set pins, 1
         jmp pin,  dlow
-        mov Y,    OSR
+        out Y,    32
         jmp !Y,   dithering
         jmp       beginning
     dlow:
         set pins, 2
-        mov Y,    OSR
+        out Y,    32
         jmp !Y,   dithering
         jmp       beginning
 .wrap

@@ -1160,9 +1160,9 @@ Discarded input sections
                 0x00000000       0x40 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .rodata.__func__.0
                 0x00000000       0x13 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .text          0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\ccMQFlKd.o
- .data          0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\ccMQFlKd.o
- .bss           0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\ccMQFlKd.o
+ .text          0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\ccmNeL8A.o
+ .data          0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\ccmNeL8A.o
+ .bss           0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\ccmNeL8A.o
  .data          0x00000000        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1424,7 +1424,7 @@ LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\vivek\AppData\Local\Temp\ccMQFlKd.o
+ .boot2         0x10000000      0x100 C:\Users\vivek\AppData\Local\Temp\ccmNeL8A.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2385,7 +2385,7 @@ LOAD CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_st
 LOAD CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-LOAD C:\Users\vivek\AppData\Local\Temp\ccMQFlKd.o
+LOAD C:\Users\vivek\AppData\Local\Temp\ccmNeL8A.o
 LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2478,7 +2478,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000592       0x2c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
-                0x000005be       0x22 C:\Users\vivek\AppData\Local\Temp\ccMQFlKd.o
+                0x000005be       0x22 C:\Users\vivek\AppData\Local\Temp\ccmNeL8A.o
  .ARM.attributes
                 0x000005e0       0x1e c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

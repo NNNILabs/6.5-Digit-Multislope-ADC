@@ -17,25 +17,25 @@
 
 static const uint16_t ms_program_instructions[] = {
             //     .wrap_target
-    0xe002, //  0: set    pins, 2                    
+    0xe001, //  0: set    pins, 1                    
     0x00c7, //  1: jmp    pin, 7                     
-    0xe001, //  2: set    pins, 1                    
-    0xa047, //  3: mov    y, osr                     
+    0xe002, //  2: set    pins, 2                    
+    0x6040, //  3: out    y, 32                      
     0x006c, //  4: jmp    !y, 12                     
     0xa942, //  5: nop                           [9] 
     0x0080, //  6: jmp    y--, 0                     
-    0xa047, //  7: mov    y, osr                     
+    0x6040, //  7: out    y, 32                      
     0x006c, //  8: jmp    !y, 12                     
     0xa942, //  9: nop                           [9] 
-    0xe001, // 10: set    pins, 1                    
+    0xe002, // 10: set    pins, 2                    
     0x0080, // 11: jmp    y--, 0                     
-    0xe001, // 12: set    pins, 1                    
+    0xe002, // 12: set    pins, 2                    
     0x00d1, // 13: jmp    pin, 17                    
-    0xa047, // 14: mov    y, osr                     
+    0x6040, // 14: out    y, 32                      
     0x006c, // 15: jmp    !y, 12                     
     0x0000, // 16: jmp    0                          
-    0xe002, // 17: set    pins, 2                    
-    0xa047, // 18: mov    y, osr                     
+    0xe001, // 17: set    pins, 1                    
+    0x6040, // 18: out    y, 32                      
     0x006c, // 19: jmp    !y, 12                     
     0x0000, // 20: jmp    0                          
             //     .wrap
