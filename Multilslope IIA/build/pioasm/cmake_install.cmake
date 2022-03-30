@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

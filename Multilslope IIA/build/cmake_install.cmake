@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/vivek/Desktop/Code/Multilslope IIA
+# Install script for directory: C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pico-sdk/cmake_install.cmake")
+  include("C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

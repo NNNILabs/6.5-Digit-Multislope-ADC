@@ -1013,7 +1013,7 @@
 				{
 					"directoryIndex" : 43,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default-Debug-37e59a57b24434e78e95.json",
+					"jsonFile" : "target-bs2_default-Debug-ad20a8fbde1b72b85583.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
@@ -1034,7 +1034,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "multislope::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-multislope-Debug-49771e4bfc05e7bf66c1.json",
+					"jsonFile" : "target-multislope-Debug-22afe4fb295efc262e99.json",
 					"name" : "multislope",
 					"projectIndex" : 0
 				},
@@ -1051,8 +1051,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build",
-		"source" : "C:/Users/vivek/Desktop/Code/Multilslope IIA"
+		"build" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build",
+		"source" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA"
 	},
 	"version" : 
 	{

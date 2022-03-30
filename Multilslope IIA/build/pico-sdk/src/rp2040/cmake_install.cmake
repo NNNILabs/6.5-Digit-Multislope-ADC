@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
-  include("C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
+  include("C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
+  include("C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
 
 endif()
 

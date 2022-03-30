@@ -1,5 +1,5 @@
-C:/Users/vivek/Desktop/Code/Multilslope IIA/build/elf2uf2/CMakeFiles/elf2uf2.dir
-C:/Users/vivek/Desktop/Code/Multilslope IIA/build/elf2uf2/CMakeFiles/edit_cache.dir
-C:/Users/vivek/Desktop/Code/Multilslope IIA/build/elf2uf2/CMakeFiles/rebuild_cache.dir
-C:/Users/vivek/Desktop/Code/Multilslope IIA/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
-C:/Users/vivek/Desktop/Code/Multilslope IIA/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
+C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/elf2uf2/CMakeFiles/elf2uf2.dir
+C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/elf2uf2/CMakeFiles/edit_cache.dir
+C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

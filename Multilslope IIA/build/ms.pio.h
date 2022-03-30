@@ -13,36 +13,38 @@
 // -- //
 
 #define ms_wrap_target 0
-#define ms_wrap 18
+#define ms_wrap 20
 
 static const uint16_t ms_program_instructions[] = {
             //     .wrap_target
     0xe002, //  0: set    pins, 2                    
-    0x00c7, //  1: jmp    pin, 7                     
+    0x00c8, //  1: jmp    pin, 8                     
     0xe001, //  2: set    pins, 1                    
-    0xa046, //  3: mov    y, isr                     
-    0x006c, //  4: jmp    !y, 12                     
-    0xa942, //  5: nop                           [9] 
-    0x0000, //  6: jmp    0                          
-    0xa046, //  7: mov    y, isr                     
-    0x006c, //  8: jmp    !y, 12                     
-    0xa942, //  9: nop                           [9] 
-    0xe001, // 10: set    pins, 1                    
-    0x0000, // 11: jmp    0                          
+    0x80a0, //  3: pull   block                      
+    0xa047, //  4: mov    y, osr                     
+    0x006e, //  5: jmp    !y, 14                     
+    0xa842, //  6: nop                           [8] 
+    0x0000, //  7: jmp    0                          
+    0x80a0, //  8: pull   block                      
+    0xa047, //  9: mov    y, osr                     
+    0x006e, // 10: jmp    !y, 14                     
+    0xa842, // 11: nop                           [8] 
     0xe001, // 12: set    pins, 1                    
-    0x00d0, // 13: jmp    pin, 16                    
-    0x006c, // 14: jmp    !y, 12                     
-    0x0000, // 15: jmp    0                          
-    0xe002, // 16: set    pins, 2                    
-    0x006c, // 17: jmp    !y, 12                     
-    0x0000, // 18: jmp    0                          
+    0x0000, // 13: jmp    0                          
+    0xe001, // 14: set    pins, 1                    
+    0x00d2, // 15: jmp    pin, 18                    
+    0x006e, // 16: jmp    !y, 14                     
+    0x0000, // 17: jmp    0                          
+    0xe002, // 18: set    pins, 2                    
+    0x006e, // 19: jmp    !y, 14                     
+    0x0000, // 20: jmp    0                          
             //     .wrap
 };
 
 #if !PICO_NO_HARDWARE
 static const struct pio_program ms_program = {
     .instructions = ms_program_instructions,
-    .length = 19,
+    .length = 21,
     .origin = -1,
 };
 
@@ -62,7 +64,7 @@ static inline pio_sm_config ms_program_get_default_config(uint offset) {
         sm_config_set_sideset_pins(&c, sideSetPin);
         sm_config_set_jmp_pin(&c, jmpPin);
         sm_config_set_clkdiv(&c, div);
-        sm_config_set_out_shift(&c, false, true, 32);
+        //sm_config_set_out_shift(&c, false, true, 32);
         pio_sm_set_consecutive_pindirs(pio, sm, setPin, 2, true);
         pio_sm_set_consecutive_pindirs(pio, sm, sideSetPin, 1, true);
         pio_sm_init(pio, sm, offset, &c);

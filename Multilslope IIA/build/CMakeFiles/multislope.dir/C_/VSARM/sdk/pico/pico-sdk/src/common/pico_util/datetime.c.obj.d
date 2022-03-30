@@ -18,9 +18,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/dateti
  c:\vsarm\armcc\11.2\ 2022.02\arm-none-eabi\include\sys\_intsup.h \
  c:\vsarm\armcc\11.2\ 2022.02\arm-none-eabi\include\sys\_stdint.h \
  c:\vsarm\armcc\11.2\ 2022.02\lib\gcc\arm-none-eabi\11.2.1\include\stddef.h \
- C:\Users\vivek\Desktop\Code\Multilslope\ IIA\build\generated\pico_base/pico/version.h \
+ C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope\ IIA\build\generated\pico_base/pico/version.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\vivek\Desktop\Code\Multilslope\ IIA\build\generated\pico_base/pico/config_autogen.h \
+ C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope\ IIA\build\generated\pico_base/pico/config_autogen.h \
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \

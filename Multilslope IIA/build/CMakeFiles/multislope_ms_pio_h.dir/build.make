@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\vivek\Desktop\Code\Multilslope IIA"
+CMAKE_SOURCE_DIR = "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\vivek\Desktop\Code\Multilslope IIA\build"
+CMAKE_BINARY_DIR = "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build"
 
 # Utility rule file for multislope_ms_pio_h.
 
@@ -68,8 +68,8 @@ include CMakeFiles/multislope_ms_pio_h.dir/progress.make
 CMakeFiles/multislope_ms_pio_h: ms.pio.h
 
 ms.pio.h: ../ms.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating ms.pio.h"
-	pioasm\pioasm.exe -o c-sdk "C:/Users/vivek/Desktop/Code/Multilslope IIA/ms.pio" "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/ms.pio.h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating ms.pio.h"
+	pioasm\pioasm.exe -o c-sdk "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/ms.pio" "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/ms.pio.h"
 
 multislope_ms_pio_h: CMakeFiles/multislope_ms_pio_h
 multislope_ms_pio_h: ms.pio.h
@@ -85,6 +85,6 @@ CMakeFiles/multislope_ms_pio_h.dir/clean:
 .PHONY : CMakeFiles/multislope_ms_pio_h.dir/clean
 
 CMakeFiles/multislope_ms_pio_h.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\vivek\Desktop\Code\Multilslope IIA" "C:\Users\vivek\Desktop\Code\Multilslope IIA" "C:\Users\vivek\Desktop\Code\Multilslope IIA\build" "C:\Users\vivek\Desktop\Code\Multilslope IIA\build" "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles\multislope_ms_pio_h.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles\multislope_ms_pio_h.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/multislope_ms_pio_h.dir/depend
 

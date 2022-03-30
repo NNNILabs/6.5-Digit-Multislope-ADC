@@ -22,9 +22,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critic
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -61,9 +61,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_c
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -101,9 +101,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -141,9 +141,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -205,9 +205,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stdbool.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/assert.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -250,9 +250,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeou
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -286,9 +286,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/dateti
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -359,9 +359,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -402,9 +402,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -441,9 +441,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_cla
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -475,9 +475,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clo
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -529,9 +529,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpi
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -573,9 +573,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -617,9 +617,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -662,9 +662,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -703,9 +703,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_syn
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -738,9 +738,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_tim
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -779,9 +779,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uar
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -823,9 +823,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vre
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -879,9 +879,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_wat
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -914,9 +914,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xos
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -953,9 +953,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -994,9 +994,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1065,9 +1065,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/f
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1149,9 +1149,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1179,9 +1179,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platfor
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1237,9 +1237,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/types.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/error.h
@@ -1284,9 +1284,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1341,9 +1341,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standar
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/config.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/machine/ieeefp.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1423,9 +1423,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/s
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/stdint.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1472,9 +1472,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_u
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1520,9 +1520,9 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1556,7 +1556,7 @@ CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/
  C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 
 CMakeFiles/multislope.dir/main.c.obj
- C:/Users/vivek/Desktop/Code/Multilslope IIA/main.c
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/main.c
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/types.h
@@ -1575,9 +1575,9 @@ CMakeFiles/multislope.dir/main.c.obj
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_intsup.h
  C:/VSARM/armcc/11.2 2022.02/arm-none-eabi/include/sys/_stdint.h
  C:/VSARM/armcc/11.2 2022.02/lib/gcc/arm-none-eabi/11.2.1/include/stddef.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/version.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/version.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/generated/pico_base/pico/config_autogen.h
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
@@ -1610,5 +1610,5 @@ CMakeFiles/multislope.dir/main.c.obj
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
  C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
- C:/Users/vivek/Desktop/Code/Multilslope IIA/build/ms.pio.h
+ C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/ms.pio.h
 

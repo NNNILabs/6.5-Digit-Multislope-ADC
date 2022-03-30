@@ -5,15 +5,15 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/VSARM/sdk/pico/pico-sdk/tools/pioasm"
-  "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm"
-  "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm"
-  "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/tmp"
-  "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp"
-  "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src"
-  "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp"
+  "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm"
+  "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm"
+  "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/tmp"
+  "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp"
+  "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src"
+  "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/${subDir}")
 endforeach()

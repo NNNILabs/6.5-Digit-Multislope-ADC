@@ -188,7 +188,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x44 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .debug_line    0x00000000      0x667 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_str     0x00000000      0x539 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_str     0x00000000      0x552 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .debug_frame   0x00000000       0x78 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .ARM.attributes
@@ -211,7 +211,7 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x12 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
  .debug_aranges
                 0x00000000       0x38 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
- .debug_str     0x00000000       0x48 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+ .debug_str     0x00000000       0x61 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
  .debug_rnglists
                 0x00000000       0x25 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
  .ARM.attributes
@@ -277,7 +277,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xb6 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .debug_line    0x00000000      0x516 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
- .debug_str     0x00000000      0x3e0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+ .debug_str     0x00000000      0x3f9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .debug_frame   0x00000000       0x6c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
  .ARM.attributes
@@ -333,7 +333,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xb5 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .debug_line    0x00000000      0x92f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
- .debug_str     0x00000000      0x4e8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+ .debug_str     0x00000000      0x501 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .debug_frame   0x00000000       0xe4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/sem.c.obj
  .ARM.attributes
@@ -392,7 +392,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x1f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .debug_line    0x00000000      0x28e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_str     0x00000000      0x2c2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_str     0x00000000      0x2db CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .debug_frame   0x00000000       0x50 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
  .ARM.attributes
@@ -419,7 +419,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .debug_line    0x00000000      0x1f4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
- .debug_str     0x00000000      0x210 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+ .debug_str     0x00000000      0x229 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .debug_frame   0x00000000       0x38 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/datetime.c.obj
  .ARM.attributes
@@ -476,7 +476,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xca CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .debug_line    0x00000000      0x9e0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
- .debug_str     0x00000000      0x467 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
+ .debug_str     0x00000000      0x480 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .debug_frame   0x00000000      0x12c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/queue.c.obj
  .ARM.attributes
@@ -562,7 +562,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_line    0x00000000      0x295 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
- .debug_str     0x00000000      0x32b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+ .debug_str     0x00000000      0x344 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_frame   0x00000000       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
  .ARM.attributes
@@ -767,7 +767,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x24c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .debug_line    0x00000000     0x2c53 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_str     0x00000000      0x50d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_str     0x00000000      0x526 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .debug_frame   0x00000000      0x440 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
  .ARM.attributes
@@ -953,7 +953,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x20e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_line    0x00000000     0x279d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .debug_str     0x00000000      0x520 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .debug_str     0x00000000      0x539 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .debug_frame   0x00000000      0x3a4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
  .ARM.attributes
@@ -993,7 +993,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x37 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .debug_line    0x00000000      0x1e1 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_str     0x00000000      0x211 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_str     0x00000000      0x22a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .debug_frame   0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .ARM.attributes
@@ -1023,7 +1023,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x31 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .debug_line    0x00000000      0x262 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
- .debug_str     0x00000000      0x390 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+ .debug_str     0x00000000      0x3a9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .debug_frame   0x00000000       0xa0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
  .ARM.attributes
@@ -1120,7 +1120,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x49 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .debug_line    0x00000000      0x77c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_str     0x00000000      0x6f6 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_str     0x00000000      0x70f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .comment       0x00000000       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .debug_frame   0x00000000       0xb4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
@@ -1160,9 +1160,9 @@ Discarded input sections
                 0x00000000       0x40 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .rodata.__func__.0
                 0x00000000       0x13 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .text          0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\ccyfVIRb.o
- .data          0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\ccyfVIRb.o
- .bss           0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\ccyfVIRb.o
+ .text          0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\cco9jjea.o
+ .data          0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\cco9jjea.o
+ .bss           0x00000000        0x0 C:\Users\vivek\AppData\Local\Temp\cco9jjea.o
  .data          0x00000000        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1424,11 +1424,11 @@ LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\vivek\AppData\Local\Temp\ccyfVIRb.o
+ .boot2         0x10000000      0x100 C:\Users\vivek\AppData\Local\Temp\cco9jjea.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x46c8
+.text           0x10000100     0x46b8
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1494,412 +1494,412 @@ LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/
  .text.frame_dummy
                 0x100002ec       0x24 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.ms_program_init
-                0x10000310      0x138 CMakeFiles/multislope.dir/main.c.obj
+                0x10000310      0x128 CMakeFiles/multislope.dir/main.c.obj
                 0x10000310                ms_program_init
- .text.main     0x10000448       0xb8 CMakeFiles/multislope.dir/main.c.obj
-                0x10000448                main
+ .text.main     0x10000438       0xb8 CMakeFiles/multislope.dir/main.c.obj
+                0x10000438                main
  .text.set_sys_clock_pll
-                0x10000500       0x78 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-                0x10000500                set_sys_clock_pll
+                0x100004f0       0x78 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+                0x100004f0                set_sys_clock_pll
  .text.check_sys_clock_khz
-                0x10000578       0xb0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-                0x10000578                check_sys_clock_khz
+                0x10000568       0xb0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+                0x10000568                check_sys_clock_khz
  .text.gpio_set_function
-                0x10000628       0x30 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000628                gpio_set_function
+                0x10000618       0x30 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000618                gpio_set_function
  .text.gpio_init
-                0x10000658       0x16 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000658                gpio_init
- *fill*         0x1000066e        0x2 
+                0x10000648       0x16 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000648                gpio_init
+ *fill*         0x1000065e        0x2 
  .text.hw_claim_lock
-                0x10000670       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000670                hw_claim_lock
+                0x10000660       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000660                hw_claim_lock
  .text.hw_claim_unlock
-                0x10000688       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000688                hw_claim_unlock
+                0x10000678       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000678                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x1000069c       0x32 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x1000069c                hw_claim_or_assert
+                0x1000068c       0x32 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000068c                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x100006ce       0x50 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100006ce                hw_claim_unused_from_range
- *fill*         0x1000071e        0x2 
+                0x100006be       0x50 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100006be                hw_claim_unused_from_range
+ *fill*         0x1000070e        0x2 
  .text.running_on_fpga
-                0x10000720       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x10000720                running_on_fpga
+                0x10000710       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000710                running_on_fpga
  .text.spin_locks_reset
-                0x10000734       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000734                spin_locks_reset
+                0x10000724       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000724                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000754       0x1c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000754                next_striped_spin_lock_num
+                0x10000744       0x1c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000744                next_striped_spin_lock_num
  .text.alarm_pool_post_alloc_init
-                0x10000770       0x40 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000760       0x40 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until_callback
-                0x100007b0       0x30 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100007a0       0x30 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x100007e0       0x78 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100007e0                timer_pool_entry_comparator
+                0x100007d0       0x78 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100007d0                timer_pool_entry_comparator
  .text.ph_add_child_node
-                0x10000858       0xa0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000848       0xa0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.ph_merge_nodes
-                0x100008f8       0x3e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10000936        0x2 
+                0x100008e8       0x3e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10000926        0x2 
  .text.add_alarm_under_lock
-                0x10000938      0x16c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000928      0x16c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000aa4      0x328 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a94      0x328 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000dcc       0x38 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000dcc                alarm_pool_init_default
+                0x10000dbc       0x38 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000dbc                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10000e04       0x2c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000e04                alarm_pool_get_default
+                0x10000df4       0x2c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000df4                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10000e30      0x178 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000e30                alarm_pool_add_alarm_at
+                0x10000e20      0x178 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e20                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x10000fa8       0xfc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000fa8                sleep_until
+                0x10000f98       0xfc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f98                sleep_until
  .text.sleep_us
-                0x100010a4       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100010a4                sleep_us
+                0x10001094       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001094                sleep_us
  .text.sleep_ms
-                0x100010fc       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100010fc                sleep_ms
+                0x100010ec       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100010ec                sleep_ms
  .text.hardware_alarm_irq_handler
-                0x10001110       0x88 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001100       0x88 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001198       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001198                hardware_alarm_claim
+                0x10001188       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001188                hardware_alarm_claim
  .text.time_us_64
-                0x100011b0       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011b0                time_us_64
+                0x100011a0       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100011a0                time_us_64
  .text.busy_wait_until
-                0x100011c8       0x28 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011c8                busy_wait_until
+                0x100011b8       0x28 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100011b8                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x100011f0       0x90 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011f0                hardware_alarm_set_callback
+                0x100011e0       0x90 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100011e0                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001280       0xe8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001280                hardware_alarm_set_target
+                0x10001270       0xe8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001270                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001368       0x40 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001368                hardware_alarm_cancel
+                0x10001358       0x40 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001358                hardware_alarm_cancel
  .text.lock_init
-                0x100013a8       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x100013a8                lock_init
+                0x10001398       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10001398                lock_init
  .text.mutex_init
-                0x100013b8       0x1a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100013b8                mutex_init
+                0x100013a8       0x1a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100013a8                mutex_init
  .text.recursive_mutex_init
-                0x100013d2       0x1e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100013d2                recursive_mutex_init
+                0x100013c2       0x1e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100013c2                recursive_mutex_init
  .text.ph_add_child_node
-                0x100013f0       0xa0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100013e0       0xa0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x10001490       0x3e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x100014ce        0x2 
+                0x10001480       0x3e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x100014be        0x2 
  .text.ph_clear
-                0x100014d0       0x70 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100014d0                ph_clear
+                0x100014c0       0x70 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100014c0                ph_clear
  .text.ph_post_alloc_init
-                0x10001540        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001540                ph_post_alloc_init
- *fill*         0x1000154e        0x2 
+                0x10001530        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001530                ph_post_alloc_init
+ *fill*         0x1000153e        0x2 
  .text.ph_merge_two_pass
-                0x10001550       0xa4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001550                ph_merge_two_pass
+                0x10001540       0xa4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001540                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x100015f4      0x104 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100015e4      0x104 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x100016f8       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100016f8                ph_remove_head
+                0x100016e8       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100016e8                ph_remove_head
  .text.ph_remove_and_free_node
-                0x1000170c       0xf8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000170c                ph_remove_and_free_node
- .text._exit    0x10001804        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001804                _exit
- .text.exit     0x10001808        0x6 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001808                exit
- *fill*         0x1000180e        0x2 
+                0x100016fc       0xf8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100016fc                ph_remove_and_free_node
+ .text._exit    0x100017f4        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100017f4                _exit
+ .text.exit     0x100017f8        0x6 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100017f8                exit
+ *fill*         0x100017fe        0x2 
  .text.__assert_func
-                0x10001810       0x3c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001810                __assert_func
+                0x10001800       0x3c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001800                __assert_func
  .text.runtime_init
-                0x1000184c       0xf8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000184c                runtime_init
- .text.panic    0x10001944       0x30 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001944                panic
+                0x1000183c       0xf8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000183c                runtime_init
+ .text.panic    0x10001934       0x30 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001934                panic
  .text.clock_configure
-                0x10001974      0x104 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001974                clock_configure
+                0x10001964      0x104 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001964                clock_configure
  .text.clocks_init
-                0x10001a78      0x100 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001a78                clocks_init
+                0x10001a68      0x100 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001a68                clocks_init
  .text.clock_get_hz
-                0x10001b78        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001b78                clock_get_hz
+                0x10001b68        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001b68                clock_get_hz
  .text.set_raw_irq_handler_and_unlock
-                0x10001b84       0x28 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001b74       0x28 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.make_branch
-                0x10001bac       0x34 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001b9c       0x34 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.insert_branch_and_link
-                0x10001be0       0x40 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001bd0       0x40 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_is_enabled
-                0x10001c20       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001c20                irq_is_enabled
+                0x10001c10       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001c10                irq_is_enabled
  .text.irq_set_mask_enabled
-                0x10001c38       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001c38                irq_set_mask_enabled
+                0x10001c28       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001c28                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x10001c58        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001c58                irq_set_enabled
- *fill*         0x10001c66        0x2 
+                0x10001c48        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001c48                irq_set_enabled
+ *fill*         0x10001c56        0x2 
  .text.irq_get_vtable_handler
-                0x10001c68       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001c68                irq_get_vtable_handler
+                0x10001c58       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001c58                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10001c78       0x54 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001c78                irq_set_exclusive_handler
+                0x10001c68       0x54 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001c68                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x10001ccc      0x1ac CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001ccc                irq_remove_handler
+                0x10001cbc      0x1ac CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001cbc                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10001e78       0xf0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001e78                irq_add_tail_to_free_list
+                0x10001e68       0xf0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001e68                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10001f68       0x1c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001f68                irq_init_priorities
+                0x10001f58       0x1c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001f58                irq_init_priorities
  .text.pll_init
-                0x10001f84      0x118 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001f84                pll_init
+                0x10001f74      0x118 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001f74                pll_init
  .text.watchdog_start_tick
-                0x1000209c       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x1000209c                watchdog_start_tick
+                0x1000208c       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x1000208c                watchdog_start_tick
  .text.xosc_init
-                0x100020ac       0x28 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x100020ac                xosc_init
+                0x1000209c       0x28 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x1000209c                xosc_init
  .text._out_null
-                0x100020d4        0x2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100020c4        0x2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x100020d6        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x100020e4       0x24 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100020c6        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x100020d4       0x24 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x10002108       0xae CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100020f8       0xae CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x100021b6      0x112 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100021a6      0x112 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x100022c8       0xbc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100022b8       0xbc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x10002384       0xe2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10002466        0x2 
- .text._etoa    0x10002468      0x414 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x1000287c      0x354 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002374       0xe2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10002456        0x2 
+ .text._etoa    0x10002458      0x414 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x1000286c      0x354 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002bd0      0x650 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002bc0      0x650 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x10003220       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003220                vfctprintf
- .text          0x10003240       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10003210       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003210                vfctprintf
+ .text          0x10003230       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10003250       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003250                rom_func_lookup
+                0x10003240       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003240                rom_func_lookup
  .text.rom_data_lookup
-                0x10003260       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003260                rom_data_lookup
+                0x10003250       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003250                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10003270       0x36 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003270                rom_funcs_lookup
- *fill*         0x100032a6        0x2 
+                0x10003260       0x36 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003260                rom_funcs_lookup
+ *fill*         0x10003296        0x2 
  .text.__wrap___aeabi_idiv
-                0x100032a8       0x50 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100032a8                __wrap___aeabi_idivmod
-                0x100032a8                divmod_s32s32
-                0x100032a8                div_s32s32
-                0x100032a8                __wrap___aeabi_idiv
-                0x100032b0                divmod_s32s32_unsafe
-                0x100032dc                divmod_s32s32_savestate
+                0x10003298       0x50 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003298                __wrap___aeabi_idivmod
+                0x10003298                divmod_s32s32
+                0x10003298                div_s32s32
+                0x10003298                __wrap___aeabi_idiv
+                0x100032a0                divmod_s32s32_unsafe
+                0x100032cc                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x100032f8       0x4c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100032f8                __wrap___aeabi_uidiv
-                0x100032f8                __wrap___aeabi_uidivmod
-                0x100032f8                div_u32u32
-                0x100032f8                divmod_u32u32
-                0x10003300                divmod_u32u32_unsafe
-                0x10003328                divmod_u32u32_savestate
+                0x100032e8       0x4c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100032e8                __wrap___aeabi_uidiv
+                0x100032e8                __wrap___aeabi_uidivmod
+                0x100032e8                div_u32u32
+                0x100032e8                divmod_u32u32
+                0x100032f0                divmod_u32u32_unsafe
+                0x10003318                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10003344      0x434 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003344                div_s64s64
-                0x10003344                divmod_s64s64
-                0x10003344                __wrap___aeabi_ldivmod
-                0x1000337c                divmod_u64u64
-                0x1000337c                div_u64u64
-                0x1000337c                __wrap___aeabi_uldivmod
-                0x1000338c                divmod_u64u64_savestate
-                0x100033b4                divmod_s64s64_unsafe
-                0x1000343c                divmod_u64u64_unsafe
+                0x10003334      0x434 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003334                div_s64s64
+                0x10003334                divmod_s64s64
+                0x10003334                __wrap___aeabi_ldivmod
+                0x1000336c                divmod_u64u64
+                0x1000336c                div_u64u64
+                0x1000336c                __wrap___aeabi_uldivmod
+                0x1000337c                divmod_u64u64_savestate
+                0x100033a4                divmod_s64s64_unsafe
+                0x1000342c                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10003778       0x80 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003778                __wrap___aeabi_drsub
-                0x1000377e                __wrap___aeabi_dsub
-                0x10003790                __wrap___aeabi_dadd
-                0x100037a2                __wrap___aeabi_ddiv
-                0x100037de                __wrap___aeabi_dmul
+                0x10003768       0x80 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003768                __wrap___aeabi_drsub
+                0x1000376e                __wrap___aeabi_dsub
+                0x10003780                __wrap___aeabi_dadd
+                0x10003792                __wrap___aeabi_ddiv
+                0x100037ce                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x100037f8       0x6c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100037f8                __wrap___aeabi_cdrcmple
-                0x10003808                __wrap___aeabi_cdcmpeq
-                0x10003808                __wrap___aeabi_cdcmple
+                0x100037e8       0x6c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100037e8                __wrap___aeabi_cdrcmple
+                0x100037f8                __wrap___aeabi_cdcmpeq
+                0x100037f8                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10003864        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003864                __wrap___aeabi_dcmplt
+                0x10003854        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003854                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10003870       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003870                __wrap___aeabi_dcmple
+                0x10003860       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003860                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10003880       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003880                __wrap___aeabi_dcmpge
+                0x10003870       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003870                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003890        0xa CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003890                __wrap___aeabi_dcmpgt
+                0x10003880        0xa CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003880                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x1000389a       0x1c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000389a                __wrap___aeabi_dcmpun
- *fill*         0x100038b6        0x2 
+                0x1000388a       0x1c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000388a                __wrap___aeabi_dcmpun
+ *fill*         0x100038a6        0x2 
  .text.__wrap___aeabi_i2d
-                0x100038b8       0x38 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100038b8                __wrap___aeabi_ui2d
-                0x100038c0                __wrap___aeabi_i2d
+                0x100038a8       0x38 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100038a8                __wrap___aeabi_ui2d
+                0x100038b0                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x100038f0       0x48 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100038f0                double2int_z
-                0x100038f0                __wrap___aeabi_d2iz
+                0x100038e0       0x48 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100038e0                double2int_z
+                0x100038e0                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10003938       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003938                __wrap___aeabi_d2uiz
-                0x10003938                double2uint
+                0x10003928       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003928                __wrap___aeabi_d2uiz
+                0x10003928                double2uint
  .text.__aeabi_double_init
-                0x10003950       0xc8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003950                __aeabi_double_init
+                0x10003940       0xc8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003940                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003a18       0x34 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003a18                double_table_shim_on_use_helper
+                0x10003a08       0x34 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003a08                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10003a4c       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003a4c                drsub_shim
-                0x10003a52                dsub_shim
+                0x10003a3c       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003a3c                drsub_shim
+                0x10003a42                dsub_shim
  .text.dadd_shim
-                0x10003a5c      0x15c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003a5c                dadd_shim
+                0x10003a4c      0x15c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003a4c                dadd_shim
  .text.dmul_shim
-                0x10003bb8      0x15c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003bb8                dmul_shim
+                0x10003ba8      0x15c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003ba8                dmul_shim
  .text.ddiv_shim
-                0x10003d14      0x1b0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003d14                ddiv_shim
+                0x10003d04      0x1b0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003d04                ddiv_shim
  .text.double2uint_shim
-                0x10003ec4        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003ec4                double2uint_shim
-                0x10003ec6                double2ufix_shim
- *fill*         0x10003ed2        0x2 
+                0x10003eb4        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003eb4                double2uint_shim
+                0x10003eb6                double2ufix_shim
+ *fill*         0x10003ec2        0x2 
  .text.double2uint64_shim
-                0x10003ed4       0x70 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003ed4                double2uint64_shim
-                0x10003ed6                double2ufix64_shim
-                0x10003ef6                d2fix_a
+                0x10003ec4       0x70 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003ec4                double2uint64_shim
+                0x10003ec6                double2ufix64_shim
+                0x10003ee6                d2fix_a
  .text.dunpacks
-                0x10003f44       0x3c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003f44                dunpacks
+                0x10003f34       0x3c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003f34                dunpacks
  .text.__aeabi_lmul
-                0x10003f80       0x32 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10003f80                __wrap___aeabi_lmul
- *fill*         0x10003fb2        0x2 
+                0x10003f70       0x32 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10003f70                __wrap___aeabi_lmul
+ *fill*         0x10003fa2        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x10003fb4       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10003fb4                __wrap___aeabi_frsub
-                0x10003fba                __wrap___aeabi_fsub
-                0x10003fc4                __wrap___aeabi_fadd
-                0x10003fce                __wrap___aeabi_fdiv
-                0x10003ffa                __wrap___aeabi_fmul
+                0x10003fa4       0x58 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10003fa4                __wrap___aeabi_frsub
+                0x10003faa                __wrap___aeabi_fsub
+                0x10003fb4                __wrap___aeabi_fadd
+                0x10003fbe                __wrap___aeabi_fdiv
+                0x10003fea                __wrap___aeabi_fmul
  .text.__wrap___aeabi_ui2f
-                0x1000400c        0xa CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x1000400c                __wrap___aeabi_ui2f
- *fill*         0x10004016        0x2 
+                0x10003ffc        0xa CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10003ffc                __wrap___aeabi_ui2f
+ *fill*         0x10004006        0x2 
  .text.__wrap___aeabi_i2f
-                0x10004018       0x44 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10004018                __wrap___aeabi_i2f
+                0x10004008       0x44 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10004008                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2uiz
-                0x1000405c       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x1000405c                __wrap___aeabi_f2uiz
+                0x1000404c       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x1000404c                __wrap___aeabi_f2uiz
  .text.__aeabi_float_init
-                0x1000406c       0xfc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x1000406c                __aeabi_float_init
+                0x1000405c       0xfc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x1000405c                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10004168       0x34 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10004168                float_table_shim_on_use_helper
- .text          0x1000419c       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000419c                __aeabi_mem_init
- .text.memset   0x100041ac        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100041ac                __wrap_memset
- .text.memcpy   0x100041b8        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100041b8                __wrap_memcpy
-                0x100041b8                __wrap___aeabi_memcpy
+                0x10004158       0x34 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10004158                float_table_shim_on_use_helper
+ .text          0x1000418c       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x1000418c                __aeabi_mem_init
+ .text.memset   0x1000419c        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x1000419c                __wrap_memset
+ .text.memcpy   0x100041a8        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100041a8                __wrap_memcpy
+                0x100041a8                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x100041c4        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x100041d2        0x2 
+                0x100041b4        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100041c2        0x2 
  .text.stdio_out_chars_crlf
-                0x100041d4       0x80 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100041c4       0x80 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x10004254       0x44 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004244       0x44 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10004298       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004288       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x100042b8       0x30 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100042b8                stdout_serialize_begin
+                0x100042a8       0x30 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100042a8                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x100042e8       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100042e8                stdout_serialize_end
+                0x100042d8       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100042d8                stdout_serialize_end
  .text.stdio_put_string
-                0x100042f8       0x98 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100042e8       0x98 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_flush
-                0x10004390       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004390                stdio_flush
+                0x10004380       0x20 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004380                stdio_flush
  .text.__wrap_puts
-                0x100043b0       0x1e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100043b0                __wrap_puts
- *fill*         0x100043ce        0x2 
+                0x100043a0       0x1e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100043a0                __wrap_puts
+ *fill*         0x100043be        0x2 
  .text.__wrap_vprintf
-                0x100043d0       0x44 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100043d0                __wrap_vprintf
+                0x100043c0       0x44 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100043c0                __wrap_vprintf
  .text.__wrap_printf
-                0x10004414       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004414                __wrap_printf
+                0x10004404       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004404                __wrap_printf
  .text._pio_can_add_program_at_offset
-                0x1000442c       0x3c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x1000441c       0x3c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .text._pio_find_offset_for_program
-                0x10004468       0x7c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10004458       0x7c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .text._pio_add_program_at_offset
-                0x100044e4       0x78 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x100044d4       0x78 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .text.pio_claim_unused_sm
-                0x1000455c       0x3c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x1000455c                pio_claim_unused_sm
+                0x1000454c       0x3c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x1000454c                pio_claim_unused_sm
  .text.pio_add_program
-                0x10004598       0x38 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x10004598                pio_add_program
+                0x10004588       0x38 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10004588                pio_add_program
  .text.pio_sm_set_consecutive_pindirs
-                0x100045d0       0x70 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x100045d0                pio_sm_set_consecutive_pindirs
+                0x100045c0       0x70 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x100045c0                pio_sm_set_consecutive_pindirs
  .text.pio_sm_init
-                0x10004640       0xd8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x10004640                pio_sm_init
- .text.strlen   0x10004718       0x5c c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
-                0x10004718                strlen
+                0x10004630       0xd8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10004630                pio_sm_init
+ .text.strlen   0x10004708       0x5c c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+                0x10004708                strlen
  *(.fini)
- .fini          0x10004774        0x4 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crti.o
-                0x10004774                _fini
- .fini.__stub   0x10004778       0x50 linker stubs
+ .fini          0x10004764        0x4 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crti.o
+                0x10004764                _fini
+ .fini.__stub   0x10004768       0x50 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1911,253 +1911,252 @@ LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x100047c8        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x100047c8                . = ALIGN (0x4)
+ .eh_frame      0x100047b8        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x100047b8                . = ALIGN (0x4)
 
-.glue_7         0x100047c8        0x0
- .glue_7        0x100047c8        0x0 linker stubs
+.glue_7         0x100047b8        0x0
+ .glue_7        0x100047b8        0x0 linker stubs
 
-.glue_7t        0x100047c8        0x0
- .glue_7t       0x100047c8        0x0 linker stubs
+.glue_7t        0x100047b8        0x0
+ .glue_7t       0x100047b8        0x0 linker stubs
 
-.vfp11_veneer   0x100047c8        0x0
- .vfp11_veneer  0x100047c8        0x0 linker stubs
+.vfp11_veneer   0x100047b8        0x0
+ .vfp11_veneer  0x100047b8        0x0 linker stubs
 
-.v4_bx          0x100047c8        0x0
- .v4_bx         0x100047c8        0x0 linker stubs
+.v4_bx          0x100047b8        0x0
+ .v4_bx         0x100047b8        0x0 linker stubs
 
-.iplt           0x100047c8        0x0
- .iplt          0x100047c8        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x100047b8        0x0
+ .iplt          0x100047b8        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x100047c8      0xee0
+.rodata         0x100047b8      0xee0
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x100047c8       0x32 CMakeFiles/multislope.dir/main.c.obj
- *fill*         0x100047fa        0x2 
+                0x100047b8       0x32 CMakeFiles/multislope.dir/main.c.obj
+ *fill*         0x100047ea        0x2 
  .rodata.ms_program
-                0x100047fc        0x6 CMakeFiles/multislope.dir/main.c.obj
- *fill*         0x10004802        0x2 
+                0x100047ec        0x6 CMakeFiles/multislope.dir/main.c.obj
+ *fill*         0x100047f2        0x2 
  .rodata.ms_program_instructions
-                0x10004804       0x26 CMakeFiles/multislope.dir/main.c.obj
- *fill*         0x1000482a        0x2 
+                0x100047f4       0x2a CMakeFiles/multislope.dir/main.c.obj
+ *fill*         0x1000481e        0x2 
  .rodata.repeating_timer_callback.str1.4
-                0x1000482c       0x4b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004877        0x1 
+                0x10004820       0x4b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000486b        0x1 
  .rodata.alarm_pool_dump_key.str1.4
-                0x10004878       0x33 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100048ab        0x1 
+                0x1000486c       0x33 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000489f        0x1 
  .rodata.ph_add_child_node.str1.4
-                0x100048ac       0x96 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004942        0x2 
+                0x100048a0       0x96 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004936        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x10004944       0x28 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10004938       0x28 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
                                  0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x1000496c       0xe6 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a52        0x2 
+                0x10004960       0xe6 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a46        0x2 
  .rodata.alarm_pool_get_default.str1.4
-                0x10004a54       0x21 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a75        0x3 
+                0x10004a48       0x21 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a69        0x3 
  .rodata.sleep_until.str1.4
-                0x10004a78       0x4d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004ac5        0x3 
+                0x10004a6c       0x4d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004ab9        0x3 
  .rodata.__func__.10
-                0x10004ac8       0x15 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004add        0x3 
+                0x10004abc       0x15 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004ad1        0x3 
  .rodata.__func__.11
-                0x10004ae0       0x1a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004afa        0x2 
+                0x10004ad4       0x1a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004aee        0x2 
  .rodata.__func__.12
-                0x10004afc        0xa CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004b06        0x2 
+                0x10004af0        0xa CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004afa        0x2 
  .rodata.__func__.3
-                0x10004b08       0x17 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004b1f        0x1 
+                0x10004afc       0x17 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004b13        0x1 
  .rodata.__func__.4
-                0x10004b20       0x12 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004b32        0x2 
+                0x10004b14       0x12 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004b26        0x2 
  .rodata.__func__.5
-                0x10004b34        0xd CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004b41        0x3 
+                0x10004b28        0xd CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004b35        0x3 
  .rodata.__func__.6
-                0x10004b44       0x12 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004b56        0x2 
+                0x10004b38       0x12 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004b4a        0x2 
  .rodata.__func__.7
-                0x10004b58        0xf CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004b67        0x1 
+                0x10004b4c        0xf CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004b5b        0x1 
  .rodata.__func__.8
-                0x10004b68        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10004b5c        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.9
-                0x10004b74       0x15 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004b89        0x3 
+                0x10004b68       0x15 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004b7d        0x3 
  .rodata.hardware_alarm_claim.str1.4
-                0x10004b8c       0x22 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004bae        0x2 
+                0x10004b80       0x22 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004ba2        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x10004bb0       0x65 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004c15        0x3 
+                0x10004ba4       0x65 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004c09        0x3 
  .rodata.__func__.0
-                0x10004c18       0x1a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004c32        0x2 
+                0x10004c0c       0x1a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004c26        0x2 
  .rodata.str1.4
-                0x10004c34       0x89 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10004c28       0x89 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
                                  0xed (size before relaxing)
- *fill*         0x10004cbd        0x3 
+ *fill*         0x10004cb1        0x3 
  .rodata.__func__.1
-                0x10004cc0        0xb CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10004cb4        0xb CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x10004ccb       0x96 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004ccb        0x1 
+                0x10004cbf       0x96 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004cbf        0x1 
  .rodata.ph_remove_any_head.str1.4
-                0x10004ccc       0x8c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004cc0       0x8c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.ph_remove_and_free_node.str1.4
-                0x10004d58       0x26 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004d7e        0x2 
+                0x10004d4c       0x26 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004d72        0x2 
  .rodata.__func__.0
-                0x10004d80       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004d74       0x18 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__func__.1
-                0x10004d98       0x13 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004dab        0x1 
+                0x10004d8c       0x13 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004d9f        0x1 
  .rodata.__func__.2
-                0x10004dac       0x12 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004dbe        0x2 
+                0x10004da0       0x12 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004db2        0x2 
  .rodata.__func__.3
-                0x10004dc0        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004db4        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__assert_func.str1.4
-                0x10004dcc       0x3f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004dc0       0x3f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                  0x43 (size before relaxing)
- *fill*         0x10004e0b        0x1 
+ *fill*         0x10004dff        0x1 
  .rodata.runtime_init.str1.4
-                0x10004e0c       0x61 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004e6d        0x3 
+                0x10004e00       0x61 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10004e61        0x3 
  .rodata.panic.str1.4
-                0x10004e70       0x12 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004e82        0x2 
+                0x10004e64       0x12 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10004e76        0x2 
  .rodata.__func__.1
-                0x10004e84        0xd CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004e91        0x3 
+                0x10004e78        0xd CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10004e85        0x3 
  .rodata.clock_configure.str1.4
-                0x10004e94       0x57 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- *fill*         0x10004eeb        0x1 
+                0x10004e88       0x57 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ *fill*         0x10004edf        0x1 
  .rodata.__func__.1
-                0x10004eec       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10004ee0       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.make_branch.str1.4
-                0x10004efc       0x4d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004f49        0x3 
+                0x10004ef0       0x4d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004f3d        0x3 
  .rodata.irq_set_exclusive_handler.str1.4
-                0x10004f4c       0x36 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004f82        0x2 
+                0x10004f40       0x36 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004f76        0x2 
  .rodata.irq_add_shared_handler.str1.4
-                0x10004f84       0xd9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000505d        0x3 
+                0x10004f78       0xd9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10005051        0x3 
  .rodata.irq_remove_handler.str1.4
-                0x10005060       0x2a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000508a        0x2 
+                0x10005054       0x2a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000507e        0x2 
  .rodata.irq_add_tail_to_free_list.str1.4
-                0x1000508c       0x32 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10005080       0x32 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
                                  0x3a (size before relaxing)
- *fill*         0x100050be        0x2 
+ *fill*         0x100050b2        0x2 
  .rodata.__func__.0
-                0x100050c0       0x1a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100050da        0x2 
+                0x100050b4       0x1a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100050ce        0x2 
  .rodata.__func__.1
-                0x100050dc       0x17 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100050f3        0x1 
+                0x100050d0       0x17 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100050e7        0x1 
  .rodata.__func__.2
-                0x100050f4       0x13 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10005107        0x1 
+                0x100050e8       0x13 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100050fb        0x1 
  .rodata.__func__.3
-                0x10005108        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100050fc        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4
-                0x10005114        0xf CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10005123        0x1 
+                0x10005108        0xf CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10005117        0x1 
  .rodata.__func__.6
-                0x10005124       0x1a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000513e        0x2 
+                0x10005118       0x1a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10005132        0x2 
  .rodata.pll_init.str1.4
-                0x10005140       0xdb CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x1000521b        0x1 
+                0x10005134       0xdb CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x1000520f        0x1 
  .rodata.__func__.0
-                0x1000521c        0x9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x10005225        0x3 
+                0x10005210        0x9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x10005219        0x3 
  .rodata._ftoa.str1.4
-                0x10005228       0x15 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x1000523d        0x3 
+                0x1000521c       0x15 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10005231        0x3 
  .rodata._vsnprintf
-                0x10005240      0x19c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x100053dc        0x4 
+                0x10005234      0x19c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x100053e0       0x50 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100053d0       0x50 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x10005430       0xa8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10005420       0xa8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__func__.0
-                0x100054d8       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x100054c8       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x100054ec       0x7a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100054dc       0x7a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                  0x7e (size before relaxing)
- *fill*         0x10005566        0x2 
+ *fill*         0x10005556        0x2 
  .rodata.__func__.0
-                0x10005568       0x13 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x1000557b        0x1 
+                0x10005558       0x13 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x1000556b        0x1 
  .rodata.str1.4
-                0x1000557c       0x40 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000556c       0x40 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x100055bc        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100055ac        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x100055c8        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100055b8        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x100055d4        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100055c4        0xc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.3
-                0x100055e0        0x2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x100055e2        0x2 
+                0x100055d0        0x2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100055d2        0x2 
  .rodata._pio_find_offset_for_program.str1.4
-                0x100055e4       0x69 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x1000564d        0x3 
+                0x100055d4       0x69 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x1000563d        0x3 
  .rodata._pio_add_program_at_offset.str1.4
-                0x10005650       0x11 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x10005661        0x3 
+                0x10005640       0x11 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x10005651        0x3 
  .rodata.pio_claim_unused_sm.str1.4
-                0x10005664       0x24 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10005654       0x24 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .rodata.__func__.1
-                0x10005688       0x1d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x100056a8                . = ALIGN (0x4)
- *fill*         0x100056a5        0x3 
+                0x10005678       0x1d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10005698                . = ALIGN (0x4)
+ *fill*         0x10005695        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100056a8                . = ALIGN (0x4)
+                0x10005698                . = ALIGN (0x4)
 
-.rel.dyn        0x100056a8        0x0
- .rel.iplt      0x100056a8        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x10005698        0x0
+ .rel.iplt      0x10005698        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100056a8                __exidx_start = .
+                0x10005698                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100056a8                __exidx_end = .
-                0x100056a8                . = ALIGN (0x4)
-                0x100056a8                __binary_info_start = .
+                0x10005698                __exidx_end = .
+                0x10005698                . = ALIGN (0x4)
+                0x10005698                __binary_info_start = .
 
-.binary_info    0x100056a8       0x1c
+.binary_info    0x10005698       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x100056a8        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005698        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x100056ac        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000569c        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x100056b0        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100056a0        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x100056b4        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100056a4        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x100056b8        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100056a8        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x100056bc        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100056ac        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x100056c0        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100056b0        0x4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x100056c4                __binary_info_end = .
-                0x100056c4                . = ALIGN (0x4)
-                0x100056c4                __etext = .
+                0x100056b4                __binary_info_end = .
+                0x100056b4                . = ALIGN (0x4)
+                0x100056b4                __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2166,7 +2165,7 @@ LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/
                 0x20000000       0xc0 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x1ac load address 0x100056c4
+.data           0x200000c0      0x1ac load address 0x100056b4
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2246,33 +2245,33 @@ LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/
                 0x2000026c                __data_end__ = .
 
 .tm_clone_table
-                0x2000026c        0x0 load address 0x10005870
+                0x2000026c        0x0 load address 0x10005860
  .tm_clone_table
                 0x2000026c        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x2000026c        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x2000026c        0x0 load address 0x10005870
+.igot.plt       0x2000026c        0x0 load address 0x10005860
  .igot.plt      0x2000026c        0x0 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x2000026c        0x0 load address 0x10005870
+                0x2000026c        0x0 load address 0x10005860
                 0x2000026c                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10005870
+.scratch_x      0x20040000        0x0 load address 0x10005860
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x10005870                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10005860                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10005870
+.scratch_y      0x20041000        0x0 load address 0x10005860
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x10005870                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10005860                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000270      0x3cc
                 0x20000270                . = ALIGN (0x4)
@@ -2329,8 +2328,8 @@ LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10005870        0x0
-                0x10005870                __flash_binary_end = .
+.flash_end      0x10005860        0x0
+                0x10005860                __flash_binary_end = .
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2386,7 +2385,7 @@ LOAD CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_st
 LOAD CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-LOAD C:\Users\vivek\AppData\Local\Temp\ccyfVIRb.o
+LOAD C:\Users\vivek\AppData\Local\Temp\cco9jjea.o
 LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2479,7 +2478,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000592       0x2c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
-                0x000005be       0x22 C:\Users\vivek\AppData\Local\Temp\ccyfVIRb.o
+                0x000005be       0x22 C:\Users\vivek\AppData\Local\Temp\cco9jjea.o
  .ARM.attributes
                 0x000005e0       0x1e c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2517,42 +2516,42 @@ LOAD linker stubs
  .comment       0x00000057       0x58 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
  .comment       0x00000057       0x58 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp/crtend.o
 
-.debug_info     0x00000000    0x15999
- .debug_info    0x00000000     0x170c CMakeFiles/multislope.dir/main.c.obj
- .debug_info    0x0000170c      0x515 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_info    0x00001c21     0x1417 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00003038      0x69a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x000036d2      0x1fb CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x000038cd      0x5db CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00003ea8     0x3c01 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x00007aa9     0x115e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x00008c07      0x1a3 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00008daa     0x2055 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x0000adff     0x1223 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x0000c022      0xa56 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0000ca78      0xf81 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x0000d9f9     0x191b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x0000f314      0x505 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0000f819      0x4c5 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x0000fcde      0x1c7 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0000fea5     0x19b1 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00011856       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00011879      0x26d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00011ae6       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x00011b09       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x00011b2c      0x33f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x00011e6b       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x00011e8e       0x24 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x00011eb2       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x00011ed5      0x34f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x00012224       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x00012247       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x0001226a       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x0001228d      0x2b3 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x00012540     0x12fe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x0001383e     0x204c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .debug_info    0x0001588a       0x24 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
- .debug_info    0x000158ae       0xeb c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+.debug_info     0x00000000    0x1594b
+ .debug_info    0x00000000     0x16be CMakeFiles/multislope.dir/main.c.obj
+ .debug_info    0x000016be      0x515 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_info    0x00001bd3     0x1417 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x00002fea      0x69a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x00003684      0x1fb CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x0000387f      0x5db CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x00003e5a     0x3c01 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x00007a5b     0x115e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x00008bb9      0x1a3 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x00008d5c     0x2055 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0000adb1     0x1223 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x0000bfd4      0xa56 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x0000ca2a      0xf81 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0000d9ab     0x191b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x0000f2c6      0x505 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0000f7cb      0x4c5 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0000fc90      0x1c7 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0000fe57     0x19b1 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00011808       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x0001182b      0x26d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00011a98       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x00011abb       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00011ade      0x33f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x00011e1d       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x00011e40       0x24 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x00011e64       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x00011e87      0x34f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x000121d6       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x000121f9       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x0001221c       0x23 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x0001223f      0x2b3 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x000124f2     0x12fe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x000137f0     0x204c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_info    0x0001583c       0x24 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00015860       0xeb c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
 
 .debug_abbrev   0x00000000     0x45f9
  .debug_abbrev  0x00000000      0x48a CMakeFiles/multislope.dir/main.c.obj
@@ -2592,55 +2591,55 @@ LOAD linker stubs
  .debug_abbrev  0x00004569       0x90 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
 
 .debug_loclists
-                0x00000000     0x9271
+                0x00000000     0x923e
  .debug_loclists
-                0x00000000      0x481 CMakeFiles/multislope.dir/main.c.obj
+                0x00000000      0x44e CMakeFiles/multislope.dir/main.c.obj
  .debug_loclists
-                0x00000481      0x1b1 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+                0x0000044e      0x1b1 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_loclists
-                0x00000632      0x7df CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x000005ff      0x7df CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_loclists
-                0x00000e11      0x27b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000dde      0x27b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
  .debug_loclists
-                0x0000108c       0x9f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x00001059       0x9f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
  .debug_loclists
-                0x0000112b      0x157 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x000010f8      0x157 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .debug_loclists
-                0x00001282     0x1c33 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000124f     0x1c33 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .debug_loclists
-                0x00002eb5      0x585 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00002e82      0x585 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .debug_loclists
-                0x0000343a       0x4a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x00003407       0x4a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
  .debug_loclists
-                0x00003484      0xc2b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00003451      0xc2b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .debug_loclists
-                0x000040af      0xc1b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000407c      0xc1b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .debug_loclists
-                0x00004cca      0x27b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00004c97      0x27b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_loclists
-                0x00004f45      0x4d8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00004f12      0x4d8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_loclists
-                0x0000541d      0xbd2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000053ea      0xbd2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .debug_loclists
-                0x00005fef      0x1d9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x00005fbc      0x1d9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .debug_loclists
-                0x000061c8      0x1ce CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x00006195      0x1ce CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_loclists
-                0x00006396       0x48 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x00006363       0x48 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_loclists
-                0x000063de     0x1590 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000063ab     0x1590 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .debug_loclists
-                0x0000796e       0xff CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000793b       0xff CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_loclists
-                0x00007a6d       0x41 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x00007a3a       0x41 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .debug_loclists
-                0x00007aae       0x4f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x00007a7b       0x4f CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .debug_loclists
-                0x00007afd      0x711 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00007aca      0x711 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_loclists
-                0x0000820e     0x1005 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x000081db     0x1005 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .debug_loclists
-                0x00009213       0x5e c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+                0x000091e0       0x5e c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
 
 .debug_aranges  0x00000000      0xe10
  .debug_aranges
@@ -2781,113 +2780,113 @@ LOAD linker stubs
  .debug_rnglists
                 0x000010ef       0x13 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
 
-.debug_line     0x00000000     0xd6bc
- .debug_line    0x00000000      0x7b0 CMakeFiles/multislope.dir/main.c.obj
- .debug_line    0x000007b0      0x49e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_line    0x00000c4e      0x997 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x000015e5      0x42e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00001a13      0x25b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00001c6e      0x433 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000020a1     0x191c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x000039bd      0xa38 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000043f5      0x204 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x000045f9      0xfc4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000055bd      0x8bd CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00005e7a      0x7dc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00006656      0x966 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00006fbc      0xdab CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00007d67      0x51e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00008285      0x3ed CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00008672      0x27c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x000088ee     0x11e9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00009ad7      0x11a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x00009bf1      0x207 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x00009df8      0x2a9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000a0a1      0x3fa CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000a49b      0x359 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000a7f4      0x66a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000ae5e       0x61 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000aebf      0x3b2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000b271      0x35d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000b5ce      0x198 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000b766       0x94 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000b7fa       0xa8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000b8a2      0x1a3 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000ba45      0xcc4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000c709      0xd88 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .debug_line    0x0000d491       0x4a c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
- .debug_line    0x0000d4db      0x1e1 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+.debug_line     0x00000000     0xd6cb
+ .debug_line    0x00000000      0x7bf CMakeFiles/multislope.dir/main.c.obj
+ .debug_line    0x000007bf      0x49e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_line    0x00000c5d      0x997 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x000015f4      0x42e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001a22      0x25b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x00001c7d      0x433 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x000020b0     0x191c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x000039cc      0xa38 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00004404      0x204 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00004608      0xfc4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000055cc      0x8bd CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00005e89      0x7dc CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00006665      0x966 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00006fcb      0xdab CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00007d76      0x51e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00008294      0x3ed CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00008681      0x27c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x000088fd     0x11e9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x00009ae6      0x11a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x00009c00      0x207 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x00009e07      0x2a9 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000a0b0      0x3fa CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000a4aa      0x359 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000a803      0x66a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000ae6d       0x61 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000aece      0x3b2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000b280      0x35d CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000b5dd      0x198 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000b775       0x94 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000b809       0xa8 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000b8b1      0x1a3 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000ba54      0xcc4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000c718      0xd88 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_line    0x0000d4a0       0x4a c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000d4ea      0x1e1 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
 
-.debug_str      0x00000000     0x3788
- .debug_str     0x00000000      0x8fb CMakeFiles/multislope.dir/main.c.obj
-                                0x9d4 (size before relaxing)
- .debug_str     0x000008fb      0x143 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-                                0x366 (size before relaxing)
- .debug_str     0x00000a3e      0x440 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                                0x892 (size before relaxing)
- .debug_str     0x00000e7e      0x1bb CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.debug_str      0x00000000     0x37ba
+ .debug_str     0x00000000      0x92d CMakeFiles/multislope.dir/main.c.obj
+                                0xa06 (size before relaxing)
+ .debug_str     0x0000092d      0x143 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+                                0x37f (size before relaxing)
+ .debug_str     0x00000a70      0x440 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                                0x8ab (size before relaxing)
+ .debug_str     0x00000eb0      0x1bb CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                                0x37e (size before relaxing)
+ .debug_str     0x0000106b       0x71 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                                0x23a (size before relaxing)
+ .debug_str     0x000010dc       0xec CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
                                 0x365 (size before relaxing)
- .debug_str     0x00001039       0x71 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                                0x221 (size before relaxing)
- .debug_str     0x000010aa       0xec CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                                0x34c (size before relaxing)
- .debug_str     0x00001196      0x7b2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                                0xbb8 (size before relaxing)
- .debug_str     0x00001948      0x168 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                                0x6a8 (size before relaxing)
- .debug_str     0x00001ab0       0x3c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                                0x202 (size before relaxing)
- .debug_str     0x00001aec      0x165 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                                0x5c6 (size before relaxing)
- .debug_str     0x00001c51       0xec CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                                0x3f2 (size before relaxing)
- .debug_str     0x00001d3d      0x231 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                                0x604 (size before relaxing)
- .debug_str     0x00001f6e      0x231 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                                0x686 (size before relaxing)
- .debug_str     0x0000219f      0x327 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                                0x731 (size before relaxing)
- .debug_str     0x000024c6       0x61 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                                0x2dc (size before relaxing)
- .debug_str     0x00002527      0x126 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                                0x323 (size before relaxing)
- .debug_str     0x0000264d       0x6b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                                0x220 (size before relaxing)
- .debug_str     0x000026b8      0x261 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                                0x481 (size before relaxing)
- .debug_str     0x00002919       0x1c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-                                 0x4e (size before relaxing)
- .debug_str     0x00002935       0xc4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                                0x25b (size before relaxing)
- .debug_str     0x000029f9        0xa CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                                 0x48 (size before relaxing)
- .debug_str     0x00002a03        0xf CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                                 0x4d (size before relaxing)
- .debug_str     0x00002a12       0xbd CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                                0x2c1 (size before relaxing)
- .debug_str     0x00002acf       0x15 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                                 0x53 (size before relaxing)
- .debug_str     0x00002ae4       0x17 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                                 0x55 (size before relaxing)
- .debug_str     0x00002afb        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                                 0x4c (size before relaxing)
- .debug_str     0x00002b09       0x81 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                                0x2bd (size before relaxing)
- .debug_str     0x00002b8a       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                                 0x52 (size before relaxing)
- .debug_str     0x00002b9e       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                                 0x4e (size before relaxing)
- .debug_str     0x00002bae        0x7 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                                 0x45 (size before relaxing)
- .debug_str     0x00002bb5      0x244 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-                                0x3e3 (size before relaxing)
- .debug_str     0x00002df9      0x31e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                                0x771 (size before relaxing)
- .debug_str     0x00003117      0x46a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                                0xa1d (size before relaxing)
- .debug_str     0x00003581       0x82 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_str     0x000011c8      0x7b2 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                                0xbd1 (size before relaxing)
+ .debug_str     0x0000197a      0x168 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                                0x6c1 (size before relaxing)
+ .debug_str     0x00001ae2       0x3c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                                0x21b (size before relaxing)
+ .debug_str     0x00001b1e      0x165 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                                0x5df (size before relaxing)
+ .debug_str     0x00001c83       0xec CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                                0x40b (size before relaxing)
+ .debug_str     0x00001d6f      0x231 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                                0x61d (size before relaxing)
+ .debug_str     0x00001fa0      0x231 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                                0x69f (size before relaxing)
+ .debug_str     0x000021d1      0x327 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                                0x74a (size before relaxing)
+ .debug_str     0x000024f8       0x61 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                                0x2f5 (size before relaxing)
+ .debug_str     0x00002559      0x126 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                                0x33c (size before relaxing)
+ .debug_str     0x0000267f       0x6b CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                                0x239 (size before relaxing)
+ .debug_str     0x000026ea      0x261 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                                0x49a (size before relaxing)
+ .debug_str     0x0000294b       0x1c CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                                 0x67 (size before relaxing)
+ .debug_str     0x00002967       0xc4 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                                0x274 (size before relaxing)
+ .debug_str     0x00002a2b        0xa CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                                 0x61 (size before relaxing)
+ .debug_str     0x00002a35        0xf CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                                 0x66 (size before relaxing)
+ .debug_str     0x00002a44       0xbd CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                                0x2da (size before relaxing)
+ .debug_str     0x00002b01       0x15 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                                 0x6c (size before relaxing)
+ .debug_str     0x00002b16       0x17 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                                 0x6e (size before relaxing)
+ .debug_str     0x00002b2d        0xe CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                                 0x65 (size before relaxing)
+ .debug_str     0x00002b3b       0x81 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                                0x2d6 (size before relaxing)
+ .debug_str     0x00002bbc       0x14 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                                 0x6b (size before relaxing)
+ .debug_str     0x00002bd0       0x10 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                                 0x67 (size before relaxing)
+ .debug_str     0x00002be0        0x7 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                                 0x5e (size before relaxing)
+ .debug_str     0x00002be7      0x244 CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                                0x3fc (size before relaxing)
+ .debug_str     0x00002e2b      0x31e CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                                0x78a (size before relaxing)
+ .debug_str     0x00003149      0x46a CMakeFiles/multislope.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                                0xa36 (size before relaxing)
+ .debug_str     0x000035b3       0x82 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
                                  0x8e (size before relaxing)
- .debug_str     0x00003603      0x185 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+ .debug_str     0x00003635      0x185 c:/vsarm/armcc/11.2 2022.02/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
                                 0x22e (size before relaxing)
 
 .debug_frame    0x00000000     0x17c0

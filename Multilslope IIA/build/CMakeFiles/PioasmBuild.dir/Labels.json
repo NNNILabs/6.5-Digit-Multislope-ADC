@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/CMakeFiles/PioasmBuild"
+			"file" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/CMakeFiles/PioasmBuild"
 		},
 		{
-			"file" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/CMakeFiles/PioasmBuild.rule"
+			"file" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/CMakeFiles/PioasmBuild.rule"
 		},
 		{
-			"file" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/CMakeFiles/PioasmBuild-complete.rule"
+			"file" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/CMakeFiles/PioasmBuild-complete.rule"
 		},
 		{
-			"file" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+			"file" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
 		},
 		{
-			"file" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+			"file" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
 		},
 		{
-			"file" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+			"file" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
 		},
 		{
-			"file" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+			"file" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
 		},
 		{
-			"file" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+			"file" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+			"file" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
 		},
 		{
-			"file" : "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+			"file" : "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
 		}
 	],
 	"target" : 

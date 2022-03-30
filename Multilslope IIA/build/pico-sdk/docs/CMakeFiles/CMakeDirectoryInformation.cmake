@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/VSARM/sdk/pico/pico-sdk")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/vivek/Desktop/Code/Multilslope IIA/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

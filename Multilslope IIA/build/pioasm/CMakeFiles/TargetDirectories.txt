@@ -1,3 +1,3 @@
-C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/CMakeFiles/pioasm.dir
-C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/CMakeFiles/edit_cache.dir
-C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/CMakeFiles/rebuild_cache.dir
+C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/CMakeFiles/pioasm.dir
+C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/CMakeFiles/edit_cache.dir
+C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,5 @@
 CMakeFiles/multislope.dir/main.c.obj: \
- C:\Users\vivek\Desktop\Code\Multilslope\ IIA\main.c \
+ C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope\ IIA\main.c \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_stdlib\include/pico/stdlib.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/types.h \
@@ -18,9 +18,9 @@ CMakeFiles/multislope.dir/main.c.obj: \
  c:\vsarm\armcc\11.2\ 2022.02\arm-none-eabi\include\sys\_intsup.h \
  c:\vsarm\armcc\11.2\ 2022.02\arm-none-eabi\include\sys\_stdint.h \
  c:\vsarm\armcc\11.2\ 2022.02\lib\gcc\arm-none-eabi\11.2.1\include\stddef.h \
- C:\Users\vivek\Desktop\Code\Multilslope\ IIA\build\generated\pico_base/pico/version.h \
+ C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope\ IIA\build\generated\pico_base/pico/version.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\vivek\Desktop\Code\Multilslope\ IIA\build\generated\pico_base/pico/config_autogen.h \
+ C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope\ IIA\build\generated\pico_base/pico/config_autogen.h \
  C:/VSARM/sdk/pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
@@ -53,4 +53,4 @@ CMakeFiles/multislope.dir/main.c.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_clocks\include/hardware/clocks.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/clocks.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/clocks.h \
- C:\Users\vivek\Desktop\Code\Multilslope\ IIA\build/ms.pio.h
+ C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope\ IIA\build/ms.pio.h

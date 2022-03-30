@@ -5,14 +5,16 @@
         set pins, 2
         jmp pin,  PWMhigh
         set pins, 1
-        mov Y,    ISR
+        pull
+        mov Y,    OSR
         jmp !Y,   dithering
-        nop                  [9]  ;11 without modifications
+        nop                  [8]  ;11 without modifications
         jmp       beginning 
     PWMhigh:
-        mov Y,    ISR
+        pull
+        mov Y,    OSR
         jmp !Y,   dithering
-        nop                  [9]  ;11 without modifications
+        nop                  [8]  ;11 without modifications
         set pins, 1
         jmp       beginning
     dithering:
@@ -39,7 +41,7 @@
         sm_config_set_sideset_pins(&c, sideSetPin);
         sm_config_set_jmp_pin(&c, jmpPin);
         sm_config_set_clkdiv(&c, div);
-        sm_config_set_out_shift(&c, false, true, 32);
+        //sm_config_set_out_shift(&c, false, true, 32);
 
         pio_sm_set_consecutive_pindirs(pio, sm, setPin, 2, true);
         pio_sm_set_consecutive_pindirs(pio, sm, sideSetPin, 1, true);

@@ -55,7 +55,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\VSARM\sdk\pico\pico-sdk\tools\pioasm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm"
+CMAKE_BINARY_DIR = "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pioasm.dir/depend.make
@@ -72,7 +72,7 @@ CMakeFiles/pioasm.dir/main.cpp.obj: CMakeFiles/pioasm.dir/flags.make
 CMakeFiles/pioasm.dir/main.cpp.obj: CMakeFiles/pioasm.dir/includes_CXX.rsp
 CMakeFiles/pioasm.dir/main.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/tools/pioasm/main.cpp
 CMakeFiles/pioasm.dir/main.cpp.obj: CMakeFiles/pioasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pioasm.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pioasm.dir/main.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/main.cpp.obj -MF CMakeFiles\pioasm.dir\main.cpp.obj.d -o CMakeFiles\pioasm.dir\main.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\tools\pioasm\main.cpp
 
 CMakeFiles/pioasm.dir/main.cpp.i: cmake_force
@@ -87,7 +87,7 @@ CMakeFiles/pioasm.dir/pio_assembler.cpp.obj: CMakeFiles/pioasm.dir/flags.make
 CMakeFiles/pioasm.dir/pio_assembler.cpp.obj: CMakeFiles/pioasm.dir/includes_CXX.rsp
 CMakeFiles/pioasm.dir/pio_assembler.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/tools/pioasm/pio_assembler.cpp
 CMakeFiles/pioasm.dir/pio_assembler.cpp.obj: CMakeFiles/pioasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pioasm.dir/pio_assembler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pioasm.dir/pio_assembler.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/pio_assembler.cpp.obj -MF CMakeFiles\pioasm.dir\pio_assembler.cpp.obj.d -o CMakeFiles\pioasm.dir\pio_assembler.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\tools\pioasm\pio_assembler.cpp
 
 CMakeFiles/pioasm.dir/pio_assembler.cpp.i: cmake_force
@@ -102,7 +102,7 @@ CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj: CMakeFiles/pioasm.dir/flags.make
 CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj: CMakeFiles/pioasm.dir/includes_CXX.rsp
 CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/tools/pioasm/pio_disassembler.cpp
 CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj: CMakeFiles/pioasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/pio_disassembler.cpp.obj -MF CMakeFiles\pioasm.dir\pio_disassembler.cpp.obj.d -o CMakeFiles\pioasm.dir\pio_disassembler.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\tools\pioasm\pio_disassembler.cpp
 
 CMakeFiles/pioasm.dir/pio_disassembler.cpp.i: cmake_force
@@ -117,7 +117,7 @@ CMakeFiles/pioasm.dir/gen/lexer.cpp.obj: CMakeFiles/pioasm.dir/flags.make
 CMakeFiles/pioasm.dir/gen/lexer.cpp.obj: CMakeFiles/pioasm.dir/includes_CXX.rsp
 CMakeFiles/pioasm.dir/gen/lexer.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen/lexer.cpp
 CMakeFiles/pioasm.dir/gen/lexer.cpp.obj: CMakeFiles/pioasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pioasm.dir/gen/lexer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pioasm.dir/gen/lexer.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/gen/lexer.cpp.obj -MF CMakeFiles\pioasm.dir\gen\lexer.cpp.obj.d -o CMakeFiles\pioasm.dir\gen\lexer.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\tools\pioasm\gen\lexer.cpp
 
 CMakeFiles/pioasm.dir/gen/lexer.cpp.i: cmake_force
@@ -132,7 +132,7 @@ CMakeFiles/pioasm.dir/gen/parser.cpp.obj: CMakeFiles/pioasm.dir/flags.make
 CMakeFiles/pioasm.dir/gen/parser.cpp.obj: CMakeFiles/pioasm.dir/includes_CXX.rsp
 CMakeFiles/pioasm.dir/gen/parser.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/tools/pioasm/gen/parser.cpp
 CMakeFiles/pioasm.dir/gen/parser.cpp.obj: CMakeFiles/pioasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pioasm.dir/gen/parser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pioasm.dir/gen/parser.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/gen/parser.cpp.obj -MF CMakeFiles\pioasm.dir\gen\parser.cpp.obj.d -o CMakeFiles\pioasm.dir\gen\parser.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\tools\pioasm\gen\parser.cpp
 
 CMakeFiles/pioasm.dir/gen/parser.cpp.i: cmake_force
@@ -147,7 +147,7 @@ CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj: CMakeFiles/pioasm.dir/flags.make
 CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj: CMakeFiles/pioasm.dir/includes_CXX.rsp
 CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/tools/pioasm/c_sdk_output.cpp
 CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj: CMakeFiles/pioasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/c_sdk_output.cpp.obj -MF CMakeFiles\pioasm.dir\c_sdk_output.cpp.obj.d -o CMakeFiles\pioasm.dir\c_sdk_output.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\tools\pioasm\c_sdk_output.cpp
 
 CMakeFiles/pioasm.dir/c_sdk_output.cpp.i: cmake_force
@@ -162,7 +162,7 @@ CMakeFiles/pioasm.dir/python_output.cpp.obj: CMakeFiles/pioasm.dir/flags.make
 CMakeFiles/pioasm.dir/python_output.cpp.obj: CMakeFiles/pioasm.dir/includes_CXX.rsp
 CMakeFiles/pioasm.dir/python_output.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/tools/pioasm/python_output.cpp
 CMakeFiles/pioasm.dir/python_output.cpp.obj: CMakeFiles/pioasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pioasm.dir/python_output.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pioasm.dir/python_output.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/python_output.cpp.obj -MF CMakeFiles\pioasm.dir\python_output.cpp.obj.d -o CMakeFiles\pioasm.dir\python_output.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\tools\pioasm\python_output.cpp
 
 CMakeFiles/pioasm.dir/python_output.cpp.i: cmake_force
@@ -177,7 +177,7 @@ CMakeFiles/pioasm.dir/hex_output.cpp.obj: CMakeFiles/pioasm.dir/flags.make
 CMakeFiles/pioasm.dir/hex_output.cpp.obj: CMakeFiles/pioasm.dir/includes_CXX.rsp
 CMakeFiles/pioasm.dir/hex_output.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/tools/pioasm/hex_output.cpp
 CMakeFiles/pioasm.dir/hex_output.cpp.obj: CMakeFiles/pioasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pioasm.dir/hex_output.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pioasm.dir/hex_output.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/hex_output.cpp.obj -MF CMakeFiles\pioasm.dir\hex_output.cpp.obj.d -o CMakeFiles\pioasm.dir\hex_output.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\tools\pioasm\hex_output.cpp
 
 CMakeFiles/pioasm.dir/hex_output.cpp.i: cmake_force
@@ -192,7 +192,7 @@ CMakeFiles/pioasm.dir/ada_output.cpp.obj: CMakeFiles/pioasm.dir/flags.make
 CMakeFiles/pioasm.dir/ada_output.cpp.obj: CMakeFiles/pioasm.dir/includes_CXX.rsp
 CMakeFiles/pioasm.dir/ada_output.cpp.obj: C:/VSARM/sdk/pico/pico-sdk/tools/pioasm/ada_output.cpp
 CMakeFiles/pioasm.dir/ada_output.cpp.obj: CMakeFiles/pioasm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pioasm.dir/ada_output.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pioasm.dir/ada_output.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pioasm.dir/ada_output.cpp.obj -MF CMakeFiles\pioasm.dir\ada_output.cpp.obj.d -o CMakeFiles\pioasm.dir\ada_output.cpp.obj -c C:\VSARM\sdk\pico\pico-sdk\tools\pioasm\ada_output.cpp
 
 CMakeFiles/pioasm.dir/ada_output.cpp.i: cmake_force
@@ -231,7 +231,7 @@ pioasm.exe: CMakeFiles/pioasm.dir/build.make
 pioasm.exe: CMakeFiles/pioasm.dir/linklibs.rsp
 pioasm.exe: CMakeFiles/pioasm.dir/objects1.rsp
 pioasm.exe: CMakeFiles/pioasm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable pioasm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable pioasm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\pioasm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/pioasm.dir/clean:
 .PHONY : CMakeFiles/pioasm.dir/clean
 
 CMakeFiles/pioasm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\VSARM\sdk\pico\pico-sdk\tools\pioasm C:\VSARM\sdk\pico\pico-sdk\tools\pioasm "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm" "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm" "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm\CMakeFiles\pioasm.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\VSARM\sdk\pico\pico-sdk\tools\pioasm C:\VSARM\sdk\pico\pico-sdk\tools\pioasm "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm\CMakeFiles\pioasm.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/pioasm.dir/depend
 

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\vivek\Desktop\Code\Multilslope IIA"
+CMAKE_SOURCE_DIR = "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\vivek\Desktop\Code\Multilslope IIA\build"
+CMAKE_BINARY_DIR = "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build"
 
 # Utility rule file for PioasmBuild.
 
@@ -75,46 +75,46 @@ CMakeFiles/PioasmBuild-complete: pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 CMakeFiles/PioasmBuild-complete: pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 CMakeFiles/PioasmBuild-complete: pioasm/src/PioasmBuild-stamp/PioasmBuild-build
 CMakeFiles/PioasmBuild-complete: pioasm/src/PioasmBuild-stamp/PioasmBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
-	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/CMakeFiles"
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/CMakeFiles/PioasmBuild-complete"
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-done"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
+	"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/CMakeFiles"
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/CMakeFiles/PioasmBuild-complete"
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-done"
 
 pioasm/src/PioasmBuild-stamp/PioasmBuild-build: pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
-	cd /d "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm" && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
+	cd /d "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm" && $(MAKE)
 
 pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pioasm/tmp/PioasmBuild-cfgcmd.txt
 pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
-	cd /d "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm" && "C:\Program Files\CMake\bin\cmake.exe" "-GMinGW Makefiles" C:/VSARM/sdk/pico/pico-sdk/tools/pioasm
-	cd /d "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
+	cd /d "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm" && "C:\Program Files\CMake\bin\cmake.exe" "-GMinGW Makefiles" C:/VSARM/sdk/pico/pico-sdk/tools/pioasm
+	cd /d "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure"
 
 pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pioasm/src/PioasmBuild-stamp/PioasmBuild-source_dirinfo.txt
 pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
 	"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-download"
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-download"
 
 pioasm/src/PioasmBuild-stamp/PioasmBuild-install: pioasm/src/PioasmBuild-stamp/PioasmBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
-	cd /d "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	cd /d "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\pioasm" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-install"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
+	cd /d "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm" && "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+	cd /d "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\pioasm" && "C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-install"
 
 pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
-	"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/tmp/PioasmBuild-mkdirs.cmake"
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
+	"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/tmp/PioasmBuild-mkdirs.cmake"
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir"
 
 pioasm/src/PioasmBuild-stamp/PioasmBuild-patch: pioasm/src/PioasmBuild-stamp/PioasmBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
 	"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch"
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch"
 
 pioasm/src/PioasmBuild-stamp/PioasmBuild-update: pioasm/src/PioasmBuild-stamp/PioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
 	"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-update"
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/vivek/Desktop/Code/6.5-Digit-Multislope-ADC/Multilslope IIA/build/pioasm/src/PioasmBuild-stamp/PioasmBuild-update"
 
 PioasmBuild: CMakeFiles/PioasmBuild
 PioasmBuild: CMakeFiles/PioasmBuild-complete
@@ -137,6 +137,6 @@ CMakeFiles/PioasmBuild.dir/clean:
 .PHONY : CMakeFiles/PioasmBuild.dir/clean
 
 CMakeFiles/PioasmBuild.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\vivek\Desktop\Code\Multilslope IIA" "C:\Users\vivek\Desktop\Code\Multilslope IIA" "C:\Users\vivek\Desktop\Code\Multilslope IIA\build" "C:\Users\vivek\Desktop\Code\Multilslope IIA\build" "C:\Users\vivek\Desktop\Code\Multilslope IIA\build\CMakeFiles\PioasmBuild.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build" "C:\Users\vivek\Desktop\Code\6.5-Digit-Multislope-ADC\Multilslope IIA\build\CMakeFiles\PioasmBuild.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/PioasmBuild.dir/depend
 
