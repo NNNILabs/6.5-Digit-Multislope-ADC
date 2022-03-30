@@ -1,0 +1,49 @@
+.program ms
+
+.wrap_target
+    beginning:
+        set pins, 2
+        jmp pin,  PWMhigh
+        set pins, 1
+        mov Y,    ISR
+        jmp !Y,   dithering
+        nop                  [9]  ;11 without modifications
+        jmp       beginning 
+    PWMhigh:
+        mov Y,    ISR
+        jmp !Y,   dithering
+        nop                  [9]  ;11 without modifications
+        set pins, 1
+        jmp       beginning
+    dithering:
+        set pins, 1
+        jmp pin,  dlow
+        jmp !Y,   dithering
+        jmp       beginning
+    dlow:
+        set pins, 2
+        jmp !Y,   dithering
+        jmp       beginning
+.wrap
+
+% c-sdk{
+    void ms_program_init(PIO pio, uint sm, uint offset, uint setPin, uint sideSetPin, uint jmpPin, float div)
+    {
+        pio_sm_config c = ms_program_get_default_config(offset);
+
+        pio_gpio_init(pio, setPin);
+        pio_gpio_init(pio, setPin + 1);
+        pio_gpio_init(pio, sideSetPin);
+
+        sm_config_set_set_pins(&c, setPin, 2);
+        sm_config_set_sideset_pins(&c, sideSetPin);
+        sm_config_set_jmp_pin(&c, jmpPin);
+        sm_config_set_clkdiv(&c, div);
+        sm_config_set_out_shift(&c, false, true, 32);
+
+        pio_sm_set_consecutive_pindirs(pio, sm, setPin, 2, true);
+        pio_sm_set_consecutive_pindirs(pio, sm, sideSetPin, 1, true);
+
+        pio_sm_init(pio, sm, offset, &c);
+    }
+%}
