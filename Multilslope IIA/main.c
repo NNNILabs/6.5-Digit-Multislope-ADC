@@ -45,8 +45,8 @@ int main()
         pio_sm_put_blocking(pio, sm, pushVar);
         pio_sm_set_enabled(pio, sm, true);
         gpio_put(ledPin, true);
-        counts = ~pio_sm_get_blocking(pio, sm);
-        postCounts = ~pio_sm_get_blocking(pio, sm);
+        //counts = ~pio_sm_get_blocking(pio, sm);
+        //postCounts = ~pio_sm_get_blocking(pio, sm);
         gpio_put(ledPin, false);
         pio_sm_set_enabled(pio, sm, false);
         sleep_ms(1000);
