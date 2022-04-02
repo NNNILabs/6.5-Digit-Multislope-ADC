@@ -1,32 +1,43 @@
 .program ms
 
-.wrap_target
-    beginning:
-        set pins, 2
-        jmp pin,  PWMhigh
-        set pins, 1
-        out Y,    32
-        jmp !Y,   dithering
-        nop                  [9]  ;11 without modifications
-        jmp Y--,  beginning 
-    PWMhigh:
-        out Y,    32
-        jmp !Y,   dithering
-        nop                  [9]  ;11 without modifications
-        set pins, 1
-        jmp Y--,  beginning
-    dithering:
-        set pins, 1
-        jmp pin,  dlow
-        out Y,    32
-        jmp !Y,   dithering
-        jmp       beginning
-    dlow:
-        set pins, 2
-        out Y,    32
-        jmp !Y,   dithering
-        jmp       beginning
-.wrap
+beginning:
+    set pins, 0
+    ;mov X,    !NULL
+    ;pull
+    ;out Y,    32
+    jmp pin,  HL
+    jmp       LH
+HL:
+    set pins, 1
+    jmp pin,  HL
+    jmp       start
+LH:
+    set pins, 2
+    jmp pin,  start
+    jmp       LH
+start:
+    set pins, 2
+    jmp pin,  PWMhigh
+    set pins, 1
+    jmp X--,  PWMlow
+PWMhigh:
+    nop                 [12]
+    jmp Y--,  start
+    jmp       rundown
+PWMlow:
+    nop                 [10]
+    jmp Y--,  start
+    jmp       rundown
+rundown:
+    set pins, 1
+    mov X,    !NULL
+    nop                 [13]
+    set pins, 2
+jumpPoint:
+    jmp pin,  end
+    jmp X--,  jumpPoint
+end:
+    set pins, 0
 
 % c-sdk{
     void ms_program_init(PIO pio, uint sm, uint offset, uint setPin, uint sideSetPin, uint jmpPin, float div)
@@ -41,7 +52,8 @@
         sm_config_set_sideset_pins(&c, sideSetPin);
         sm_config_set_jmp_pin(&c, jmpPin);
         sm_config_set_clkdiv(&c, div);
-        sm_config_set_out_shift(&c, true, true, 32);
+        sm_config_set_out_shift(&c, false, true, 32);
+        sm_config_set_in_shift(&c, false, true, 32);
 
         pio_sm_set_consecutive_pindirs(pio, sm, setPin, 2, true);
         pio_sm_set_consecutive_pindirs(pio, sm, sideSetPin, 1, true);
