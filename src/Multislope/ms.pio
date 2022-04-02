@@ -7,22 +7,35 @@ start:
     mov X, !NULL        side 0               ; set X to 0xFFFFFFFF
     pull                side 0               ; pull the Y FIFO
     out Y, 32           side 0               ; read the number desired counts
+    jmp pin desathigh   side 0
+    jmp desatlow        side 0
+desaturation:
+desathigh:
+    set pins 2          side 0
+    jmp pin desathigh   side 0
     jmp begining        side 0
-
+desatlow:
+    set pins 1          side 0
+    jmp pin begining    side 0
+    jmp desatlow        side 0
 rundown:
     set pins 0          side 0
-    in X, 32            side 0               ; push PWM to FIFO
-
-    mov Y, !NULL        side 0                ; set y as post rundown counter
-    mov X, !NULL        side 0                ; set x as pre rundown counter
-    set pins 2          side 0                ; turn on negative reference
-repeat:
-    jmp pin RdStart     side 0
-    jmp X-- repeat      side 0
-RdStart:
-    set pins 1          side 0
     in X, 32            side 0
-    jmp start           side 0               ; go back to the beginning so that we don't have to reset the state machine every time
+    jmp start           side 0
+; rundown:
+;     set pins 0          side 0
+;     in X, 32            side 0               ; push PWM to FIFO
+
+;     mov Y, !NULL        side 0                ; set y as post rundown counter
+;     mov X, !NULL        side 0                ; set x as pre rundown counter
+;     set pins 2          side 0                ; turn on negative reference
+; repeat:
+;     jmp pin RdStart     side 0
+;     jmp X-- repeat      side 0
+; RdStart:
+;     set pins 1          side 0
+;     in X, 32            side 0
+;     jmp start           side 0               ; go back to the beginning so that we don't have to reset the state machine every time
 .wrap_target
 begining:
 	set pins 2          side 1               ; set PWMA high, and PWMB low                    [01 clock cycles]
@@ -30,7 +43,7 @@ begining:
     set pins 1          side 1               ; turn off PWMA if the pin is low                [01 clock cycles]
 	jmp X-- PWMlow      side 1               ; else jump to PWM low state                     [01 clock cycles] (if pin is low we decrement X)
 PWMhigh:
-	set pins 2          side 1 [15]           ; keep PWMA high             [02 clock cycles] + [28 clock cycles] = 30
+	set pins 2          side 1 [15]          ; keep PWMA high             [02 clock cycles] + [28 clock cycles] = 30
     nop                 side 1 [11]
 	set pins 1          side 1               ; set PWMA low, at the same time PWMB high       [01 clock cycles]
     jmp Y-- begining    side 1               ; go to the beginning if y is not zero yet       [01 clock cycles] = total 32
