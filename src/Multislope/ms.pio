@@ -8,34 +8,37 @@ start:
     pull                side 0               ; pull the Y FIFO
     out Y, 32           side 0               ; read the number desired counts
     jmp pin desathigh   side 0
-    jmp desatlow        side 0
 desaturation:
-desathigh:
-    set pins 2          side 0
-    jmp pin desathigh   side 0
-    jmp begining        side 0
 desatlow:
     set pins 1          side 0
     jmp pin begining    side 0
     jmp desatlow        side 0
+desathigh:
+    set pins 2          side 0
+    jmp pin desathigh   side 0
+    jmp begining        side 0
 rundown:
-    set pins 0          side 0
-    in X, 32            side 0
-    jmp start           side 0
-; rundown:
-;     set pins 0          side 0
-;     in X, 32            side 0               ; push PWM to FIFO
+    ; set pins 0          side 0
+    ; in X, 32            side 0
+    ; jmp start           side 0
 
-;     mov Y, !NULL        side 0                ; set y as post rundown counter
-;     mov X, !NULL        side 0                ; set x as pre rundown counter
-;     set pins 2          side 0                ; turn on negative reference
-; repeat:
-;     jmp pin RdStart     side 0
-;     jmp X-- repeat      side 0
-; RdStart:
-;     set pins 1          side 0
-;     in X, 32            side 0
-;     jmp start           side 0               ; go back to the beginning so that we don't have to reset the state machine every time
+    ;set pins 0          side 0
+    ;in X, 32            side 0               ; push PWM to FIFO
+
+    ;mov Y, !NULL        side 0               ; set y as post rundown counter
+    
+                                        
+    set pins 2          side 0                ; turn on postive reference
+    in X, 32            side 0 [15]           ; push PWM to FIFO 
+    mov X, !NULL        side 0 [14]           ; set x as rundown counter
+    set pins 1          side 0                ; turn on negative reference
+RdStart:
+    jmp pin finish      side 0
+    jmp X-- RdStart     side 0
+finish:
+    set pins 0          side 0
+    in X, 32            side 0               ; push rundown to FIFO 
+    jmp start           side 0               ; go back to the beginning so that we don't have to reset the state machine every time
 .wrap_target
 begining:
 	set pins 2          side 1               ; set PWMA high, and PWMB low                    [01 clock cycles]
