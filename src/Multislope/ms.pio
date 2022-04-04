@@ -5,7 +5,6 @@
 ; don't forget to enable auto push
 start:
     mov X, !NULL        side 0               ; set X to 0xFFFFFFFF
-    pull                side 0               ; pull the Y FIFO
     out Y, 32           side 0               ; read the number desired counts
     jmp pin desathigh   side 0
 desaturation:
@@ -28,9 +27,10 @@ rundown:
     ;mov Y, !NULL        side 0               ; set y as post rundown counter
     
                                         
-    set pins 2          side 0                ; turn on postive reference
+    set pins 2          side 0 [15]           ; turn on postive reference
     in X, 32            side 0 [15]           ; push PWM to FIFO 
-    mov X, !NULL        side 0 [14]           ; set x as rundown counter
+    mov X, !NULL        side 0 [15]           ; set x as rundown counter
+    nop                 side 0 [15]
     set pins 1          side 0                ; turn on negative reference
 RdStart:
     jmp pin finish      side 0
@@ -86,7 +86,7 @@ void ms_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float 
 
     // Set auto push to ISR
     sm_config_set_in_shift(&c, false, true, 32);
-    
+    sm_config_set_out_shift(&c, false, true, 32);
     // Set the clock divider for the state machine
     sm_config_set_clkdiv(&c, div);
 

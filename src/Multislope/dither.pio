@@ -1,0 +1,57 @@
+.program dither
+jmp desathigh 
+exit:
+set pins 0
+jmp exit
+.wrap_target
+jmp !OSRE exit
+desathigh:
+    set pins 2          side 0     
+    jmp pin desathigh   side 0
+desatlow:
+    set pins 1          side 0
+    jmp pin desathigh   side 0
+    jmp desatlow        side 0
+.wrap
+
+
+
+
+            
+% c-sdk {
+
+// Helper function (for use in C program) to initialize this PIO program
+void dh_program_init(PIO pio, uint sm, uint offset, uint pin, uint input, float div, uint pin_MEAS) {
+
+    // Sets up state machine and wrap target. This function is automatically
+    pio_sm_config c = ms_program_get_default_config(offset);
+    
+    sm_config_set_sideset_pins(&c, pin_MEAS); //side set
+    
+    // Allow PIO to control GPIO pin (as output)
+    pio_gpio_init(pio, pin);
+    pio_gpio_init(pio, pin+1);
+    pio_gpio_init(pio, pin_MEAS);      
+    
+    
+    // set the pin for jump if pin high instruction
+    sm_config_set_jmp_pin(&c, input); 
+
+    // Connect pin to SET pin (control with 'set' instruction)
+    sm_config_set_set_pins(&c, pin, 2);
+    
+    // Set the pin direction to output (in PIO)
+    pio_sm_set_consecutive_pindirs(pio, sm, pin, 2, true);      // 2 pins for PWM high and low
+    pio_sm_set_consecutive_pindirs(pio, sm, pin_MEAS, 1, true); // 1 pin for MEAS pin
+
+    // Set auto push to ISR
+    sm_config_set_in_shift(&c, false, true, 32);
+    
+    // Set the clock divider for the state machine
+    sm_config_set_clkdiv(&c, div);
+
+    // Load configuration and jump to start of the program
+    pio_sm_init(pio, sm, offset, &c);
+}
+
+%}

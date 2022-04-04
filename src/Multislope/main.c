@@ -9,8 +9,7 @@
 #define __STDC_FORMAT_MACROS
 #include <inttypes.h>
 
-const uint8_t powerLineFreq = 50;                // in Hz
-const uint32_t multiSlopeFreq = 375000;           // in KHz
+#define MAINS_FREQ 50                   // Hz
 
 const uint8_t MCLK = 18;                // SPI Clock Pin
 const uint8_t M_EN = 16;
@@ -25,14 +24,20 @@ const uint8_t PWMA = 20;                // need to be next to each other
 const uint8_t PWMB = 21;                // need to be next to each other
 const uint8_t COMP = 19;
 
-const uint8_t LED_PIN = 25;
+const uint8_t LED_PIN = 0;
 
 const uint8_t RESGP = 28;
 const uint8_t RESADC = 2;
 
-const uint64_t mainsPeriodus = 1000000/powerLineFreq;
-//const uint32_t MScyclesPerPLC = multiSlopeFreq/powerLineFreq;
-const uint32_t MScyclesPerPLC = 6000;
+const uint64_t mainsPeriodus = 1000000/MAINS_FREQ;
+
+// #if MAINS_FREQ == 50
+//     const uint32_t MScyclesPerPLC = 6000;
+// #elif MAINS_FREQ == 60
+//     const uint32_t MScyclesPerPLC = 5000;
+// #endif
+
+const uint32_t MScyclesPerPLC = 10;
 
 struct getCoutnsPayload
 {
@@ -43,35 +48,37 @@ struct getCoutnsPayload
     uint32_t NPLC;
 };
 
+uint32_t rundownCounts = 0;
+
 int64_t get_counts(PIO pio, uint sm , uint32_t countNum){
     uint32_t counts = 0;
-    uint32_t rundownCounts = 0;
     pio_sm_put_blocking(pio, sm, countNum - 1);
-    pio_sm_set_enabled(pio, sm, true);
     gpio_put(LED_PIN, true);
     counts = ~pio_sm_get_blocking(pio, sm);
     rundownCounts = ~pio_sm_get_blocking(pio, sm);
-    //printf("preRundownCounts: %u", preRundownCounts);
     gpio_put(LED_PIN, false);
-    //pio_sm_set_enabled(pio, sm, false);
+    //printf("preRundownCounts: %u", preRundownCounts);
     return ((2*(int64_t)counts) - (int64_t)countNum);
-    }
+}
 
 bool measurement_timer_callback(struct repeating_timer *t) {
     void* payloadPtr = t->user_data;
     struct getCoutnsPayload *payload = (struct getCoutnsPayload *)payloadPtr;
     int64_t counts = get_counts(payload->pio, payload->sm, payload->reqCounts);
-    payload->countSum = payload->countSum + counts;
+    int64_t finalCount = (14 * (int64_t)counts) + ((int64_t)rundownCounts - 32);
+    payload->countSum = (payload->countSum) + finalCount;
     if(payload->NPLC > 0)
         payload->NPLC = (payload->NPLC)-1;
-    //printf("Repeat at: %lld\n", time_us_64());
-    //printf("requested counts: %d\n", payload->reqCounts);
-    //printf("returned counts: %d\n", counts);
-    //printf("count accumulator: %" PRIu64 "\n", payload->countSum);
+    // printf("Repeat at: %lld\n", time_us_64());
+    // printf("requested counts: %d\n", payload->reqCounts);
+    // printf("returned counts: %" PRId64 "\n", counts);
+    // printf("rundownCounts: %d\n", rundownCounts);
+    // printf("count accumulator: %" PRId64 "\n", payload->countSum);
+    //printf("final count: %" PRIu64 "\n", finalCount);
     return true;
 }
 
-int64_t get_counts_NPLC(PIO pio, uint sm , uint32_t NPLC){
+double get_counts_NPLC(PIO pio, uint sm , uint32_t NPLC){
     //printf("NPLC counts requested: %d\n", NPLC);
     struct getCoutnsPayload payload;
     payload.pio = pio;
@@ -85,18 +92,16 @@ int64_t get_counts_NPLC(PIO pio, uint sm , uint32_t NPLC){
     add_repeating_timer_us(-1 * mainsPeriodus * 2, measurement_timer_callback, payloadPtr, &timer);
     while (payload.NPLC > 0)
     {
-        //printf("NPLC: %u\n", payload.NPLC);
-        //sleep_ms(10);
         tight_loop_contents();
     }
     bool cancelled = cancel_repeating_timer(&timer);
-    printf("%" PRId64 "\n", payload.countSum);
+    //printf("%" PRId64 "\n", payload.countSum);
     //printf("%d\n", payload.countSum);
     // for(; NPLC > 0; NPLC--){
     //     printf("NPLC: %d\n", NPLC);
     // }
     //bool cancelled = cancel_repeating_timer(&timer);
-    return 0;
+    return payload.countSum;
 }
 
 
@@ -104,7 +109,6 @@ int main() {
     //set_sys_clock_khz(128000, true);                    // Set system clock to 128 Mhz to make the PIO clock frequency be evenly divisible by it
     set_sys_clock_khz(96000, true);  
     stdio_init_all();
-    /*static const*/ float pio_freq = multiSlopeFreq * 128;//32;  // freq * 32 cycles per count
 
 
     gpio_init(MUX_A0);
@@ -135,17 +139,14 @@ int main() {
     // return with the memory offset of the program.
     uint multislopeOffset = pio_add_program(pio, &ms_program);
 
-    // Calculate the PIO clock divider
-    pio_freq = 10000000;
-    //float div = (float)clock_get_hz(clk_sys) / pio_freq;
-    float div = 10;
+    const float div = 10;
 
     // Initialize the program using the helper function in our .pio file
     ms_program_init(pio, multislopeSM, multislopeOffset, PWMA, COMP, div, MEAS);
 
 
     // Start running our PIO program in the state machine
-    pio_sm_set_enabled(pio, multislopeSM, false);
+    pio_sm_set_enabled(pio, multislopeSM, true);
     
 
 
@@ -155,13 +156,13 @@ int main() {
         // sleep_ms(500);
         // gpio_put(LED_PIN, false);
         // sleep_ms(500);
-        uint32_t reqCounts = 10;
+        uint32_t reqPLCCounts = 1;
 
         //configure PIO and start NPLC measurement
         //ms_program_init(pio, multislopeSM, multislopeOffset, PWMA, COMP, div, MEAS);
         
         //get_counts_NPLC(pio, multislopeSM, reqCounts);
-        int64_t counts = get_counts(pio, multislopeSM, reqCounts);
+        double counts = get_counts_NPLC(pio, multislopeSM, reqPLCCounts);
         printf("%" PRId64 "\n", counts);
         sleep_ms(1000);
 
