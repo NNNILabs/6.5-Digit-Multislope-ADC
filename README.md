@@ -10,6 +10,10 @@ The multislope topology fits comfortably between dual-slope and delta-sigma meth
 
 This ADC has all the basic parts needed to operate it as a standalone +/-10V digitizer - an LM399 voltage reference, ref amps that convert the reference voltage to +/-10V, an input multiplexer, an input buffer, and the basic multislope components - a resistor network, an analog switch, a composite integrator, a fast comparator and a D latch. Using the on-board jumpers, this board can be configured to run in the "free-running" state (which can be considered a rudimentary delta-sigma method) and in PWM mode, with a constant number of switch transitions of remove errors due to analog switch charge injection.
 
+Each measurement is taken over one power line cycle for normal mode rejection. The input is integrated over 6000 PWM cycles in 50Hz land and 5000 PWM cycles in 60Hz land. One power line cycle integration time gives around 16 bits resolution, 15 PLC is needed to achieve full 6.5 digits.
+
+Each measurement cycle begins with "desaturation, which reads the comparator and slews the integrator to zero. Then the required number of PWM cycles are integrated, followed by rundown to read integrator residue. 
+
 #### Statistics
 
 -to be added-
