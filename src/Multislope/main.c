@@ -31,13 +31,11 @@ const uint8_t RESADC = 2;
 
 const uint64_t mainsPeriodus = 1000000/MAINS_FREQ;
 
-// #if MAINS_FREQ == 50
-//     const uint32_t MScyclesPerPLC = 6000;
-// #elif MAINS_FREQ == 60
-//     const uint32_t MScyclesPerPLC = 5000;
-// #endif
-
-const uint32_t MScyclesPerPLC = 10;
+#if MAINS_FREQ == 50
+    const uint32_t MScyclesPerPLC = 6000;
+#elif MAINS_FREQ == 60
+    const uint32_t MScyclesPerPLC = 5000;
+#endif
 
 struct getCoutnsPayload
 {
@@ -57,7 +55,6 @@ int64_t get_counts(PIO pio, uint sm , uint32_t countNum){
     counts = ~pio_sm_get_blocking(pio, sm);
     rundownCounts = ~pio_sm_get_blocking(pio, sm);
     gpio_put(LED_PIN, false);
-    //printf("preRundownCounts: %u", preRundownCounts);
     return ((2*(int64_t)counts) - (int64_t)countNum);
 }
 
@@ -65,8 +62,10 @@ bool measurement_timer_callback(struct repeating_timer *t) {
     void* payloadPtr = t->user_data;
     struct getCoutnsPayload *payload = (struct getCoutnsPayload *)payloadPtr;
     int64_t counts = get_counts(payload->pio, payload->sm, payload->reqCounts);
-    int64_t finalCount = (14 * (int64_t)counts) + ((int64_t)rundownCounts - 32);
-    payload->countSum = (payload->countSum) + finalCount;
+    //int64_t finalCount = (14 * (int64_t)counts) + ((int64_t)rundownCounts - 32);
+    //payload->countSum = (payload->countSum) + finalCount;
+    payload->countSum = (payload->countSum) + counts;
+
     if(payload->NPLC > 0)
         payload->NPLC = (payload->NPLC)-1;
     // printf("Repeat at: %lld\n", time_us_64());
@@ -78,7 +77,7 @@ bool measurement_timer_callback(struct repeating_timer *t) {
     return true;
 }
 
-double get_counts_NPLC(PIO pio, uint sm , uint32_t NPLC){
+int64_t get_counts_NPLC(PIO pio, uint sm , uint32_t NPLC){
     //printf("NPLC counts requested: %d\n", NPLC);
     struct getCoutnsPayload payload;
     payload.pio = pio;
@@ -86,6 +85,7 @@ double get_counts_NPLC(PIO pio, uint sm , uint32_t NPLC){
     payload.reqCounts = MScyclesPerPLC;
     payload.countSum = 0;
     payload.NPLC = NPLC;
+    rundownCounts = 0;
 
     void* payloadPtr = &payload;
     struct repeating_timer timer;
@@ -162,8 +162,16 @@ int main() {
         //ms_program_init(pio, multislopeSM, multislopeOffset, PWMA, COMP, div, MEAS);
         
         //get_counts_NPLC(pio, multislopeSM, reqCounts);
-        double counts = get_counts_NPLC(pio, multislopeSM, reqPLCCounts);
-        printf("%" PRId64 "\n", counts);
+        //int64_t counts = get_counts_NPLC(pio, multislopeSM, reqPLCCounts);
+        //double volts = 20 * ((double)counts/(16 * MScyclesPerPLC * reqPLCCounts));
+
+        uint32_t requestedCounts = 120000;
+
+        int64_t counts = get_counts(pio, multislopeSM, requestedCounts);
+        int64_t finalCount = (14 * (int64_t)counts) + ((int64_t)rundownCounts - 32);
+        double volts = 20 * ((double)finalCount/(16 * requestedCounts));
+        printf("%fV | counts:%" PRId64 "\n", volts, finalCount);
+        //printf("%" PRId64 "\n", finalCount);
         sleep_ms(1000);
 
 
