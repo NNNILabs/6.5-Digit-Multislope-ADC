@@ -1,6 +1,5 @@
 # 6.5 Digit Multislope ADC
 ## Analog to digital converter than can resolve voltages down to 10uV
-### PCBs for this project were sponsored by JLCPCB: https://jlcpcb.com/RHS
 
 #### About
 
